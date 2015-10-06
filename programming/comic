@@ -1,0 +1,14 @@
+#/bin/bash
+if [ -z "$1"]; then
+	echo usage comic name.cbr
+	exit
+fi
+SRC=$1
+echo $SRC
+mkdir tmp
+cp $SRC tmp
+cd tmp
+unrar x $SRC
+cd ..
+gthumb tmp
+rm -rf tmp 
