@@ -6,7 +6,6 @@ body{
 }
 
 .container{
-    /*background-color: #e0e0eb;*/
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -67,7 +66,6 @@ footer{
 .nav-menu .container ul li a:visited{
     color: #ECF6FF;
     text-decoration: none;
-    /*padding: 2px 3px;*/
     padding: 9px 10px;
 }
 
@@ -133,7 +131,6 @@ code{
 
 .portfolio-table{
     width: 100%;
-    border: 1px dotted #016ABC;
     margin-right: 20px;
     margin-bottom: 90px;
 }
@@ -141,8 +138,6 @@ code{
 .work{
     width:49%;
     float: left;
-    
-    border-right: 1px dotted #016ABC;
 }
 
 .work-last{
@@ -174,8 +169,7 @@ code{
 .work-buttons{
     margin-bottom: 15px;
     text-align: center;
-    padding-top: 15px;
-    border-top: 1px dotted #016ABC
+    padding-top: 0px;
 }
 
 .button-live{
@@ -203,4 +197,9 @@ code{
 
 .work-description{
     padding-left: 3px;
+}
+
+.work p {
+    padding-right: 5px;
+    padding-left: 5px;
 }
