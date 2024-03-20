@@ -2,7 +2,7 @@
 
 // configure
 $from = 'info@tkouleris.eu'; // Replace it with Your Hosting Admin email. REQUIRED!
-$sendTo = 'tkouleris@gmail.com'; // Replace it with Your email. REQUIRED!
+$sendTo = 'kurokokoro@windowslive.com'; // Replace it with Your email. REQUIRED!
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message'); // array variable name => Text to appear in the email. If you added or deleted a field in the contact form, edit this array.
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
