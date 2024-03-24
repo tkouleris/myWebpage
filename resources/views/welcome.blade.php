@@ -91,7 +91,7 @@
             <div class="social-links">
                 <ul>
                     <li><a href="https://www.linkedin.com/in/thodoris-kouleris-22087460/" target="_blank"><i
-                            class="fab fa-linkedin-in"></i></a></li>
+                                class="fab fa-linkedin-in"></i></a></li>
                     <li><a href="https://blog.tkouleris.eu/" target="_blank"><i class="fab fa-blogger"></i></a></li>
                     <li><a href="https://twitter.com/tkouleris" target="_blank"><i class="fab fa-twitter"></i></a></li>
                 </ul>
@@ -287,254 +287,254 @@
                         </div>
                         <!-- End of Services -->
 
-<!--                        <div class="white-space-30"></div>-->
+                        <!--                        <div class="white-space-30"></div>-->
 
                         <!-- Testimonials -->
-<!--                        <div class="row">-->
-<!--                            <div class="col-xs-12 col-sm-12">-->
-<!--                                <div class="block-title">-->
-<!--                                    <h3>Testimonials</h3>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <!--                        <div class="row">-->
+                        <!--                            <div class="col-xs-12 col-sm-12">-->
+                        <!--                                <div class="block-title">-->
+                        <!--                                    <h3>Testimonials</h3>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
 
-<!--                        <div class="row">-->
-<!--                            <div class="col-xs-12 col-sm-12">-->
-<!--                                <div class="testimonials owl-carousel">-->
-<!--                                    &lt;!&ndash; Testimonial 1 &ndash;&gt;-->
-<!--                                    <div class="testimonial">-->
-<!--                                        <div class="img">-->
-<!--                                            <img src="img/testimonials/testimonial-1.jpg" alt="Thodoris Kouleris">-->
-<!--                                        </div>-->
-<!--                                        <div class="text">-->
-<!--                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.-->
-<!--                                                Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id-->
-<!--                                                ligula pellentesque, at vehicula dui ultrices.</p>-->
-<!--                                        </div>-->
+                        <!--                        <div class="row">-->
+                        <!--                            <div class="col-xs-12 col-sm-12">-->
+                        <!--                                <div class="testimonials owl-carousel">-->
+                        <!--                                    &lt;!&ndash; Testimonial 1 &ndash;&gt;-->
+                        <!--                                    <div class="testimonial">-->
+                        <!--                                        <div class="img">-->
+                        <!--                                            <img src="img/testimonials/testimonial-1.jpg" alt="Thodoris Kouleris">-->
+                        <!--                                        </div>-->
+                        <!--                                        <div class="text">-->
+                        <!--                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.-->
+                        <!--                                                Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id-->
+                        <!--                                                ligula pellentesque, at vehicula dui ultrices.</p>-->
+                        <!--                                        </div>-->
 
-<!--                                        <div class="author-info">-->
-<!--                                            <h4 class="author">Julia Hickman</h4>-->
-<!--                                            <h5 class="company">Omni Source</h5>-->
-<!--                                            <div class="icon">-->
-<!--                                                <i class="fas fa-quote-right"></i>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    &lt;!&ndash; End of Testimonial 1 &ndash;&gt;-->
+                        <!--                                        <div class="author-info">-->
+                        <!--                                            <h4 class="author">Julia Hickman</h4>-->
+                        <!--                                            <h5 class="company">Omni Source</h5>-->
+                        <!--                                            <div class="icon">-->
+                        <!--                                                <i class="fas fa-quote-right"></i>-->
+                        <!--                                            </div>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
+                        <!--                                    &lt;!&ndash; End of Testimonial 1 &ndash;&gt;-->
 
-<!--                                    &lt;!&ndash; Testimonial 2 &ndash;&gt;-->
-<!--                                    <div class="testimonial">-->
-<!--                                        <div class="img">-->
-<!--                                            <img src="img/testimonials/testimonial-2.jpg" alt="Thodoris Kouleris">-->
-<!--                                        </div>-->
-<!--                                        <div class="text">-->
-<!--                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.-->
-<!--                                                Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id-->
-<!--                                                ligula pellentesque, at vehicula dui ultrices.</p>-->
-<!--                                        </div>-->
+                        <!--                                    &lt;!&ndash; Testimonial 2 &ndash;&gt;-->
+                        <!--                                    <div class="testimonial">-->
+                        <!--                                        <div class="img">-->
+                        <!--                                            <img src="img/testimonials/testimonial-2.jpg" alt="Thodoris Kouleris">-->
+                        <!--                                        </div>-->
+                        <!--                                        <div class="text">-->
+                        <!--                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.-->
+                        <!--                                                Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id-->
+                        <!--                                                ligula pellentesque, at vehicula dui ultrices.</p>-->
+                        <!--                                        </div>-->
 
-<!--                                        <div class="author-info">-->
-<!--                                            <h4 class="author">Robert Watkins</h4>-->
-<!--                                            <h5 class="company">Endicott Shoes</h5>-->
-<!--                                            <div class="icon">-->
-<!--                                                <i class="fas fa-quote-right"></i>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    &lt;!&ndash; End of Testimonial 2 &ndash;&gt;-->
+                        <!--                                        <div class="author-info">-->
+                        <!--                                            <h4 class="author">Robert Watkins</h4>-->
+                        <!--                                            <h5 class="company">Endicott Shoes</h5>-->
+                        <!--                                            <div class="icon">-->
+                        <!--                                                <i class="fas fa-quote-right"></i>-->
+                        <!--                                            </div>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
+                        <!--                                    &lt;!&ndash; End of Testimonial 2 &ndash;&gt;-->
 
-<!--                                    &lt;!&ndash; Testimonial 3 &ndash;&gt;-->
-<!--                                    <div class="testimonial">-->
-<!--                                        <div class="img">-->
-<!--                                            <img src="img/testimonials/testimonial-3.jpg" alt="Thodoris Kouleris">-->
-<!--                                        </div>-->
-<!--                                        <div class="text">-->
-<!--                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.-->
-<!--                                                Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id-->
-<!--                                                ligula pellentesque, at vehicula dui ultrices.</p>-->
-<!--                                        </div>-->
+                        <!--                                    &lt;!&ndash; Testimonial 3 &ndash;&gt;-->
+                        <!--                                    <div class="testimonial">-->
+                        <!--                                        <div class="img">-->
+                        <!--                                            <img src="img/testimonials/testimonial-3.jpg" alt="Thodoris Kouleris">-->
+                        <!--                                        </div>-->
+                        <!--                                        <div class="text">-->
+                        <!--                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.-->
+                        <!--                                                Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id-->
+                        <!--                                                ligula pellentesque, at vehicula dui ultrices.</p>-->
+                        <!--                                        </div>-->
 
-<!--                                        <div class="author-info">-->
-<!--                                            <h4 class="author">Kristin Carroll</h4>-->
-<!--                                            <h5 class="company">Helping Hand</h5>-->
-<!--                                            <div class="icon">-->
-<!--                                                <i class="fas fa-quote-right"></i>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    &lt;!&ndash; End of Testimonial 3 &ndash;&gt;-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <!--                                        <div class="author-info">-->
+                        <!--                                            <h4 class="author">Kristin Carroll</h4>-->
+                        <!--                                            <h5 class="company">Helping Hand</h5>-->
+                        <!--                                            <div class="icon">-->
+                        <!--                                                <i class="fas fa-quote-right"></i>-->
+                        <!--                                            </div>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
+                        <!--                                    &lt;!&ndash; End of Testimonial 3 &ndash;&gt;-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
                         <!-- End of Testimonials -->
 
-<!--                        <div class="white-space-50"></div>-->
+                        <!--                        <div class="white-space-50"></div>-->
 
                         <!-- Clients -->
-<!--                        <div class="row">-->
-<!--                            <div class="col-xs-12 col-sm-12">-->
-<!--                                <div class="block-title">-->
-<!--                                    <h3>Cilents</h3>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <!--                        <div class="row">-->
+                        <!--                            <div class="col-xs-12 col-sm-12">-->
+                        <!--                                <div class="block-title">-->
+                        <!--                                    <h3>Cilents</h3>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
 
-<!--                        <div class="row">-->
-<!--                            <div class="col-xs-12 col-sm-12">-->
-<!--                                <div class="clients owl-carousel">-->
+                        <!--                        <div class="row">-->
+                        <!--                            <div class="col-xs-12 col-sm-12">-->
+                        <!--                                <div class="clients owl-carousel">-->
 
-<!--                                    <div class="client-block">-->
-<!--                                        <a href="#" target="_blank" title="Logo">-->
-<!--                                            <img src="img/clients/client-1.png" alt="Logo">-->
-<!--                                        </a>-->
-<!--                                    </div>-->
+                        <!--                                    <div class="client-block">-->
+                        <!--                                        <a href="#" target="_blank" title="Logo">-->
+                        <!--                                            <img src="img/clients/client-1.png" alt="Logo">-->
+                        <!--                                        </a>-->
+                        <!--                                    </div>-->
 
-<!--                                    <div class="client-block">-->
-<!--                                        <a href="#" target="_blank" title="Logo">-->
-<!--                                            <img src="img/clients/client-2.png" alt="Logo">-->
-<!--                                        </a>-->
-<!--                                    </div>-->
+                        <!--                                    <div class="client-block">-->
+                        <!--                                        <a href="#" target="_blank" title="Logo">-->
+                        <!--                                            <img src="img/clients/client-2.png" alt="Logo">-->
+                        <!--                                        </a>-->
+                        <!--                                    </div>-->
 
-<!--                                    <div class="client-block">-->
-<!--                                        <a href="#" target="_blank" title="Logo">-->
-<!--                                            <img src="img/clients/client-3.png" alt="Logo">-->
-<!--                                        </a>-->
-<!--                                    </div>-->
+                        <!--                                    <div class="client-block">-->
+                        <!--                                        <a href="#" target="_blank" title="Logo">-->
+                        <!--                                            <img src="img/clients/client-3.png" alt="Logo">-->
+                        <!--                                        </a>-->
+                        <!--                                    </div>-->
 
-<!--                                    <div class="client-block">-->
-<!--                                        <a href="#" target="_blank" title="Logo">-->
-<!--                                            <img src="img/clients/client-4.png" alt="Logo">-->
-<!--                                        </a>-->
-<!--                                    </div>-->
+                        <!--                                    <div class="client-block">-->
+                        <!--                                        <a href="#" target="_blank" title="Logo">-->
+                        <!--                                            <img src="img/clients/client-4.png" alt="Logo">-->
+                        <!--                                        </a>-->
+                        <!--                                    </div>-->
 
-<!--                                    <div class="client-block">-->
-<!--                                        <a href="#" target="_blank" title="Logo">-->
-<!--                                            <img src="img/clients/client-5.png" alt="Logo">-->
-<!--                                        </a>-->
-<!--                                    </div>-->
+                        <!--                                    <div class="client-block">-->
+                        <!--                                        <a href="#" target="_blank" title="Logo">-->
+                        <!--                                            <img src="img/clients/client-5.png" alt="Logo">-->
+                        <!--                                        </a>-->
+                        <!--                                    </div>-->
 
-<!--                                    <div class="client-block">-->
-<!--                                        <a href="#" target="_blank" title="Logo">-->
-<!--                                            <img src="img/clients/client-6.png" alt="Logo">-->
-<!--                                        </a>-->
-<!--                                    </div>-->
+                        <!--                                    <div class="client-block">-->
+                        <!--                                        <a href="#" target="_blank" title="Logo">-->
+                        <!--                                            <img src="img/clients/client-6.png" alt="Logo">-->
+                        <!--                                        </a>-->
+                        <!--                                    </div>-->
 
-<!--                                    <div class="client-block">-->
-<!--                                        <a href="#" target="_blank" title="Logo">-->
-<!--                                            <img src="img/clients/client-7.png" alt="Logo">-->
-<!--                                        </a>-->
-<!--                                    </div>-->
+                        <!--                                    <div class="client-block">-->
+                        <!--                                        <a href="#" target="_blank" title="Logo">-->
+                        <!--                                            <img src="img/clients/client-7.png" alt="Logo">-->
+                        <!--                                        </a>-->
+                        <!--                                    </div>-->
 
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
                         <!-- End of Clients -->
 
-<!--                        <div class="white-space-50"></div>-->
+                        <!--                        <div class="white-space-50"></div>-->
 
                         <!-- Pricing -->
-<!--                        <div class="row">-->
-<!--                            <div class="col-xs-12 col-sm-12">-->
+                        <!--                        <div class="row">-->
+                        <!--                            <div class="col-xs-12 col-sm-12">-->
 
-<!--                                <div class="block-title">-->
-<!--                                    <h3>Pricing</h3>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <!--                                <div class="block-title">-->
+                        <!--                                    <h3>Pricing</h3>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
 
-<!--                        <div class="row">-->
-<!--                            <div class=" col-xs-12 col-sm-12 ">-->
-<!--                                <div class="fw-pricing clearfix row">-->
+                        <!--                        <div class="row">-->
+                        <!--                            <div class=" col-xs-12 col-sm-12 ">-->
+                        <!--                                <div class="fw-pricing clearfix row">-->
 
-<!--                                    <div class="fw-package-wrap col-md-6 ">-->
-<!--                                        <div class="fw-package">-->
-<!--                                            <div class="fw-heading-row">-->
-<!--                                                <span>Silver</span>-->
-<!--                                            </div>-->
+                        <!--                                    <div class="fw-package-wrap col-md-6 ">-->
+                        <!--                                        <div class="fw-package">-->
+                        <!--                                            <div class="fw-heading-row">-->
+                        <!--                                                <span>Silver</span>-->
+                        <!--                                            </div>-->
 
-<!--                                            <div class="fw-pricing-row">-->
-<!--                                                <span>$64</span>-->
-<!--                                                <small>per month</small>-->
-<!--                                            </div>-->
+                        <!--                                            <div class="fw-pricing-row">-->
+                        <!--                                                <span>$64</span>-->
+                        <!--                                                <small>per month</small>-->
+                        <!--                                            </div>-->
 
-<!--                                            <div class="fw-button-row">-->
-<!--                                                <a href="#" target="_self" class="btn btn-secondary">Free Trial</a>-->
-<!--                                            </div>-->
+                        <!--                                            <div class="fw-button-row">-->
+                        <!--                                                <a href="#" target="_self" class="btn btn-secondary">Free Trial</a>-->
+                        <!--                                            </div>-->
 
-<!--                                            <div class="fw-default-row">Lorem ipsum dolor</div>-->
-<!--                                            <div class="fw-default-row">Pellentesque scelerisque</div>-->
-<!--                                            <div class="fw-default-row">Morbi eu sagittis</div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
+                        <!--                                            <div class="fw-default-row">Lorem ipsum dolor</div>-->
+                        <!--                                            <div class="fw-default-row">Pellentesque scelerisque</div>-->
+                        <!--                                            <div class="fw-default-row">Morbi eu sagittis</div>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
 
-<!--                                    <div class="fw-package-wrap col-md-6 highlight-col ">-->
-<!--                                        <div class="fw-package">-->
-<!--                                            <div class="fw-heading-row">-->
-<!--                                                <span>Gold</span>-->
-<!--                                            </div>-->
+                        <!--                                    <div class="fw-package-wrap col-md-6 highlight-col ">-->
+                        <!--                                        <div class="fw-package">-->
+                        <!--                                            <div class="fw-heading-row">-->
+                        <!--                                                <span>Gold</span>-->
+                        <!--                                            </div>-->
 
-<!--                                            <div class="fw-pricing-row">-->
-<!--                                                <span>$128</span>-->
-<!--                                                <small>per month</small>-->
-<!--                                            </div>-->
+                        <!--                                            <div class="fw-pricing-row">-->
+                        <!--                                                <span>$128</span>-->
+                        <!--                                                <small>per month</small>-->
+                        <!--                                            </div>-->
 
-<!--                                            <div class="fw-button-row">-->
-<!--                                                <a href="#" target="_self" class="btn btn-primary">Free Trial</a>-->
-<!--                                            </div>-->
+                        <!--                                            <div class="fw-button-row">-->
+                        <!--                                                <a href="#" target="_self" class="btn btn-primary">Free Trial</a>-->
+                        <!--                                            </div>-->
 
-<!--                                            <div class="fw-default-row">Lorem ipsum dolor</div>-->
-<!--                                            <div class="fw-default-row">Pellentesque scelerisque</div>-->
-<!--                                            <div class="fw-default-row">Morbi eu sagittis</div>-->
-<!--                                            <div class="fw-default-row">Donec non diam</div>-->
-<!--                                            <div class="fw-default-row"></div>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
+                        <!--                                            <div class="fw-default-row">Lorem ipsum dolor</div>-->
+                        <!--                                            <div class="fw-default-row">Pellentesque scelerisque</div>-->
+                        <!--                                            <div class="fw-default-row">Morbi eu sagittis</div>-->
+                        <!--                                            <div class="fw-default-row">Donec non diam</div>-->
+                        <!--                                            <div class="fw-default-row"></div>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
 
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
                         <!-- End of Pricing -->
 
-<!--                        <div class="white-space-50"></div>-->
+                        <!--                        <div class="white-space-50"></div>-->
 
                         <!-- Fun Facts -->
-<!--                        <div class="row">-->
-<!--                            <div class="col-xs-12 col-sm-12">-->
+                        <!--                        <div class="row">-->
+                        <!--                            <div class="col-xs-12 col-sm-12">-->
 
-<!--                                <div class="block-title">-->
-<!--                                    <h3>Fun <span>Facts</span></h3>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <!--                                <div class="block-title">-->
+                        <!--                                    <h3>Fun <span>Facts</span></h3>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
 
-<!--                        <div class="row">-->
-<!--                            <div class="col-xs-12 col-sm-4">-->
-<!--                                <div class="fun-fact gray-default">-->
-<!--                                    <i class="lnr lnr-heart"></i>-->
-<!--                                    <h4>Happy Clients</h4>-->
-<!--                                    <span class="fun-fact-block-value">578</span>-->
-<!--                                    <span class="fun-fact-block-text"></span>-->
-<!--                                </div>-->
-<!--                            </div>-->
+                        <!--                        <div class="row">-->
+                        <!--                            <div class="col-xs-12 col-sm-4">-->
+                        <!--                                <div class="fun-fact gray-default">-->
+                        <!--                                    <i class="lnr lnr-heart"></i>-->
+                        <!--                                    <h4>Happy Clients</h4>-->
+                        <!--                                    <span class="fun-fact-block-value">578</span>-->
+                        <!--                                    <span class="fun-fact-block-text"></span>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
 
-<!--                            <div class="col-xs-12 col-sm-4">-->
-<!--                                <div class="fun-fact gray-default">-->
-<!--                                    <i class="lnr lnr-clock"></i>-->
-<!--                                    <h4>Working Hours</h4>-->
-<!--                                    <span class="fun-fact-block-value">4,780</span>-->
-<!--                                    <span class="fun-fact-block-text"></span>-->
-<!--                                </div>-->
-<!--                            </div>-->
+                        <!--                            <div class="col-xs-12 col-sm-4">-->
+                        <!--                                <div class="fun-fact gray-default">-->
+                        <!--                                    <i class="lnr lnr-clock"></i>-->
+                        <!--                                    <h4>Working Hours</h4>-->
+                        <!--                                    <span class="fun-fact-block-value">4,780</span>-->
+                        <!--                                    <span class="fun-fact-block-text"></span>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
 
-<!--                            <div class="col-xs-12 col-sm-4 ">-->
-<!--                                <div class="fun-fact gray-default">-->
-<!--                                    <i class="lnr lnr-star"></i>-->
-<!--                                    <h4>Awards Won</h4>-->
-<!--                                    <span class="fun-fact-block-value">15</span>-->
-<!--                                    <span class="fun-fact-block-text"></span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <!--                            <div class="col-xs-12 col-sm-4 ">-->
+                        <!--                                <div class="fun-fact gray-default">-->
+                        <!--                                    <i class="lnr lnr-star"></i>-->
+                        <!--                                    <h4>Awards Won</h4>-->
+                        <!--                                    <span class="fun-fact-block-value">15</span>-->
+                        <!--                                    <span class="fun-fact-block-text"></span>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
                         <!-- End of Fun Facts -->
 
                     </div>
@@ -689,7 +689,7 @@
                                     <!-- Skill 1 -->
                                     <div class="skill clearfix">
                                         <h4>PHP</h4>
-<!--                                        <div class="skill-value">100%</div>-->
+                                        <!--                                        <div class="skill-value">100%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -699,7 +699,7 @@
                                     <!-- Skill 2 -->
                                     <div class="skill clearfix">
                                         <h4>Python</h4>
-<!--                                        <div class="skill-value">80%</div>-->
+                                        <!--                                        <div class="skill-value">80%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -709,7 +709,7 @@
                                     <!-- Skill 3 -->
                                     <div class="skill clearfix">
                                         <h4>Java</h4>
-<!--                                        <div class="skill-value">65%</div>-->
+                                        <!--                                        <div class="skill-value">65%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -730,7 +730,7 @@
                                     <!-- Skill Start -->
                                     <div class="skill clearfix">
                                         <h4>HTML5 / CSS3</h4>
-<!--                                        <div class="skill-value">95%</div>-->
+                                        <!--                                        <div class="skill-value">95%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -740,7 +740,7 @@
                                     <!-- Skill Start -->
                                     <div class="skill clearfix">
                                         <h4>Vue</h4>
-<!--                                        <div class="skill-value">90%</div>-->
+                                        <!--                                        <div class="skill-value">90%</div>-->
                                     </div>
                                     <div class="skill-container skill-9">
                                         <div class="skill-percentage"></div>
@@ -750,7 +750,7 @@
                                     <!-- Skill Start -->
                                     <div class="skill clearfix">
                                         <h4>JavaScript</h4>
-<!--                                        <div class="skill-value">75%</div>-->
+                                        <!--                                        <div class="skill-value">75%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -760,7 +760,7 @@
                                     <!-- Skill Start -->
                                     <div class="skill clearfix">
                                         <h4>Bootstrap</h4>
-<!--                                        <div class="skill-value">100%</div>-->
+                                        <!--                                        <div class="skill-value">100%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -770,7 +770,7 @@
                                     <!-- Skill Start -->
                                     <div class="skill clearfix">
                                         <h4>Jquery</h4>
-<!--                                        <div class="skill-value">90%</div>-->
+                                        <!--                                        <div class="skill-value">90%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -788,7 +788,7 @@
                                     <!-- Skill Start -->
                                     <div class="skill clearfix">
                                         <h4>MySQL</h4>
-<!--                                        <div class="skill-value">95%</div>-->
+                                        <!--                                        <div class="skill-value">95%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -798,7 +798,7 @@
                                     <!-- Skill Start -->
                                     <div class="skill clearfix">
                                         <h4>MSSQL</h4>
-<!--                                        <div class="skill-value">95%</div>-->
+                                        <!--                                        <div class="skill-value">95%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -815,7 +815,7 @@
                                     <!-- Skill Start -->
                                     <div class="skill clearfix">
                                         <h4>Laravel</h4>
-<!--                                        <div class="skill-value">95%</div>-->
+                                        <!--                                        <div class="skill-value">95%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -825,7 +825,7 @@
                                     <!-- Skill Start -->
                                     <div class="skill clearfix">
                                         <h4>Flask</h4>
-<!--                                        <div class="skill-value">95%</div>-->
+                                        <!--                                        <div class="skill-value">95%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -835,7 +835,7 @@
                                     <!-- Skill Start -->
                                     <div class="skill clearfix">
                                         <h4>Spring Boot</h4>
-<!--                                        <div class="skill-value">95%</div>-->
+                                        <!--                                        <div class="skill-value">95%</div>-->
                                     </div>
                                     <div class="skill-container skill-1">
                                         <div class="skill-percentage"></div>
@@ -986,24 +986,24 @@
                                         <li class="active">
                                             <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
                                         </li>
-<!--                                        <li>-->
-<!--                                            <a class="filter btn btn-sm btn-link" data-group="category_detailed">Detailed</a>-->
-<!--                                        </li>-->
-<!--                                        <li>-->
-<!--                                            <a class="filter btn btn-sm btn-link"-->
-<!--                                               data-group="category_mockups">Mockups</a>-->
-<!--                                        </li>-->
-<!--                                        <li>-->
-<!--                                            <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>-->
-<!--                                        </li>-->
-<!--                                        <li>-->
-<!--                                            <a class="filter btn btn-sm btn-link" data-group="category_vimeo-videos">Vimeo-->
-<!--                                                Videos</a>-->
-<!--                                        </li>-->
-<!--                                        <li>-->
-<!--                                            <a class="filter btn btn-sm btn-link" data-group="category_youtube-videos">YouTube-->
-<!--                                                Videos</a>-->
-<!--                                        </li>-->
+                                        <!--                                        <li>-->
+                                        <!--                                            <a class="filter btn btn-sm btn-link" data-group="category_detailed">Detailed</a>-->
+                                        <!--                                        </li>-->
+                                        <!--                                        <li>-->
+                                        <!--                                            <a class="filter btn btn-sm btn-link"-->
+                                        <!--                                               data-group="category_mockups">Mockups</a>-->
+                                        <!--                                        </li>-->
+                                        <!--                                        <li>-->
+                                        <!--                                            <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>-->
+                                        <!--                                        </li>-->
+                                        <!--                                        <li>-->
+                                        <!--                                            <a class="filter btn btn-sm btn-link" data-group="category_vimeo-videos">Vimeo-->
+                                        <!--                                                Videos</a>-->
+                                        <!--                                        </li>-->
+                                        <!--                                        <li>-->
+                                        <!--                                            <a class="filter btn btn-sm btn-link" data-group="category_youtube-videos">YouTube-->
+                                        <!--                                                Videos</a>-->
+                                        <!--                                        </li>-->
                                     </ul>
 
                                     <!-- Portfolio Grid -->
@@ -1022,67 +1022,67 @@
                                             <span class="category">Weather App</span>
                                         </figure>
 
-<!--                                        <figure class="item standard"-->
-<!--                                                data-groups='["category_all", "category_detailed"]'>-->
-<!--                                            <div class="portfolio-item-img">-->
-<!--                                                <img src="img/portfolio/2.jpg" alt="Media Project 2" title=""/>-->
-<!--                                                <a href="portfolio-1.html" class="ajax-page-load"></a>-->
-<!--                                            </div>-->
+                                        <!--                                        <figure class="item standard"-->
+                                        <!--                                                data-groups='["category_all", "category_detailed"]'>-->
+                                        <!--                                            <div class="portfolio-item-img">-->
+                                        <!--                                                <img src="img/portfolio/2.jpg" alt="Media Project 2" title=""/>-->
+                                        <!--                                                <a href="portfolio-1.html" class="ajax-page-load"></a>-->
+                                        <!--                                            </div>-->
 
-<!--                                            <i class="far fa-file-alt"></i>-->
-<!--                                            <h4 class="name">Detailed Project 2</h4>-->
-<!--                                            <span class="category">Detailed</span>-->
-<!--                                        </figure>-->
+                                        <!--                                            <i class="far fa-file-alt"></i>-->
+                                        <!--                                            <h4 class="name">Detailed Project 2</h4>-->
+                                        <!--                                            <span class="category">Detailed</span>-->
+                                        <!--                                        </figure>-->
 
-<!--                                        <figure class="item lbvideo"-->
-<!--                                                data-groups='["category_all", "category_vimeo-videos"]'>-->
-<!--                                            <div class="portfolio-item-img">-->
-<!--                                                <img src="img/portfolio/3.jpg" alt="Vimeo Video 1" title=""/>-->
-<!--                                                <a href="https://player.vimeo.com/video/158284739"-->
-<!--                                                   class="lightbox mfp-iframe" title="Vimeo Video 1"></a>-->
-<!--                                            </div>-->
+                                        <!--                                        <figure class="item lbvideo"-->
+                                        <!--                                                data-groups='["category_all", "category_vimeo-videos"]'>-->
+                                        <!--                                            <div class="portfolio-item-img">-->
+                                        <!--                                                <img src="img/portfolio/3.jpg" alt="Vimeo Video 1" title=""/>-->
+                                        <!--                                                <a href="https://player.vimeo.com/video/158284739"-->
+                                        <!--                                                   class="lightbox mfp-iframe" title="Vimeo Video 1"></a>-->
+                                        <!--                                            </div>-->
 
-<!--                                            <i class="fas fa-video"></i>-->
-<!--                                            <h4 class="name">Vimeo Video 1</h4>-->
-<!--                                            <span class="category">Vimeo Videos</span>-->
-<!--                                        </figure>-->
+                                        <!--                                            <i class="fas fa-video"></i>-->
+                                        <!--                                            <h4 class="name">Vimeo Video 1</h4>-->
+                                        <!--                                            <span class="category">Vimeo Videos</span>-->
+                                        <!--                                        </figure>-->
 
-<!--                                        <figure class="item standard"-->
-<!--                                                data-groups='["category_all", "category_detailed"]'>-->
-<!--                                            <div class="portfolio-item-img">-->
-<!--                                                <img src="img/portfolio/4.jpg" alt="Media Project 1" title=""/>-->
-<!--                                                <a href="portfolio-1.html" class="ajax-page-load"></a>-->
-<!--                                            </div>-->
+                                        <!--                                        <figure class="item standard"-->
+                                        <!--                                                data-groups='["category_all", "category_detailed"]'>-->
+                                        <!--                                            <div class="portfolio-item-img">-->
+                                        <!--                                                <img src="img/portfolio/4.jpg" alt="Media Project 1" title=""/>-->
+                                        <!--                                                <a href="portfolio-1.html" class="ajax-page-load"></a>-->
+                                        <!--                                            </div>-->
 
-<!--                                            <i class="far fa-file-alt"></i>-->
-<!--                                            <h4 class="name">Detailed Project 1</h4>-->
-<!--                                            <span class="category">Detailed</span>-->
-<!--                                        </figure>-->
+                                        <!--                                            <i class="far fa-file-alt"></i>-->
+                                        <!--                                            <h4 class="name">Detailed Project 1</h4>-->
+                                        <!--                                            <span class="category">Detailed</span>-->
+                                        <!--                                        </figure>-->
 
-<!--                                        <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>-->
-<!--                                            <div class="portfolio-item-img">-->
-<!--                                                <img src="img/portfolio/5.jpg" alt="Mockup Design 1" title=""/>-->
-<!--                                                <a class="lightbox" title="Mockup Design 1"-->
-<!--                                                   href="img/portfolio/full/5.jpg"></a>-->
-<!--                                            </div>-->
+                                        <!--                                        <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>-->
+                                        <!--                                            <div class="portfolio-item-img">-->
+                                        <!--                                                <img src="img/portfolio/5.jpg" alt="Mockup Design 1" title=""/>-->
+                                        <!--                                                <a class="lightbox" title="Mockup Design 1"-->
+                                        <!--                                                   href="img/portfolio/full/5.jpg"></a>-->
+                                        <!--                                            </div>-->
 
-<!--                                            <i class="far fa-image"></i>-->
-<!--                                            <h4 class="name">Mockup Design 1</h4>-->
-<!--                                            <span class="category">Mockups</span>-->
-<!--                                        </figure>-->
+                                        <!--                                            <i class="far fa-image"></i>-->
+                                        <!--                                            <h4 class="name">Mockup Design 1</h4>-->
+                                        <!--                                            <span class="category">Mockups</span>-->
+                                        <!--                                        </figure>-->
 
-<!--                                        <figure class="item lbvideo"-->
-<!--                                                data-groups='["category_all", "category_youtube-videos"]'>-->
-<!--                                            <div class="portfolio-item-img">-->
-<!--                                                <img src="img/portfolio/6.jpg" alt="YouTube Video 1" title=""/>-->
-<!--                                                <a href="https://www.youtube.com/embed/bg0gv2YpIok"-->
-<!--                                                   class="lightbox mfp-iframe" title="YouTube Video 1"></a>-->
-<!--                                            </div>-->
+                                        <!--                                        <figure class="item lbvideo"-->
+                                        <!--                                                data-groups='["category_all", "category_youtube-videos"]'>-->
+                                        <!--                                            <div class="portfolio-item-img">-->
+                                        <!--                                                <img src="img/portfolio/6.jpg" alt="YouTube Video 1" title=""/>-->
+                                        <!--                                                <a href="https://www.youtube.com/embed/bg0gv2YpIok"-->
+                                        <!--                                                   class="lightbox mfp-iframe" title="YouTube Video 1"></a>-->
+                                        <!--                                            </div>-->
 
-<!--                                            <i class="fas fa-video"></i>-->
-<!--                                            <h4 class="name">YouTube Video 1</h4>-->
-<!--                                            <span class="category">YouTube Videos</span>-->
-<!--                                        </figure>-->
+                                        <!--                                            <i class="fas fa-video"></i>-->
+                                        <!--                                            <h4 class="name">YouTube Video 1</h4>-->
+                                        <!--                                            <span class="category">YouTube Videos</span>-->
+                                        <!--                                        </figure>-->
                                     </div>
                                 </div>
                                 <!-- End of Portfolio Content -->
@@ -1225,12 +1225,12 @@
                                     <span class="lm-info-block-text"></span>
                                 </div>
 
-<!--                                <div class="lm-info-block gray-default">-->
-<!--                                    <i class="lnr lnr-phone-handset"></i>-->
-<!--                                    <h4>415-832-2000</h4>-->
-<!--                                    <span class="lm-info-block-value"></span>-->
-<!--                                    <span class="lm-info-block-text"></span>-->
-<!--                                </div>-->
+                                <!--                                <div class="lm-info-block gray-default">-->
+                                <!--                                    <i class="lnr lnr-phone-handset"></i>-->
+                                <!--                                    <h4>415-832-2000</h4>-->
+                                <!--                                    <span class="lm-info-block-value"></span>-->
+                                <!--                                    <span class="lm-info-block-text"></span>-->
+                                <!--                                </div>-->
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-envelope"></i>
                                     <h4>tkouleris@gmail.com</h4>
@@ -1260,63 +1260,63 @@
                                 <div class="lmpixels-map">
                                     <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                                 </div>
-<!--                                <div class="block-title">-->
-<!--                                    <h3>How Can I <span>Help You?</span></h3>-->
-<!--                                </div>-->
+                                <!--                                <div class="block-title">-->
+                                <!--                                    <h3>How Can I <span>Help You?</span></h3>-->
+                                <!--                                </div>-->
 
-<!--                                <form id="contact_form" class="contact-form" action="contact_form/contact_form.php"-->
-<!--                                      method="post">-->
+                                <!--                                <form id="contact_form" class="contact-form" action="contact_form/contact_form.php"-->
+                                <!--                                      method="post">-->
 
-<!--                                    <div class="messages"></div>-->
+                                <!--                                    <div class="messages"></div>-->
 
-<!--                                    <div class="controls two-columns">-->
-<!--                                        <div class="fields clearfix">-->
-<!--                                            <div class="left-column">-->
-<!--                                                <div class="form-group form-group-with-icon">-->
-<!--                                                    <input id="form_name" type="text" name="name" class="form-control"-->
-<!--                                                           placeholder="" required="required"-->
-<!--                                                           data-error="Name is required.">-->
-<!--                                                    <label>Full Name</label>-->
-<!--                                                    <div class="form-control-border"></div>-->
-<!--                                                    <div class="help-block with-errors"></div>-->
-<!--                                                </div>-->
+                                <!--                                    <div class="controls two-columns">-->
+                                <!--                                        <div class="fields clearfix">-->
+                                <!--                                            <div class="left-column">-->
+                                <!--                                                <div class="form-group form-group-with-icon">-->
+                                <!--                                                    <input id="form_name" type="text" name="name" class="form-control"-->
+                                <!--                                                           placeholder="" required="required"-->
+                                <!--                                                           data-error="Name is required.">-->
+                                <!--                                                    <label>Full Name</label>-->
+                                <!--                                                    <div class="form-control-border"></div>-->
+                                <!--                                                    <div class="help-block with-errors"></div>-->
+                                <!--                                                </div>-->
 
-<!--                                                <div class="form-group form-group-with-icon">-->
-<!--                                                    <input id="form_email" type="email" name="email"-->
-<!--                                                           class="form-control" placeholder="" required="required"-->
-<!--                                                           data-error="Valid email is required.">-->
-<!--                                                    <label>Email Address</label>-->
-<!--                                                    <div class="form-control-border"></div>-->
-<!--                                                    <div class="help-block with-errors"></div>-->
-<!--                                                </div>-->
+                                <!--                                                <div class="form-group form-group-with-icon">-->
+                                <!--                                                    <input id="form_email" type="email" name="email"-->
+                                <!--                                                           class="form-control" placeholder="" required="required"-->
+                                <!--                                                           data-error="Valid email is required.">-->
+                                <!--                                                    <label>Email Address</label>-->
+                                <!--                                                    <div class="form-control-border"></div>-->
+                                <!--                                                    <div class="help-block with-errors"></div>-->
+                                <!--                                                </div>-->
 
-<!--                                                <div class="form-group form-group-with-icon">-->
-<!--                                                    <input id="form_subject" type="text" name="subject"-->
-<!--                                                           class="form-control" placeholder="" required="required"-->
-<!--                                                           data-error="Subject is required.">-->
-<!--                                                    <label>Subject</label>-->
-<!--                                                    <div class="form-control-border"></div>-->
-<!--                                                    <div class="help-block with-errors"></div>-->
-<!--                                                </div>-->
-<!--                                            </div>-->
-<!--                                            <div class="right-column">-->
-<!--                                                <div class="form-group form-group-with-icon">-->
-<!--                                                    <textarea id="form_message" name="message" class="form-control"-->
-<!--                                                              placeholder="" rows="7" required="required"-->
-<!--                                                              data-error="Please, leave me a message."></textarea>-->
-<!--                                                    <label>Message</label>-->
-<!--                                                    <div class="form-control-border"></div>-->
-<!--                                                    <div class="help-block with-errors"></div>-->
-<!--                                                </div>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
+                                <!--                                                <div class="form-group form-group-with-icon">-->
+                                <!--                                                    <input id="form_subject" type="text" name="subject"-->
+                                <!--                                                           class="form-control" placeholder="" required="required"-->
+                                <!--                                                           data-error="Subject is required.">-->
+                                <!--                                                    <label>Subject</label>-->
+                                <!--                                                    <div class="form-control-border"></div>-->
+                                <!--                                                    <div class="help-block with-errors"></div>-->
+                                <!--                                                </div>-->
+                                <!--                                            </div>-->
+                                <!--                                            <div class="right-column">-->
+                                <!--                                                <div class="form-group form-group-with-icon">-->
+                                <!--                                                    <textarea id="form_message" name="message" class="form-control"-->
+                                <!--                                                              placeholder="" rows="7" required="required"-->
+                                <!--                                                              data-error="Please, leave me a message."></textarea>-->
+                                <!--                                                    <label>Message</label>-->
+                                <!--                                                    <div class="form-control-border"></div>-->
+                                <!--                                                    <div class="help-block with-errors"></div>-->
+                                <!--                                                </div>-->
+                                <!--                                            </div>-->
+                                <!--                                        </div>-->
 
-<!--                                        <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"-->
-<!--                                             data-theme="dark"></div>-->
+                                <!--                                        <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"-->
+                                <!--                                             data-theme="dark"></div>-->
 
-<!--                                        <input type="submit" class="button btn-send" value="Send message">-->
-<!--                                    </div>-->
-<!--                                </form>-->
+                                <!--                                        <input type="submit" class="button btn-send" value="Send message">-->
+                                <!--                                    </div>-->
+                                <!--                                </form>-->
                             </div>
                             <!-- End of Contact Form -->
                         </div>
