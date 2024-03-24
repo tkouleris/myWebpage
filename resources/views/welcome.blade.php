@@ -101,7 +101,7 @@
                 <a href="cv/T.Kouleris.pdf" target="_blank" class="btn btn-primary">Download CV</a>
             </div>
 
-            <div class="copyrights">© 2024 Thodoris Kouleris</div>
+            <div class="copyrights">© {{ now()->year }} Thodoris Kouleris</div>
         </header>
 
         <!-- Mobile Navigation -->
