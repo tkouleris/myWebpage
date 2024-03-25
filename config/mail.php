@@ -1,7 +1,8 @@
 <?php
 
 return [
-
+    'to' => (env('MAIL_TO','')),
+    'recaptch' => (env('MAIL_RECAPTCHA')),
     /*
     |--------------------------------------------------------------------------
     | Default Mailer

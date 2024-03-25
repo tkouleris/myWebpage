@@ -11,7 +11,7 @@
     function portfolio_init() {
         var portfolio_grid = $('.portfolio-grid'),
             portfolio_filter = $('.portfolio-filters');
-            
+
         if (portfolio_grid) {
 
             portfolio_grid.shuffle({
@@ -66,13 +66,13 @@
 
     // Contact form validator
     $(function () {
-
         $('#contact_form').validator();
-
         $('#contact_form').on('submit', function (e) {
+            console.log('here')
             if (!e.isDefaultPrevented()) {
-                var url = "contact_form/contact_form.php";
-
+                let base_url = window.location.origin;
+                console.log('there '+base_url)
+                let url = base_url + '/mail';
                 $.ajax({
                     type: "POST",
                     url: url,
@@ -81,10 +81,12 @@
                     {
                         var messageAlert = 'alert-' + data.type;
                         var messageText = data.message;
-
-                        var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                        if (messageAlert && messageText) {
-                            $('#contact_form').find('.messages').html(alertBox);
+                        alert(messageText);
+                        //
+                        // var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
+                        console.log(data.type);
+                        if (data.type === 'success') {
+                            // $('#contact_form').find('.messages').html(alertBox);
                             $('#contact_form')[0].reset();
                         }
                     }
