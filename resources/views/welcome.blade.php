@@ -1103,121 +1103,96 @@
                             <div class="col-xs-12 col-sm-12">
                                 <div class="blog-masonry two-columns clearfix">
 
-                                    <!-- Blog Post 1 -->
                                     <div class="item post-1">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#">Misc</a>
-                                                </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/03/blog-post_29.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVKhUbtNULDEcU1zDPJC20B98evI2dJL_j_NjI7aPvX4Al_KB-nRcgrUT6bkxJ8Axw0tAwc2AZi25Sut5Aahx360aQTBp1ddiaQX8d4VSp1QkQ4qPvu7wElbszRf2lu-GGQIUSo_3QDQS8yn3SfuCkYfwiZbrcQEH78mYAiM5yDzh7YXTmbAyQHJTGMjEg/w597-h338/imposter.jpg"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="Μάθε τυφλό σύστημα, μπορείς!" title="Μάθε τυφλό σύστημα, μπορείς!"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">29 Mar 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/03/blog-post_29.html">
-                                                    <h4 class="blog-item-title">Μάθε τυφλό σύστημα, μπορείς!</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of Blog Post 1 -->
-
-                                    <!-- Blog Post 2 -->
-                                    <div class="item post-2">
                                         <div class="blog-card">
                                             <div class="media-block">
                                                 <div class="category">
                                                     <a href="#" title="Utilities">Utilities</a>
                                                 </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/03/1-localsend.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiwurULiVGSVYYLzFkm7KLzwsx3Td7rBHnkH2-iwQraYQX0x-xhXzoUMfqezUAHCg6VzE05RR3TIuJeYOrj2KK5rrOIpaiey4YL02GwQiL3HFyMn698uhoKwkAhFw3rkrijUSPL7RRq1dpxRLvwf-R01CdEO5QZMjtWWKVxK8ZyF1J5wEucG4LRMDJxRaFv=w590-h289"
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/browser.html">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzasHtLrK6OCW7RauD5kQzw0iOdFIBeaxC_fXXI0AAbzBqlHuHdcyrkgOOwByzi6vBbqJavuikfgiG_IUXDaoXanf0KxPw9oFAbnoNZPD7IlPKT5hyphenhyphen4QP-Nl-Kv0vhnVGNddsibVG7Ubk4NavXVlRPH67QlvCIWPIb7oi5JveeAor2ZIHwrgBnEq1KU7iQ/w590-h332/00.png"
                                                          class="size-blog-masonry-image-two-c"
-                                                         alt="Χρήσιμα προγράμματα #1 - LocalSend"
-                                                         title="Χρήσιμα προγράμματα #1 - LocalSend"/>
+                                                         alt="Ένας υπολογιστής στον Browser"
+                                                         title="Ένας υπολογιστής στον Browser"/>
                                                     <div class="mask"></div>
                                                 </a>
                                             </div>
                                             <div class="post-info">
-                                                <div class="post-date">21 Mar 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/03/1-localsend.html">
-                                                    <h4 class="blog-item-title">Χρήσιμα προγράμματα #1 - LocalSend</h4>
+                                                <div class="post-date">26 Apr. 2024</div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/browser.html">
+                                                    <h4 class="blog-item-title">Ένας υπολογιστής στον Browser</h4>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                     <!-- End of Blog Post 2 -->
 
-                                    <!-- Blog Post 4 -->
-                                    <div class="item post-3">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="Hardware">Hardware</a>
-                                                </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/03/cyrix.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH5gaGhIHzCA7ixXWlJ91lBcX44pZH_cK5WExiyDBDuesWDD3Lza0OL_pG5m6Ra2IJQD1MBHpg4gKOYDOoZveSh96F_HeP3rCOTaNDMaaHEh7fjxfGIkGf_yKfQKeNw9w5cLgq6obVIbI/w602-h299/cyrix_6x86mx_pr200.jpg"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="Cyrix: Στους δύο τρίτος δεν χωρεί" title="Cyrix: Στους δύο τρίτος δεν χωρεί"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">08 Mar 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/03/cyrix.html">
-                                                    <h4 class="blog-item-title">Cyrix: Στους δύο τρίτος δεν χωρεί</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of Blog Post 4 -->
-
                                     <!-- Blog Post 3 -->
-                                    <div class="item post-4">
+                                    <div class="item post-2">
                                         <div class="blog-card">
                                             <div class="media-block">
                                                 <div class="category">
-                                                    <a href="#" title="Programming">Programming</a>
+                                                    <a href="#" title="Misc">Misc</a>
                                                 </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/03/blog-post.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzTgeS9HrHE5rAFEdGHTrWAuGxuQEKDH0pQADiW2ZNwrnJo2ls51cvro0YT5-rKO6BWhIvG0BQvZyX5Lpz5Dy6mW5XUjmi-prwyePVnyd4peldMPrhfz6IKthcW1QiewlKhwDH17pxN3qIOXhyphenhyphenU2m1pAp3Hdz-Ax00JUQPFyY8MC-1xiX6pQ_87Mo8FsB6/w586-h330/SPS_Cleaning-Supplies_Hero_91781.webp"
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/blog-post.html">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6U7dww-meHcqOxR8e9LKvrsLfCgF7-xR5kWq6knwonFUxUtx4B1eoWnGlDcvGZEyUY1561P5eYNTaLeZ-kmhM1YPlZo1eopbFM3yu0pLvSBdk_wd7oN00-vqUhY_vxKsOKKm3rSw60Wo-3tjK-OCaKDBCxxRwdD-25OH2xw6ME_xoNrdPdC6qnUAEZ4RG/w590-h334/imposter.jpg"
                                                          class="size-blog-masonry-image-two-c"
-                                                         alt="Τα βασικά του Καθαρού Κώδικα" title="Τα βασικά του Καθαρού Κώδικα"/>
+                                                         alt="Οι πιο συχνοί κωδικοί πρόσβασης" title="Οι πιο συχνοί κωδικοί πρόσβασης"/>
                                                     <div class="mask"></div>
                                                 </a>
                                             </div>
                                             <div class="post-info">
-                                                <div class="post-date">15 Mar 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/03/blog-post.html">
-                                                    <h4 class="blog-item-title">Τα βασικά του Καθαρού Κώδικα</h4>
+                                                <div class="post-date">12 Apr. 2024</div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/blog-post.html">
+                                                    <h4 class="blog-item-title">Οι πιο συχνοί κωδικοί πρόσβασης</h4>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                     <!-- End of Blog Post 3 -->
 
+                                    <!-- Blog Post 4 -->
+                                    <div class="item post-3">
+                                        <div class="blog-card">
+                                            <div class="media-block">
+                                                <div class="category">
+                                                    <a href="#" title="Hardware">Misc</a>
+                                                </div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/1980.html">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Q5mnwyuiHFISD11DJyDOaY6G7zB0vSHFY0Avgjv9slKKIXceZUAJLzm2grjBV_Zl-a1Wg3cP3KYZGrGUssFvBSWQv7ohBuYpdAYIUYInFeN-zjbxWVl9GQBWalc1gq4CuHLoU-7-GJsUmQVL0l_JmL3T63WQkf0W_cY-nT-nRAubzshnFTMGJQ6JTfdB/w586-h331/29f8095c-28ac-4d00-8c50-587425dc4b35.png"
+                                                         class="size-blog-masonry-image-two-c"
+                                                         alt="Ο εθισμός στους υπολογιστές....το 1980" title="Ο εθισμός στους υπολογιστές....το 1980"/>
+                                                    <div class="mask"></div>
+                                                </a>
+                                            </div>
+                                            <div class="post-info">
+                                                <div class="post-date">19 Apr. 2024</div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/1980.html">
+                                                    <h4 class="blog-item-title">Ο εθισμός στους υπολογιστές....το 1980</h4>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Blog Post 4 -->
+
                                     <!-- Blog Post 5 -->
-                                    <div class="item post-5">
+                                    <div class="item post-4">
                                         <div class="blog-card">
                                             <div class="media-block">
                                                 <div class="category">
                                                     <a href="#" title="Misc">Misc</a>
                                                 </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/02/blog-post_29.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimmzbvtD7VYNRrYhDplROlDx2mQCBzc2HyoDdi9ICWIEFW3lcdrHaIzz-xM7OX-2953gghOTKGRE1k_LOPZA0phB1T_cpVP5ZtTxEF9TZpFZPsU8HCrj-sEWf0too4h-i8E8wn-jn2zpZGnSP4SBt13XOzbrhm9bcSpO9CEKwFYXCZpzoxcRPLPwFGemlM/w588-h332/1.png"
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/5.html">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_dX4AkOx0g3yJdL1XXks6blDhEh0a81WwPLrykpciX_j-QxBMKhnKUYkT1XpTMXUHIIDLmvVbMOHd5JL5Ol6uDBRIsUbfcb-mXAo78WrqnhSuARlS7lJnfafV1gyEzOL1dPBdyObuDCQYyPCXAGruKIyUhzvbA5Fu-MMM0sYlne9Mlxl_Bj9wRlQpoqfC/w593-h336/d76a9a29-27cd-4921-9b84-2a5de05ddc97.png"
                                                          class="size-blog-masonry-image-two-c"
-                                                         alt="Ένα ακόμα ιστορικό, ενός ακόμα προγραμματιστή" title="Ένα ακόμα ιστορικό, ενός ακόμα προγραμματιστή"/>
+                                                         alt="Πέντε (5) βιβλία που μου άλλαξαν τη ζωή" title="Πέντε (5) βιβλία που μου άλλαξαν τη ζωή"/>
                                                     <div class="mask"></div>
                                                 </a>
                                             </div>
                                             <div class="post-info">
-                                                <div class="post-date">01 Mar 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/02/blog-post_29.html">
-                                                    <h4 class="blog-item-title">Ένα ακόμα ιστορικό, ενός ακόμα προγραμματιστή</h4>
+                                                <div class="post-date">05 Apr. 2024</div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/5.html">
+                                                    <h4 class="blog-item-title">Πέντε (5) βιβλία που μου άλλαξαν τη ζωή</h4>
                                                 </a>
                                             </div>
                                         </div>
