@@ -983,9 +983,9 @@
                                 <div class="portfolio-content">
 
                                     <ul class="portfolio-filters">
-                                        <li class="active">
-                                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
-                                        </li>
+{{--                                        <li class="active">--}}
+{{--                                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>--}}
+{{--                                        </li>--}}
                                         <!--                                        <li>-->
                                         <!--                                            <a class="filter btn btn-sm btn-link" data-group="category_detailed">Detailed</a>-->
                                         <!--                                        </li>-->
@@ -1017,11 +1017,46 @@
                                                    class="lightbox mfp-iframe" title="Weather App"></a>
                                             </div>
 
-                                            <i class="fa fa-volume-up"></i>
+
                                             <h4 class="name">Weather App</h4>
                                             <span class="category">Weather App</span>
                                         </figure>
 
+                                        <figure class="item"
+                                                data-groups='["category_all", "category_soundcloud"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="img/portfolio/pharmacy_api.jpg" alt="Pharmacy API" title=""/>
+                                                <a target="_blank" href="https://pharmacy.tkouleris.eu/" title="Pharmacy API"></a>
+                                            </div>
+
+
+                                            <h4 class="name">Pharmacy API</h4>
+                                            <span class="category">Pharmacy API</span>
+                                        </figure>
+
+                                        <figure class="item"
+                                                data-groups='["category_all", "category_soundcloud"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="img/portfolio/pharmacy_android_app.jpg" alt="Pharmacy Android App" title=""/>
+                                                <a target="_blank" href="https://drive.google.com/file/d/1oGed2a2JS3wTFvNxPPV14KDYWv7_0Pog/view?usp=drive_link" title="Pharmacy Android App"></a>
+                                            </div>
+
+
+                                            <h4 class="name">Pharmacy Android App</h4>
+                                            <span class="category">Pharmacy Android App</span>
+                                        </figure>
+
+                                        <figure class="item"
+                                                data-groups='["category_all", "category_soundcloud"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="img/portfolio/trivia_web_app.jpg" alt="Trivia Web App" title=""/>
+                                                <a target="_blank" href="https://trivia.tkouleris.eu" title="Trivia Web App"></a>
+                                            </div>
+
+
+                                            <h4 class="name">Trivia Web App</h4>
+                                            <span class="category">Trivia Web App</span>
+                                        </figure>
                                         <!--                                        <figure class="item standard"-->
                                         <!--                                                data-groups='["category_all", "category_detailed"]'>-->
                                         <!--                                            <div class="portfolio-item-img">-->
@@ -1103,6 +1138,127 @@
                             <div class="col-xs-12 col-sm-12">
                                 <div class="blog-masonry two-columns clearfix">
 
+                                    <!-- Εγκατάσταση Python σε Windows / Linux -->
+                                    <div class="item post-1">
+                                        <div class="blog-card">
+                                            <div class="media-block">
+                                                <div class="category">
+                                                    <a href="#" title="Programming">Programming</a>
+                                                </div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/python-windows-linux.html">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHXMKkLMGxvQUH0SOAaoyZkbJWTN4aPjHcqUuvF5PODGMtj1OVGlUb3u5UMedPMfs5Kek1oB7vJjipvsUzaBl1rln2ZvGuSgs1evXUnDogfPoJZA5pKAbLxFBxOHmgUwFf0nn9m3m_PI_VPEtTi1XLsVdVRpYq-Qyu2WI6e8RQmoPaHwqRTmrRF-Xmo8jl/w588-h332/wallpaperflare.com_wallpaper.jpg"
+                                                         class="size-blog-masonry-image-two-c"
+                                                         alt="Εγκατάσταση Python σε Windows / Linux"
+                                                         title="Εγκατάσταση Python σε Windows / Linux"/>
+                                                    <div class="mask"></div>
+                                                </a>
+                                            </div>
+                                            <div class="post-info">
+                                                <div class="post-date">24 May 2024</div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/python-windows-linux.html">
+                                                    <h4 class="blog-item-title">Εγκατάσταση Python σε Windows / Linux</h4>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Τι είναι το JWT; -->
+                                    <div class="item post-1">
+                                        <div class="blog-card">
+                                            <div class="media-block">
+                                                <div class="category">
+                                                    <a href="#" title="Programming">Programming</a>
+                                                </div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/jwt.html">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinvG2PJ_eLVv5G44UuuP4wFHuzbZaH93aHBdMq6f0ojOCkpOEgHYmhPA_K0dX2J-pHrIG-BGGWqUkF0pTx0kzbgmYKhXDCfRNc-7hqWYVhlQFbjrwtNQ9n-QLzzuLEljJihB0lPGnRj_nSm61xAd6RDpkIZ2dFblk68o12aiQ_LxFBsfeMar50nETWP4ek/w587-h331/pxfuel.jpg"
+                                                         class="size-blog-masonry-image-two-c"
+                                                         alt="Τι είναι το JWT;"
+                                                         title="Τι είναι το JWT;"/>
+                                                    <div class="mask"></div>
+                                                </a>
+                                            </div>
+                                            <div class="post-info">
+                                                <div class="post-date">17 May 2024</div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/jwt.html">
+                                                    <h4 class="blog-item-title">Τι είναι το JWT;</h4>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Το Red Dead Redemption σε PC;;;; -->
+                                    <div class="item post-1">
+                                        <div class="blog-card">
+                                            <div class="media-block">
+                                                <div class="category">
+                                                    <a href="#" title="Videogames">Videogames</a>
+                                                </div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/red-dead-redemption-pc.html">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimKHCy3SqQ6tAy3dock87CpPjpT2BcIOucw8We0Lwmc1iDgC0RUltToYNxSJbCnyFTRAusaJEYMpR8rJul_wc4v6buNMMOwPb-1PFuBXOMBaMKXKjISaXP1j1JXd888BxcnKai28vIxki3jFTz6cOc0VJecRWDBb_wfvuhaW_6RJ-_QUKZ0iW9WE47nrUp/w587-h330/wallpaperflare.com_wallpaper.jpg"
+                                                         class="size-blog-masonry-image-two-c"
+                                                         alt="Το Red Dead Redemption σε PC;;;;"
+                                                         title="Το Red Dead Redemption σε PC;;;;"/>
+                                                    <div class="mask"></div>
+                                                </a>
+                                            </div>
+                                            <div class="post-info">
+                                                <div class="post-date">14 May 2024</div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/red-dead-redemption-pc.html">
+                                                    <h4 class="blog-item-title">Το Red Dead Redemption σε PC;;;;</h4>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php) -->
+                                    <div class="item post-1">
+                                        <div class="blog-card">
+                                            <div class="media-block">
+                                                <div class="category">
+                                                    <a href="#" title="Laravel">Laravel</a>
+                                                </div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/env.html">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEFEtx2oaS_XWkRHIasdFkKCfTx4QZxMjvtbd-Y5_SQfyp7CVouKD0n6f31QlyCaEcGilxC04yMhfnXRnWvnhIKKkLnP7YNzT090XLd4VTmeL4ZsW0QiU_8wlgRz3tNL1olqCFgX9a_cRJhPBIOnYN6rYFY18ribh_emEjS3vAE1qmSgfWQmp-uZmBJEuk/w588-h333/LARAVEL__instalation.JPG"
+                                                         class="size-blog-masonry-image-two-c"
+                                                         alt="Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php)"
+                                                         title="Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php)"/>
+                                                    <div class="mask"></div>
+                                                </a>
+                                            </div>
+                                            <div class="post-info">
+                                                <div class="post-date">06 May 2024</div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/env.html">
+                                                    <h4 class="blog-item-title">Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php)</h4>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Ήρωες της Πληροφορικής Νο5: Bram Cohen -->
+                                    <div class="item post-1">
+                                        <div class="blog-card">
+                                            <div class="media-block">
+                                                <div class="category">
+                                                    <a href="#" title="Computer Heroes">Computer Heroes</a>
+                                                </div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/5-bram-cohen.html">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxC4I1g7fXWBADdcL6MB9pKZQvwKuaepuZpVEDzN2PqoxtPTks7CZ8ZLzjV0H7XMli1fqbdfgRLI78evyaSSEQXgIDYQbypxnYCw726nut4aYEKDGvRUTtSGTRYjHhHRLgepCXBdmWjvo/w673-h360/53377781Bram-Cohen.jpg"
+                                                         class="size-blog-masonry-image-two-c"
+                                                         alt="Ήρωες της Πληροφορικής Νο5: Bram Cohen"
+                                                         title="Ήρωες της Πληροφορικής Νο5: Bram Cohen"/>
+                                                    <div class="mask"></div>
+                                                </a>
+                                            </div>
+                                            <div class="post-info">
+                                                <div class="post-date">03 May 2024</div>
+                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/5-bram-cohen.html">
+                                                    <h4 class="blog-item-title">Ήρωες της Πληροφορικής Νο5: Bram Cohen</h4>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Ένας υπολογιστής στον Browser -->
                                     <div class="item post-1">
                                         <div class="blog-card">
                                             <div class="media-block">
@@ -1125,10 +1281,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End of Blog Post 2 -->
 
-                                    <!-- Blog Post 3 -->
-                                    <div class="item post-2">
+                                    <!-- Οι πιο συχνοί κωδικοί πρόσβασης -->
+                                    <div class="item post-1">
                                         <div class="blog-card">
                                             <div class="media-block">
                                                 <div class="category">
@@ -1149,10 +1304,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End of Blog Post 3 -->
 
-                                    <!-- Blog Post 4 -->
-                                    <div class="item post-3">
+                                    <!-- Ο εθισμός στους υπολογιστές....το 1980 -->
+                                    <div class="item post-1">
                                         <div class="blog-card">
                                             <div class="media-block">
                                                 <div class="category">
@@ -1173,10 +1327,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End of Blog Post 4 -->
 
-                                    <!-- Blog Post 5 -->
-                                    <div class="item post-4">
+
+                                    <!-- Πέντε (5) βιβλία που μου άλλαξαν τη ζωή -->
+                                    <div class="item post-1">
                                         <div class="blog-card">
                                             <div class="media-block">
                                                 <div class="category">
@@ -1197,7 +1351,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End of Blog Post 4 -->
+
                                 </div>
                             </div>
                         </div>
