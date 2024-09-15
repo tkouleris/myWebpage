@@ -1137,220 +1137,101 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12">
                                 <div class="blog-masonry two-columns clearfix">
-
-                                    <!-- Εγκατάσταση Python σε Windows / Linux -->
-                                    <div class="item post-1">
+                                    @foreach($blog_data as $index => $post)
+                                        <div class="item post-{{$index}}">
                                         <div class="blog-card">
                                             <div class="media-block">
                                                 <div class="category">
-                                                    <a href="#" title="Programming">Programming</a>
+                                                    <a href="#" title="Programming">{{$post['category']}}</a>
                                                 </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/python-windows-linux.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHXMKkLMGxvQUH0SOAaoyZkbJWTN4aPjHcqUuvF5PODGMtj1OVGlUb3u5UMedPMfs5Kek1oB7vJjipvsUzaBl1rln2ZvGuSgs1evXUnDogfPoJZA5pKAbLxFBxOHmgUwFf0nn9m3m_PI_VPEtTi1XLsVdVRpYq-Qyu2WI6e8RQmoPaHwqRTmrRF-Xmo8jl/w588-h332/wallpaperflare.com_wallpaper.jpg"
+                                                <a target=”_blank” href="{{$post['url']}}">
+                                                    <img src="{{$post['image']}}"
                                                          class="size-blog-masonry-image-two-c"
-                                                         alt="Εγκατάσταση Python σε Windows / Linux"
-                                                         title="Εγκατάσταση Python σε Windows / Linux"/>
+                                                         alt="{{$post['title']}}"
+                                                         title="{{$post['title']}}"/>
                                                     <div class="mask"></div>
                                                 </a>
                                             </div>
                                             <div class="post-info">
-                                                <div class="post-date">24 May 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/python-windows-linux.html">
-                                                    <h4 class="blog-item-title">Εγκατάσταση Python σε Windows / Linux</h4>
+                                                <div class="post-date">{{$post['date']}}</div>
+                                                <a target=”_blank” href="{{$post['url']}}">
+                                                    <h4 class="blog-item-title">{{$post['title']}}</h4>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
+                                    @endforeach
 
-                                    <!-- Τι είναι το JWT; -->
-                                    <div class="item post-1">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="Programming">Programming</a>
-                                                </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/jwt.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinvG2PJ_eLVv5G44UuuP4wFHuzbZaH93aHBdMq6f0ojOCkpOEgHYmhPA_K0dX2J-pHrIG-BGGWqUkF0pTx0kzbgmYKhXDCfRNc-7hqWYVhlQFbjrwtNQ9n-QLzzuLEljJihB0lPGnRj_nSm61xAd6RDpkIZ2dFblk68o12aiQ_LxFBsfeMar50nETWP4ek/w587-h331/pxfuel.jpg"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="Τι είναι το JWT;"
-                                                         title="Τι είναι το JWT;"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">17 May 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/jwt.html">
-                                                    <h4 class="blog-item-title">Τι είναι το JWT;</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Το Red Dead Redemption σε PC;;;; -->
-                                    <div class="item post-1">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="Videogames">Videogames</a>
-                                                </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/red-dead-redemption-pc.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimKHCy3SqQ6tAy3dock87CpPjpT2BcIOucw8We0Lwmc1iDgC0RUltToYNxSJbCnyFTRAusaJEYMpR8rJul_wc4v6buNMMOwPb-1PFuBXOMBaMKXKjISaXP1j1JXd888BxcnKai28vIxki3jFTz6cOc0VJecRWDBb_wfvuhaW_6RJ-_QUKZ0iW9WE47nrUp/w587-h330/wallpaperflare.com_wallpaper.jpg"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="Το Red Dead Redemption σε PC;;;;"
-                                                         title="Το Red Dead Redemption σε PC;;;;"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">14 May 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/red-dead-redemption-pc.html">
-                                                    <h4 class="blog-item-title">Το Red Dead Redemption σε PC;;;;</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php) -->
-                                    <div class="item post-1">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="Laravel">Laravel</a>
-                                                </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/env.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEFEtx2oaS_XWkRHIasdFkKCfTx4QZxMjvtbd-Y5_SQfyp7CVouKD0n6f31QlyCaEcGilxC04yMhfnXRnWvnhIKKkLnP7YNzT090XLd4VTmeL4ZsW0QiU_8wlgRz3tNL1olqCFgX9a_cRJhPBIOnYN6rYFY18ribh_emEjS3vAE1qmSgfWQmp-uZmBJEuk/w588-h333/LARAVEL__instalation.JPG"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php)"
-                                                         title="Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php)"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">06 May 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/env.html">
-                                                    <h4 class="blog-item-title">Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php)</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Ήρωες της Πληροφορικής Νο5: Bram Cohen -->
-                                    <div class="item post-1">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="Computer Heroes">Computer Heroes</a>
-                                                </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/5-bram-cohen.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxC4I1g7fXWBADdcL6MB9pKZQvwKuaepuZpVEDzN2PqoxtPTks7CZ8ZLzjV0H7XMli1fqbdfgRLI78evyaSSEQXgIDYQbypxnYCw726nut4aYEKDGvRUTtSGTRYjHhHRLgepCXBdmWjvo/w673-h360/53377781Bram-Cohen.jpg"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="Ήρωες της Πληροφορικής Νο5: Bram Cohen"
-                                                         title="Ήρωες της Πληροφορικής Νο5: Bram Cohen"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">03 May 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/05/5-bram-cohen.html">
-                                                    <h4 class="blog-item-title">Ήρωες της Πληροφορικής Νο5: Bram Cohen</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Ένας υπολογιστής στον Browser -->
-                                    <div class="item post-1">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="Utilities">Utilities</a>
-                                                </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/browser.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzasHtLrK6OCW7RauD5kQzw0iOdFIBeaxC_fXXI0AAbzBqlHuHdcyrkgOOwByzi6vBbqJavuikfgiG_IUXDaoXanf0KxPw9oFAbnoNZPD7IlPKT5hyphenhyphen4QP-Nl-Kv0vhnVGNddsibVG7Ubk4NavXVlRPH67QlvCIWPIb7oi5JveeAor2ZIHwrgBnEq1KU7iQ/w590-h332/00.png"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="Ένας υπολογιστής στον Browser"
-                                                         title="Ένας υπολογιστής στον Browser"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">26 Apr. 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/browser.html">
-                                                    <h4 class="blog-item-title">Ένας υπολογιστής στον Browser</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
 
                                     <!-- Οι πιο συχνοί κωδικοί πρόσβασης -->
-                                    <div class="item post-1">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="Misc">Misc</a>
-                                                </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/blog-post.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6U7dww-meHcqOxR8e9LKvrsLfCgF7-xR5kWq6knwonFUxUtx4B1eoWnGlDcvGZEyUY1561P5eYNTaLeZ-kmhM1YPlZo1eopbFM3yu0pLvSBdk_wd7oN00-vqUhY_vxKsOKKm3rSw60Wo-3tjK-OCaKDBCxxRwdD-25OH2xw6ME_xoNrdPdC6qnUAEZ4RG/w590-h334/imposter.jpg"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="Οι πιο συχνοί κωδικοί πρόσβασης" title="Οι πιο συχνοί κωδικοί πρόσβασης"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">12 Apr. 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/blog-post.html">
-                                                    <h4 class="blog-item-title">Οι πιο συχνοί κωδικοί πρόσβασης</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+{{--                                    <div class="item post-1">--}}
+{{--                                        <div class="blog-card">--}}
+{{--                                            <div class="media-block">--}}
+{{--                                                <div class="category">--}}
+{{--                                                    <a href="#" title="Misc">Misc</a>--}}
+{{--                                                </div>--}}
+{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/blog-post.html">--}}
+{{--                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6U7dww-meHcqOxR8e9LKvrsLfCgF7-xR5kWq6knwonFUxUtx4B1eoWnGlDcvGZEyUY1561P5eYNTaLeZ-kmhM1YPlZo1eopbFM3yu0pLvSBdk_wd7oN00-vqUhY_vxKsOKKm3rSw60Wo-3tjK-OCaKDBCxxRwdD-25OH2xw6ME_xoNrdPdC6qnUAEZ4RG/w590-h334/imposter.jpg"--}}
+{{--                                                         class="size-blog-masonry-image-two-c"--}}
+{{--                                                         alt="Οι πιο συχνοί κωδικοί πρόσβασης" title="Οι πιο συχνοί κωδικοί πρόσβασης"/>--}}
+{{--                                                    <div class="mask"></div>--}}
+{{--                                                </a>--}}
+{{--                                            </div>--}}
+{{--                                            <div class="post-info">--}}
+{{--                                                <div class="post-date">12 Apr. 2024</div>--}}
+{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/blog-post.html">--}}
+{{--                                                    <h4 class="blog-item-title">Οι πιο συχνοί κωδικοί πρόσβασης</h4>--}}
+{{--                                                </a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
 
                                     <!-- Ο εθισμός στους υπολογιστές....το 1980 -->
-                                    <div class="item post-1">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="Hardware">Misc</a>
-                                                </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/1980.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Q5mnwyuiHFISD11DJyDOaY6G7zB0vSHFY0Avgjv9slKKIXceZUAJLzm2grjBV_Zl-a1Wg3cP3KYZGrGUssFvBSWQv7ohBuYpdAYIUYInFeN-zjbxWVl9GQBWalc1gq4CuHLoU-7-GJsUmQVL0l_JmL3T63WQkf0W_cY-nT-nRAubzshnFTMGJQ6JTfdB/w586-h331/29f8095c-28ac-4d00-8c50-587425dc4b35.png"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="Ο εθισμός στους υπολογιστές....το 1980" title="Ο εθισμός στους υπολογιστές....το 1980"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">19 Apr. 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/1980.html">
-                                                    <h4 class="blog-item-title">Ο εθισμός στους υπολογιστές....το 1980</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+{{--                                    <div class="item post-1">--}}
+{{--                                        <div class="blog-card">--}}
+{{--                                            <div class="media-block">--}}
+{{--                                                <div class="category">--}}
+{{--                                                    <a href="#" title="Hardware">Misc</a>--}}
+{{--                                                </div>--}}
+{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/1980.html">--}}
+{{--                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Q5mnwyuiHFISD11DJyDOaY6G7zB0vSHFY0Avgjv9slKKIXceZUAJLzm2grjBV_Zl-a1Wg3cP3KYZGrGUssFvBSWQv7ohBuYpdAYIUYInFeN-zjbxWVl9GQBWalc1gq4CuHLoU-7-GJsUmQVL0l_JmL3T63WQkf0W_cY-nT-nRAubzshnFTMGJQ6JTfdB/w586-h331/29f8095c-28ac-4d00-8c50-587425dc4b35.png"--}}
+{{--                                                         class="size-blog-masonry-image-two-c"--}}
+{{--                                                         alt="Ο εθισμός στους υπολογιστές....το 1980" title="Ο εθισμός στους υπολογιστές....το 1980"/>--}}
+{{--                                                    <div class="mask"></div>--}}
+{{--                                                </a>--}}
+{{--                                            </div>--}}
+{{--                                            <div class="post-info">--}}
+{{--                                                <div class="post-date">19 Apr. 2024</div>--}}
+{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/1980.html">--}}
+{{--                                                    <h4 class="blog-item-title">Ο εθισμός στους υπολογιστές....το 1980</h4>--}}
+{{--                                                </a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
 
 
                                     <!-- Πέντε (5) βιβλία που μου άλλαξαν τη ζωή -->
-                                    <div class="item post-1">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="Misc">Misc</a>
-                                                </div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/5.html">
-                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_dX4AkOx0g3yJdL1XXks6blDhEh0a81WwPLrykpciX_j-QxBMKhnKUYkT1XpTMXUHIIDLmvVbMOHd5JL5Ol6uDBRIsUbfcb-mXAo78WrqnhSuARlS7lJnfafV1gyEzOL1dPBdyObuDCQYyPCXAGruKIyUhzvbA5Fu-MMM0sYlne9Mlxl_Bj9wRlQpoqfC/w593-h336/d76a9a29-27cd-4921-9b84-2a5de05ddc97.png"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="Πέντε (5) βιβλία που μου άλλαξαν τη ζωή" title="Πέντε (5) βιβλία που μου άλλαξαν τη ζωή"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">05 Apr. 2024</div>
-                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/5.html">
-                                                    <h4 class="blog-item-title">Πέντε (5) βιβλία που μου άλλαξαν τη ζωή</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+{{--                                    <div class="item post-1">--}}
+{{--                                        <div class="blog-card">--}}
+{{--                                            <div class="media-block">--}}
+{{--                                                <div class="category">--}}
+{{--                                                    <a href="#" title="Misc">Misc</a>--}}
+{{--                                                </div>--}}
+{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/5.html">--}}
+{{--                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_dX4AkOx0g3yJdL1XXks6blDhEh0a81WwPLrykpciX_j-QxBMKhnKUYkT1XpTMXUHIIDLmvVbMOHd5JL5Ol6uDBRIsUbfcb-mXAo78WrqnhSuARlS7lJnfafV1gyEzOL1dPBdyObuDCQYyPCXAGruKIyUhzvbA5Fu-MMM0sYlne9Mlxl_Bj9wRlQpoqfC/w593-h336/d76a9a29-27cd-4921-9b84-2a5de05ddc97.png"--}}
+{{--                                                         class="size-blog-masonry-image-two-c"--}}
+{{--                                                         alt="Πέντε (5) βιβλία που μου άλλαξαν τη ζωή" title="Πέντε (5) βιβλία που μου άλλαξαν τη ζωή"/>--}}
+{{--                                                    <div class="mask"></div>--}}
+{{--                                                </a>--}}
+{{--                                            </div>--}}
+{{--                                            <div class="post-info">--}}
+{{--                                                <div class="post-date">05 Apr. 2024</div>--}}
+{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/5.html">--}}
+{{--                                                    <h4 class="blog-item-title">Πέντε (5) βιβλία που μου άλλαξαν τη ζωή</h4>--}}
+{{--                                                </a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
 
                                 </div>
                             </div>

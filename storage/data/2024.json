@@ -1,0 +1,94 @@
+[
+    {
+        "url": "https://blog.tkouleris.eu/2024/09/python-tutorial-4-booleans.html",
+        "category": "Python Tutorial",
+        "title":"Python Tutorial #4: Booleans",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWWobtRm8ZiFWu_9Fj393rGz9RDXXpwF7kdldtPAmzl1sGGvu9NiyKxiZDF10xpPq4al5HwTmEXKcxdVMtDF8gZJTVjtyowxkYFOu2EFTjpo_UST1rBmzP63dW4-lzy6Dj3v63dx0uhhAIm_6CS9OEIhpxhmKAEbG6PFiMR7DN9xeyDhwTzBiQ2-cSeQxa/s1920/wallpaperflare.com_wallpaper.jpg",
+        "date": "15 Sept. 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/09/python-tutorial-3-tuples-sets.html",
+        "category": "Python Tutorial",
+        "title":"Python Tutorial #3: Λίστες - Tuples και sets",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWWobtRm8ZiFWu_9Fj393rGz9RDXXpwF7kdldtPAmzl1sGGvu9NiyKxiZDF10xpPq4al5HwTmEXKcxdVMtDF8gZJTVjtyowxkYFOu2EFTjpo_UST1rBmzP63dW4-lzy6Dj3v63dx0uhhAIm_6CS9OEIhpxhmKAEbG6PFiMR7DN9xeyDhwTzBiQ2-cSeQxa/s1920/wallpaperflare.com_wallpaper.jpg",
+        "date": "08 Sept. 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/09/youtube.html",
+        "category": "Misc",
+        "title":"Έλληνες Προγραμματιστές στο YouTube",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip7Dj4xkyt2kHP077I74B7XnddIAA5fZFuXY-adhGq31Pyxgzl5cOqlegwqGW91Wn2KoajK0oV11lyPpgHvSpaLfWM1Ia6oLwdOVGI3gkxhXH4pqaFonfFqoDRYEo8UljxnMJfLpzwDndHGBYjOPfxf7k46wrpbQPCPLPeJmNhdXIWD-97FlhXUWHP1lgW/s1360/20240901101317-a_computer_programmer_on_the.png",
+        "date": "01 Sept. 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/06/python-tutorial-2.html",
+        "category": "Python Tutorial",
+        "title":"Python Tutorial #2: Μεταβλητές",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWWobtRm8ZiFWu_9Fj393rGz9RDXXpwF7kdldtPAmzl1sGGvu9NiyKxiZDF10xpPq4al5HwTmEXKcxdVMtDF8gZJTVjtyowxkYFOu2EFTjpo_UST1rBmzP63dW4-lzy6Dj3v63dx0uhhAIm_6CS9OEIhpxhmKAEbG6PFiMR7DN9xeyDhwTzBiQ2-cSeQxa/s1920/wallpaperflare.com_wallpaper.jpg",
+        "date": "17 June 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/05/python-windows-linux.html",
+        "category": "Python Tutorial",
+        "title":"Python Tutorial #1: Εγκατάσταση Python σε Windows / Linux",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHXMKkLMGxvQUH0SOAaoyZkbJWTN4aPjHcqUuvF5PODGMtj1OVGlUb3u5UMedPMfs5Kek1oB7vJjipvsUzaBl1rln2ZvGuSgs1evXUnDogfPoJZA5pKAbLxFBxOHmgUwFf0nn9m3m_PI_VPEtTi1XLsVdVRpYq-Qyu2WI6e8RQmoPaHwqRTmrRF-Xmo8jl/w588-h332/wallpaperflare.com_wallpaper.jpg",
+        "date": "24 May 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/05/jwt.html",
+        "category": "Programming",
+        "title":"Τι είναι το JWT;",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinvG2PJ_eLVv5G44UuuP4wFHuzbZaH93aHBdMq6f0ojOCkpOEgHYmhPA_K0dX2J-pHrIG-BGGWqUkF0pTx0kzbgmYKhXDCfRNc-7hqWYVhlQFbjrwtNQ9n-QLzzuLEljJihB0lPGnRj_nSm61xAd6RDpkIZ2dFblk68o12aiQ_LxFBsfeMar50nETWP4ek/w587-h331/pxfuel.jpg",
+        "date": "14 May 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/05/red-dead-redemption-pc.html",
+        "category": "Videogames",
+        "title":"Το Red Dead Redemption σε PC;;;;",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimKHCy3SqQ6tAy3dock87CpPjpT2BcIOucw8We0Lwmc1iDgC0RUltToYNxSJbCnyFTRAusaJEYMpR8rJul_wc4v6buNMMOwPb-1PFuBXOMBaMKXKjISaXP1j1JXd888BxcnKai28vIxki3jFTz6cOc0VJecRWDBb_wfvuhaW_6RJ-_QUKZ0iW9WE47nrUp/w587-h330/wallpaperflare.com_wallpaper.jpg",
+        "date": "17 May 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/05/env.html",
+        "category": "Laravel",
+        "title":"Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php)",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEFEtx2oaS_XWkRHIasdFkKCfTx4QZxMjvtbd-Y5_SQfyp7CVouKD0n6f31QlyCaEcGilxC04yMhfnXRnWvnhIKKkLnP7YNzT090XLd4VTmeL4ZsW0QiU_8wlgRz3tNL1olqCFgX9a_cRJhPBIOnYN6rYFY18ribh_emEjS3vAE1qmSgfWQmp-uZmBJEuk/w588-h333/LARAVEL__instalation.JPG",
+        "date": "03 May 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/05/5-bram-cohen.html",
+        "category": "Computer Heroes",
+        "title":"Ήρωες της Πληροφορικής Νο5: Bram Cohen",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxC4I1g7fXWBADdcL6MB9pKZQvwKuaepuZpVEDzN2PqoxtPTks7CZ8ZLzjV0H7XMli1fqbdfgRLI78evyaSSEQXgIDYQbypxnYCw726nut4aYEKDGvRUTtSGTRYjHhHRLgepCXBdmWjvo/w673-h360/53377781Bram-Cohen.jpg",
+        "date": "06 May 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/04/browser.html",
+        "category": "Utilities",
+        "title":"Ένας υπολογιστής στον Browser",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzasHtLrK6OCW7RauD5kQzw0iOdFIBeaxC_fXXI0AAbzBqlHuHdcyrkgOOwByzi6vBbqJavuikfgiG_IUXDaoXanf0KxPw9oFAbnoNZPD7IlPKT5hyphenhyphen4QP-Nl-Kv0vhnVGNddsibVG7Ubk4NavXVlRPH67QlvCIWPIb7oi5JveeAor2ZIHwrgBnEq1KU7iQ/w590-h332/00.png",
+        "date": "26 Apr. 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/04/1980.html",
+        "category": "Misc",
+        "title":"Ο εθισμός στους υπολογιστές....το 1980",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Q5mnwyuiHFISD11DJyDOaY6G7zB0vSHFY0Avgjv9slKKIXceZUAJLzm2grjBV_Zl-a1Wg3cP3KYZGrGUssFvBSWQv7ohBuYpdAYIUYInFeN-zjbxWVl9GQBWalc1gq4CuHLoU-7-GJsUmQVL0l_JmL3T63WQkf0W_cY-nT-nRAubzshnFTMGJQ6JTfdB/w586-h331/29f8095c-28ac-4d00-8c50-587425dc4b35.png",
+        "date": "19 Apr. 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/04/blog-post.html",
+        "category": "Misc",
+        "title":"Οι πιο συχνοί κωδικοί πρόσβασης",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6U7dww-meHcqOxR8e9LKvrsLfCgF7-xR5kWq6knwonFUxUtx4B1eoWnGlDcvGZEyUY1561P5eYNTaLeZ-kmhM1YPlZo1eopbFM3yu0pLvSBdk_wd7oN00-vqUhY_vxKsOKKm3rSw60Wo-3tjK-OCaKDBCxxRwdD-25OH2xw6ME_xoNrdPdC6qnUAEZ4RG/w590-h334/imposter.jpg",
+        "date": "12 Apr. 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/04/5.html",
+        "category": "Misc",
+        "title":"Πέντε (5) βιβλία που μου άλλαξαν τη ζωή",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_dX4AkOx0g3yJdL1XXks6blDhEh0a81WwPLrykpciX_j-QxBMKhnKUYkT1XpTMXUHIIDLmvVbMOHd5JL5Ol6uDBRIsUbfcb-mXAo78WrqnhSuARlS7lJnfafV1gyEzOL1dPBdyObuDCQYyPCXAGruKIyUhzvbA5Fu-MMM0sYlne9Mlxl_Bj9wRlQpoqfC/w593-h336/d76a9a29-27cd-4921-9b84-2a5de05ddc97.png",
+        "date": "05 Apr. 2024"
+
+    }
+]
