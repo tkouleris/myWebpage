@@ -21,6 +21,20 @@
         "date": "01 Sept. 2024"
     },
     {
+        "url": "https://blog.tkouleris.eu/2024/08/video-games.html",
+        "category": "Misc",
+        "title":"Είναι τα video games χάσιμο χρόνου;",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3YYIh66k05NGHBuWbG0TH_LJD2H9m9uWLHhJ_FdPkZrGjqRX0rhfHb_a3Wtu6AzA2VqfQ0Pv4O-jn2iKORd-sR7xYmFo6LYBbz42s0I5Tm_EA6vE0Xj5kigVzIGDHdMkSTxCFmJctvxg2f4ij6BqBrS1OdOpJN6buMFRQHg8BhyNoJTxjeYj01rqvJjbE/w658-h411/pac-man.jpg",
+        "date": "25 Aug. 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/08/6.html",
+        "category": "Computer Heroes",
+        "title":"Ήρωες της πληροφορικής Νο 6 : Ζαχαρίας ΔεντοΦτιάχνω",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUSdZi8EXKkwvOqBKqSh_O51M9BGZHi8m7Q6GlMf7tMnPeLNUblDO8CCZKeAAEXfL2khiDy0L22JqeFBdHJdyYchUCXOhcFUQx2lx2ADTsXqUuCxnjNxxKWXX799IdX_lZkjuy3fykSzQ/w683-h311/code-monkey-620x284.jpg",
+        "date": "11 Aug. 2024"
+    },
+    {
         "url": "https://blog.tkouleris.eu/2024/06/python-tutorial-2.html",
         "category": "Python Tutorial",
         "title":"Python Tutorial #2: Μεταβλητές",
@@ -35,13 +49,6 @@
         "date": "24 May 2024"
     },
     {
-        "url": "https://blog.tkouleris.eu/2024/05/jwt.html",
-        "category": "Programming",
-        "title":"Τι είναι το JWT;",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinvG2PJ_eLVv5G44UuuP4wFHuzbZaH93aHBdMq6f0ojOCkpOEgHYmhPA_K0dX2J-pHrIG-BGGWqUkF0pTx0kzbgmYKhXDCfRNc-7hqWYVhlQFbjrwtNQ9n-QLzzuLEljJihB0lPGnRj_nSm61xAd6RDpkIZ2dFblk68o12aiQ_LxFBsfeMar50nETWP4ek/w587-h331/pxfuel.jpg",
-        "date": "14 May 2024"
-    },
-    {
         "url": "https://blog.tkouleris.eu/2024/05/red-dead-redemption-pc.html",
         "category": "Videogames",
         "title":"Το Red Dead Redemption σε PC;;;;",
@@ -49,11 +56,11 @@
         "date": "17 May 2024"
     },
     {
-        "url": "https://blog.tkouleris.eu/2024/05/env.html",
-        "category": "Laravel",
-        "title":"Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php)",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEFEtx2oaS_XWkRHIasdFkKCfTx4QZxMjvtbd-Y5_SQfyp7CVouKD0n6f31QlyCaEcGilxC04yMhfnXRnWvnhIKKkLnP7YNzT090XLd4VTmeL4ZsW0QiU_8wlgRz3tNL1olqCFgX9a_cRJhPBIOnYN6rYFY18ribh_emEjS3vAE1qmSgfWQmp-uZmBJEuk/w588-h333/LARAVEL__instalation.JPG",
-        "date": "03 May 2024"
+        "url": "https://blog.tkouleris.eu/2024/05/jwt.html",
+        "category": "Programming",
+        "title":"Τι είναι το JWT;",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinvG2PJ_eLVv5G44UuuP4wFHuzbZaH93aHBdMq6f0ojOCkpOEgHYmhPA_K0dX2J-pHrIG-BGGWqUkF0pTx0kzbgmYKhXDCfRNc-7hqWYVhlQFbjrwtNQ9n-QLzzuLEljJihB0lPGnRj_nSm61xAd6RDpkIZ2dFblk68o12aiQ_LxFBsfeMar50nETWP4ek/w587-h331/pxfuel.jpg",
+        "date": "14 May 2024"
     },
     {
         "url": "https://blog.tkouleris.eu/2024/05/5-bram-cohen.html",
@@ -61,6 +68,13 @@
         "title":"Ήρωες της Πληροφορικής Νο5: Bram Cohen",
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxC4I1g7fXWBADdcL6MB9pKZQvwKuaepuZpVEDzN2PqoxtPTks7CZ8ZLzjV0H7XMli1fqbdfgRLI78evyaSSEQXgIDYQbypxnYCw726nut4aYEKDGvRUTtSGTRYjHhHRLgepCXBdmWjvo/w673-h360/53377781Bram-Cohen.jpg",
         "date": "06 May 2024"
+    },
+    {
+        "url": "https://blog.tkouleris.eu/2024/05/env.html",
+        "category": "Laravel",
+        "title":"Δεν πρέπει ποτέ να χρησιμοποιείτε το env() εκτός μέσα από τα config files (config/*.php)",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEFEtx2oaS_XWkRHIasdFkKCfTx4QZxMjvtbd-Y5_SQfyp7CVouKD0n6f31QlyCaEcGilxC04yMhfnXRnWvnhIKKkLnP7YNzT090XLd4VTmeL4ZsW0QiU_8wlgRz3tNL1olqCFgX9a_cRJhPBIOnYN6rYFY18ribh_emEjS3vAE1qmSgfWQmp-uZmBJEuk/w588-h333/LARAVEL__instalation.JPG",
+        "date": "03 May 2024"
     },
     {
         "url": "https://blog.tkouleris.eu/2024/04/browser.html",

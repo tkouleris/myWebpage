@@ -76,7 +76,9 @@
                 </li>
                 <li>
                     <a href="#blog" class="nav-anim">
-                        <span class="menu-icon lnr lnr-book"></span>
+{{--                        <span class="menu-icon lnr lnr-book"></span>--}}
+
+                        <span class="menu-icon lnr fab fa-blogger"></span>
                         <span class="link-text">Blog</span>
                     </a>
                 </li>
@@ -1136,10 +1138,10 @@
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-12">
-                                <div class="blog-masonry two-columns clearfix">
+                                <div class="blog-masonry one-column clearfix">
                                     @foreach($blog_data as $index => $post)
                                         <div class="item post-{{$index}}">
-                                        <div class="blog-card">
+                                            <div class="blog-card">
                                             <div class="media-block">
                                                 <div class="category">
                                                     <a href="#" title="Programming">{{$post['category']}}</a>
@@ -1148,7 +1150,7 @@
                                                     <img src="{{$post['image']}}"
                                                          class="size-blog-masonry-image-two-c"
                                                          alt="{{$post['title']}}"
-                                                         title="{{$post['title']}}"/>
+                                                         title="{{$post['title']}}" style="width:100%;"/>
                                                     <div class="mask"></div>
                                                 </a>
                                             </div>
@@ -1159,7 +1161,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                    </div>
+                                        </div>
                                     @endforeach
 
 
