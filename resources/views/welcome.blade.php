@@ -1040,7 +1040,7 @@
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
                                                 <img src="img/portfolio/pharmacy_android_app.jpg" alt="Pharmacy Android App" title=""/>
-                                                <a target="_blank" href="https://drive.google.com/file/d/1oGed2a2JS3wTFvNxPPV14KDYWv7_0Pog/view?usp=drive_link" title="Pharmacy Android App"></a>
+                                                <a target="_blank" href="{{asset('apps/pharmacy_v1.apk')}}" title="Pharmacy Android App"></a>
                                             </div>
 
 
@@ -1058,6 +1058,18 @@
 
                                             <h4 class="name">Trivia Web App</h4>
                                             <span class="category">Trivia Web App</span>
+                                        </figure>
+
+                                        <figure class="item"
+                                                data-groups='["category_all", "category_soundcloud"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="img/portfolio/starfighter.png" alt="Star Fighter (Game)" title=""/>
+                                                <a target="_blank" href="{{asset('apps/starfighter.zip')}}" title="Trivia Web App"></a>
+                                            </div>
+
+
+                                            <h4 class="name">Star Fighter (Game)</h4>
+                                            <span class="category">Star Fighter (Game)</span>
                                         </figure>
                                         <!--                                        <figure class="item standard"-->
                                         <!--                                                data-groups='["category_all", "category_detailed"]'>-->
