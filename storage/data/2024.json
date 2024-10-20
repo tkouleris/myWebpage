@@ -1,5 +1,12 @@
 [
     {
+        "url": "https://blog.tkouleris.eu/2024/10/software-1-therac-25.html",
+        "category": "Dangerous Software",
+        "title":"Επικινδυνο Software #1: Therac-25",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7dm6VJUjvH_9-aQHg0NO-Wuw1YozGDK6gLJYdxiJzP77HoFJMw8nOJxcbH25HCwYjQgU5f15_JPfDpTOXMWLp6_Ho2Cq7DLvDK24sHJdH-8yqOFsw8Q2ZMhil-mw33zzzqbBTh-cw8gcgw7VJirNmfy48chYxfEyB_NDvkXclIzuJlycuAx3McxI5hlZg/s1920/image3.png",
+        "date": "20 Oct. 2024"
+    },
+    {
         "url": "https://blog.tkouleris.eu/2024/10/4-isa-slots.html",
         "category": "Forgotten Technologies",
         "title":"Ξεχασμένες Τεχνολογίες #4: ISA slots",
