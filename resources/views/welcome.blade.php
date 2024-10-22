@@ -8,7 +8,7 @@
     <meta name="description" content="Thodoris Kouleris - Software Engineer"/>
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"/>
     <meta name="author" content="lmpixels"/>
-    <meta property="og:image" itemprop="image" content="https://tkouleris.eu/img/main_logo.png" />
+    <meta property="og:image" itemprop="image" content="https://tkouleris.eu/img/main_logo.png"/>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
 
@@ -76,7 +76,7 @@
                 </li>
                 <li>
                     <a href="#blog" class="nav-anim">
-{{--                        <span class="menu-icon lnr lnr-book"></span>--}}
+                        {{--                        <span class="menu-icon lnr lnr-book"></span>--}}
 
                         <span class="menu-icon lnr fab fa-blogger"></span>
                         <span class="link-text">Blog</span>
@@ -269,7 +269,7 @@
                                                     - <a href="https://blog.tkouleris.eu/">My Blog</a><br/>
                                                     - <a href="http://www.facebook.com/kouleris">Facebook</a><br/>
                                                     - <a
-                                                        href="http://www.youtube.com/user/darkheart220982">YouTube</a><br/>
+                                                        href="https://www.youtube.com/@tkouleris">YouTube</a><br/>
                                                     - <a href="https://dev.to/tkouleris">DEV</a>
                                                 </p>
 
@@ -645,7 +645,8 @@
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
                                             <h5 class="item-period">March 2004 - Dec 2004</h5>
-                                            <span class="item-company">Technological Educational Institute of Lamia</span>
+                                            <span
+                                                class="item-company">Technological Educational Institute of Lamia</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
@@ -667,7 +668,8 @@
                                 <div class="timeline timeline-second-style clearfix">
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <span class="item-company">Technological Educational Institute of Lamia</span>
+                                            <span
+                                                class="item-company">Technological Educational Institute of Lamia</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
@@ -950,7 +952,8 @@
 
                                     <div class="certi-content">
                                         <div class="certi-title">
-                                            <h4>New Information Technologies, new directions in education and the job market</h4>
+                                            <h4>New Information Technologies, new directions in education and the job
+                                                market</h4>
                                         </div>
                                         <div class="certi-id">
                                             <span>Technological Educational Institute of Lamia</span>
@@ -985,9 +988,9 @@
                                 <div class="portfolio-content">
 
                                     <ul class="portfolio-filters">
-{{--                                        <li class="active">--}}
-{{--                                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>--}}
-{{--                                        </li>--}}
+                                        {{--                                        <li class="active">--}}
+                                        {{--                                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>--}}
+                                        {{--                                        </li>--}}
                                         <!--                                        <li>-->
                                         <!--                                            <a class="filter btn btn-sm btn-link" data-group="category_detailed">Detailed</a>-->
                                         <!--                                        </li>-->
@@ -1014,7 +1017,8 @@
                                         <figure class="item lbaudio"
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/weather_app.png" alt="SoundCloud Audio" title=""/>
+                                                <img src="img/portfolio/weather_app.png" alt="SoundCloud Audio"
+                                                     title=""/>
                                                 <a target="_blank" href="https://weather.tkouleris.eu/?city_id=209098"
                                                    class="lightbox mfp-iframe" title="Weather App"></a>
                                             </div>
@@ -1028,7 +1032,8 @@
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
                                                 <img src="img/portfolio/pharmacy_api.jpg" alt="Pharmacy API" title=""/>
-                                                <a target="_blank" href="https://pharmacy.tkouleris.eu/" title="Pharmacy API"></a>
+                                                <a target="_blank" href="https://pharmacy.tkouleris.eu/"
+                                                   title="Pharmacy API"></a>
                                             </div>
 
 
@@ -1039,8 +1044,10 @@
                                         <figure class="item"
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/pharmacy_android_app.jpg" alt="Pharmacy Android App" title=""/>
-                                                <a target="_blank" href="{{asset('apps/pharmacy_v1.apk')}}" title="Pharmacy Android App"></a>
+                                                <img src="img/portfolio/pharmacy_android_app.jpg"
+                                                     alt="Pharmacy Android App" title=""/>
+                                                <a target="_blank" href="{{asset('apps/pharmacy_v1.apk')}}"
+                                                   title="Pharmacy Android App"></a>
                                             </div>
 
 
@@ -1051,8 +1058,10 @@
                                         <figure class="item"
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/trivia_web_app.jpg" alt="Trivia Web App" title=""/>
-                                                <a target="_blank" href="https://trivia.tkouleris.eu" title="Trivia Web App"></a>
+                                                <img src="img/portfolio/trivia_web_app.jpg" alt="Trivia Web App"
+                                                     title=""/>
+                                                <a target="_blank" href="https://trivia.tkouleris.eu"
+                                                   title="Trivia Web App"></a>
                                             </div>
 
 
@@ -1063,8 +1072,10 @@
                                         <figure class="item"
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/starfighter.png" alt="Star Fighter (Game)" title=""/>
-                                                <a target="_blank" href="{{asset('apps/starfighter.zip')}}" title="Trivia Web App"></a>
+                                                <img src="img/portfolio/starfighter.png" alt="Star Fighter (Game)"
+                                                     title=""/>
+                                                <a target="_blank" href="{{asset('apps/starfighter.zip')}}"
+                                                   title="Trivia Web App"></a>
                                             </div>
 
 
@@ -1154,98 +1165,98 @@
                                     @foreach($blog_data as $index => $post)
                                         <div class="item post-{{$index}}">
                                             <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="Programming">{{$post['category']}}</a>
+                                                <div class="media-block">
+                                                    <div class="category">
+                                                        <a href="#" title="Programming">{{$post['category']}}</a>
+                                                    </div>
+                                                    <a target=”_blank” href="{{$post['url']}}">
+                                                        <img src="{{$post['image']}}"
+                                                             class="size-blog-masonry-image-two-c"
+                                                             alt="{{$post['title']}}"
+                                                             title="{{$post['title']}}" style="width:100%;"/>
+                                                        <div class="mask"></div>
+                                                    </a>
                                                 </div>
-                                                <a target=”_blank” href="{{$post['url']}}">
-                                                    <img src="{{$post['image']}}"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="{{$post['title']}}"
-                                                         title="{{$post['title']}}" style="width:100%;"/>
-                                                    <div class="mask"></div>
-                                                </a>
+                                                <div class="post-info">
+                                                    <div class="post-date">{{$post['date']}}</div>
+                                                    <a target=”_blank” href="{{$post['url']}}">
+                                                        <h4 class="blog-item-title">{{$post['title']}}</h4>
+                                                    </a>
+                                                </div>
                                             </div>
-                                            <div class="post-info">
-                                                <div class="post-date">{{$post['date']}}</div>
-                                                <a target=”_blank” href="{{$post['url']}}">
-                                                    <h4 class="blog-item-title">{{$post['title']}}</h4>
-                                                </a>
-                                            </div>
-                                        </div>
                                         </div>
                                     @endforeach
 
 
                                     <!-- Οι πιο συχνοί κωδικοί πρόσβασης -->
-{{--                                    <div class="item post-1">--}}
-{{--                                        <div class="blog-card">--}}
-{{--                                            <div class="media-block">--}}
-{{--                                                <div class="category">--}}
-{{--                                                    <a href="#" title="Misc">Misc</a>--}}
-{{--                                                </div>--}}
-{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/blog-post.html">--}}
-{{--                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6U7dww-meHcqOxR8e9LKvrsLfCgF7-xR5kWq6knwonFUxUtx4B1eoWnGlDcvGZEyUY1561P5eYNTaLeZ-kmhM1YPlZo1eopbFM3yu0pLvSBdk_wd7oN00-vqUhY_vxKsOKKm3rSw60Wo-3tjK-OCaKDBCxxRwdD-25OH2xw6ME_xoNrdPdC6qnUAEZ4RG/w590-h334/imposter.jpg"--}}
-{{--                                                         class="size-blog-masonry-image-two-c"--}}
-{{--                                                         alt="Οι πιο συχνοί κωδικοί πρόσβασης" title="Οι πιο συχνοί κωδικοί πρόσβασης"/>--}}
-{{--                                                    <div class="mask"></div>--}}
-{{--                                                </a>--}}
-{{--                                            </div>--}}
-{{--                                            <div class="post-info">--}}
-{{--                                                <div class="post-date">12 Apr. 2024</div>--}}
-{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/blog-post.html">--}}
-{{--                                                    <h4 class="blog-item-title">Οι πιο συχνοί κωδικοί πρόσβασης</h4>--}}
-{{--                                                </a>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
+                                    {{--                                    <div class="item post-1">--}}
+                                    {{--                                        <div class="blog-card">--}}
+                                    {{--                                            <div class="media-block">--}}
+                                    {{--                                                <div class="category">--}}
+                                    {{--                                                    <a href="#" title="Misc">Misc</a>--}}
+                                    {{--                                                </div>--}}
+                                    {{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/blog-post.html">--}}
+                                    {{--                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6U7dww-meHcqOxR8e9LKvrsLfCgF7-xR5kWq6knwonFUxUtx4B1eoWnGlDcvGZEyUY1561P5eYNTaLeZ-kmhM1YPlZo1eopbFM3yu0pLvSBdk_wd7oN00-vqUhY_vxKsOKKm3rSw60Wo-3tjK-OCaKDBCxxRwdD-25OH2xw6ME_xoNrdPdC6qnUAEZ4RG/w590-h334/imposter.jpg"--}}
+                                    {{--                                                         class="size-blog-masonry-image-two-c"--}}
+                                    {{--                                                         alt="Οι πιο συχνοί κωδικοί πρόσβασης" title="Οι πιο συχνοί κωδικοί πρόσβασης"/>--}}
+                                    {{--                                                    <div class="mask"></div>--}}
+                                    {{--                                                </a>--}}
+                                    {{--                                            </div>--}}
+                                    {{--                                            <div class="post-info">--}}
+                                    {{--                                                <div class="post-date">12 Apr. 2024</div>--}}
+                                    {{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/blog-post.html">--}}
+                                    {{--                                                    <h4 class="blog-item-title">Οι πιο συχνοί κωδικοί πρόσβασης</h4>--}}
+                                    {{--                                                </a>--}}
+                                    {{--                                            </div>--}}
+                                    {{--                                        </div>--}}
+                                    {{--                                    </div>--}}
 
                                     <!-- Ο εθισμός στους υπολογιστές....το 1980 -->
-{{--                                    <div class="item post-1">--}}
-{{--                                        <div class="blog-card">--}}
-{{--                                            <div class="media-block">--}}
-{{--                                                <div class="category">--}}
-{{--                                                    <a href="#" title="Hardware">Misc</a>--}}
-{{--                                                </div>--}}
-{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/1980.html">--}}
-{{--                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Q5mnwyuiHFISD11DJyDOaY6G7zB0vSHFY0Avgjv9slKKIXceZUAJLzm2grjBV_Zl-a1Wg3cP3KYZGrGUssFvBSWQv7ohBuYpdAYIUYInFeN-zjbxWVl9GQBWalc1gq4CuHLoU-7-GJsUmQVL0l_JmL3T63WQkf0W_cY-nT-nRAubzshnFTMGJQ6JTfdB/w586-h331/29f8095c-28ac-4d00-8c50-587425dc4b35.png"--}}
-{{--                                                         class="size-blog-masonry-image-two-c"--}}
-{{--                                                         alt="Ο εθισμός στους υπολογιστές....το 1980" title="Ο εθισμός στους υπολογιστές....το 1980"/>--}}
-{{--                                                    <div class="mask"></div>--}}
-{{--                                                </a>--}}
-{{--                                            </div>--}}
-{{--                                            <div class="post-info">--}}
-{{--                                                <div class="post-date">19 Apr. 2024</div>--}}
-{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/1980.html">--}}
-{{--                                                    <h4 class="blog-item-title">Ο εθισμός στους υπολογιστές....το 1980</h4>--}}
-{{--                                                </a>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
+                                    {{--                                    <div class="item post-1">--}}
+                                    {{--                                        <div class="blog-card">--}}
+                                    {{--                                            <div class="media-block">--}}
+                                    {{--                                                <div class="category">--}}
+                                    {{--                                                    <a href="#" title="Hardware">Misc</a>--}}
+                                    {{--                                                </div>--}}
+                                    {{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/1980.html">--}}
+                                    {{--                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Q5mnwyuiHFISD11DJyDOaY6G7zB0vSHFY0Avgjv9slKKIXceZUAJLzm2grjBV_Zl-a1Wg3cP3KYZGrGUssFvBSWQv7ohBuYpdAYIUYInFeN-zjbxWVl9GQBWalc1gq4CuHLoU-7-GJsUmQVL0l_JmL3T63WQkf0W_cY-nT-nRAubzshnFTMGJQ6JTfdB/w586-h331/29f8095c-28ac-4d00-8c50-587425dc4b35.png"--}}
+                                    {{--                                                         class="size-blog-masonry-image-two-c"--}}
+                                    {{--                                                         alt="Ο εθισμός στους υπολογιστές....το 1980" title="Ο εθισμός στους υπολογιστές....το 1980"/>--}}
+                                    {{--                                                    <div class="mask"></div>--}}
+                                    {{--                                                </a>--}}
+                                    {{--                                            </div>--}}
+                                    {{--                                            <div class="post-info">--}}
+                                    {{--                                                <div class="post-date">19 Apr. 2024</div>--}}
+                                    {{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/1980.html">--}}
+                                    {{--                                                    <h4 class="blog-item-title">Ο εθισμός στους υπολογιστές....το 1980</h4>--}}
+                                    {{--                                                </a>--}}
+                                    {{--                                            </div>--}}
+                                    {{--                                        </div>--}}
+                                    {{--                                    </div>--}}
 
 
                                     <!-- Πέντε (5) βιβλία που μου άλλαξαν τη ζωή -->
-{{--                                    <div class="item post-1">--}}
-{{--                                        <div class="blog-card">--}}
-{{--                                            <div class="media-block">--}}
-{{--                                                <div class="category">--}}
-{{--                                                    <a href="#" title="Misc">Misc</a>--}}
-{{--                                                </div>--}}
-{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/5.html">--}}
-{{--                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_dX4AkOx0g3yJdL1XXks6blDhEh0a81WwPLrykpciX_j-QxBMKhnKUYkT1XpTMXUHIIDLmvVbMOHd5JL5Ol6uDBRIsUbfcb-mXAo78WrqnhSuARlS7lJnfafV1gyEzOL1dPBdyObuDCQYyPCXAGruKIyUhzvbA5Fu-MMM0sYlne9Mlxl_Bj9wRlQpoqfC/w593-h336/d76a9a29-27cd-4921-9b84-2a5de05ddc97.png"--}}
-{{--                                                         class="size-blog-masonry-image-two-c"--}}
-{{--                                                         alt="Πέντε (5) βιβλία που μου άλλαξαν τη ζωή" title="Πέντε (5) βιβλία που μου άλλαξαν τη ζωή"/>--}}
-{{--                                                    <div class="mask"></div>--}}
-{{--                                                </a>--}}
-{{--                                            </div>--}}
-{{--                                            <div class="post-info">--}}
-{{--                                                <div class="post-date">05 Apr. 2024</div>--}}
-{{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/5.html">--}}
-{{--                                                    <h4 class="blog-item-title">Πέντε (5) βιβλία που μου άλλαξαν τη ζωή</h4>--}}
-{{--                                                </a>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
+                                    {{--                                    <div class="item post-1">--}}
+                                    {{--                                        <div class="blog-card">--}}
+                                    {{--                                            <div class="media-block">--}}
+                                    {{--                                                <div class="category">--}}
+                                    {{--                                                    <a href="#" title="Misc">Misc</a>--}}
+                                    {{--                                                </div>--}}
+                                    {{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/5.html">--}}
+                                    {{--                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_dX4AkOx0g3yJdL1XXks6blDhEh0a81WwPLrykpciX_j-QxBMKhnKUYkT1XpTMXUHIIDLmvVbMOHd5JL5Ol6uDBRIsUbfcb-mXAo78WrqnhSuARlS7lJnfafV1gyEzOL1dPBdyObuDCQYyPCXAGruKIyUhzvbA5Fu-MMM0sYlne9Mlxl_Bj9wRlQpoqfC/w593-h336/d76a9a29-27cd-4921-9b84-2a5de05ddc97.png"--}}
+                                    {{--                                                         class="size-blog-masonry-image-two-c"--}}
+                                    {{--                                                         alt="Πέντε (5) βιβλία που μου άλλαξαν τη ζωή" title="Πέντε (5) βιβλία που μου άλλαξαν τη ζωή"/>--}}
+                                    {{--                                                    <div class="mask"></div>--}}
+                                    {{--                                                </a>--}}
+                                    {{--                                            </div>--}}
+                                    {{--                                            <div class="post-info">--}}
+                                    {{--                                                <div class="post-date">05 Apr. 2024</div>--}}
+                                    {{--                                                <a target=”_blank” href="https://blog.tkouleris.eu/2024/04/5.html">--}}
+                                    {{--                                                    <h4 class="blog-item-title">Πέντε (5) βιβλία που μου άλλαξαν τη ζωή</h4>--}}
+                                    {{--                                                </a>--}}
+                                    {{--                                            </div>--}}
+                                    {{--                                        </div>--}}
+                                    {{--                                    </div>--}}
 
                                 </div>
                             </div>
@@ -1294,7 +1305,8 @@
 
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-checkmark-circle"></i>
-                                    <h4><a href="https://www.linkedin.com/in/thodoris-kouleris-22087460/" target="_blank">LinkedIn</a></h4>
+                                    <h4><a href="https://www.linkedin.com/in/thodoris-kouleris-22087460/"
+                                           target="_blank">LinkedIn</a></h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
@@ -1312,7 +1324,8 @@
                                     <h3>How Can I <span>Help You?!</span></h3>
                                 </div>
 
-                                <form id="contact_form" class="contact-form" action="{{ route('mail.send') }}" method="post">
+                                <form id="contact_form" class="contact-form" action="{{ route('mail.send') }}"
+                                      method="post">
                                     @csrf
 
                                     <div class="messages"></div>
@@ -1391,7 +1404,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CF6G03Q5JN"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'G-CF6G03Q5JN');
