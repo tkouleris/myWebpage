@@ -1,5 +1,12 @@
 [
     {
+        "url": "https://blog.tkouleris.eu/2024/10/sql-indexes.html",
+        "category": "SQL",
+        "title":"SQL Indexes",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitrhaDf-7vvUV-psCw7A3o3HA7SQxmKOWNJB_FZsnpY9mq4TkHw4IqYy266n_uPnhgLBat4RBory1E_NoFsQc2cEWX0CTlLgEuxHX3VgUH0vLNN8TtTd0CocEuqmo-0j8ZDVAilfu4hEsE8aGyiiCsNdq5uIH_RckQ_ms3_AUq2H-_0QqQl83KPbcnVgiE/w581-h327/What_is_SQL_Database.png",
+        "date": "27 Oct. 2024"
+    },
+    {
         "url": "https://blog.tkouleris.eu/2024/10/software-1-therac-25.html",
         "category": "Dangerous Software",
         "title":"Επικινδυνο Software #1: Therac-25",
