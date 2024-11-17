@@ -1161,8 +1161,13 @@
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-12">
+{{--                                <div class="blog-masonry one-column clearfix">--}}
+{{--                                    @foreach($blog_data as $year => $posts)--}}
+{{--                                        <div style="padding-right: 10px;"><a href="#">{{$year}}</a></div>--}}
+{{--                                    @endforeach--}}
+{{--                                </div>--}}
                                 <div class="blog-masonry one-column clearfix">
-                                    @foreach($blog_data as $index => $post)
+                                    @foreach($current_data as $index => $post)
                                         <div class="item post-{{$index}}">
                                             <div class="blog-card">
                                                 <div class="media-block">
