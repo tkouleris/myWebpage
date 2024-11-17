@@ -1167,7 +1167,7 @@
                                             <div class="blog-card">
                                                 <div class="media-block">
                                                     <div class="category">
-                                                        <a href="#" title="Programming">{{$post['category']}}</a>
+                                                        <a href="#" title="{{$post['category']}}">{{$post['category']}}</a>
                                                     </div>
                                                     <a target=”_blank” href="{{$post['url']}}">
                                                         <img src="{{$post['image']}}"
