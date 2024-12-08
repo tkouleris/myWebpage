@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Thodoris Kouleris - Software Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <meta name="description" content="Thodoris Kouleris - Software Engineer"/>
+    <meta name="description" content="my blog post title"/>
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"/>
     <meta name="author" content="lmpixels"/>
-    <meta property="og:image" itemprop="image" content="https://tkouleris.eu/img/main_logo.png"/>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-
+    <meta property="og:image" itemprop="image" content="https://tkouleris.eu/img/blog/blog_post_1_full.jpg"/>
     <meta property="og:title" content="my blog post title" />
     <meta property="og:description" content="my blog post description" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="./img/blog/blog_post_1_full.jpg" />
     <meta property="og:type" content="article" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
 
 
     <link rel="stylesheet" href="css/reset.css" type="text/css">
