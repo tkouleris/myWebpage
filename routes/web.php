@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\HomeController::class,'index'])->name('main.index');
+Route::get('/blog', [\App\Http\Controllers\HomeController::class,'blog'])->name('blog.index');
 
 Route::post('/mail', [\App\Http\Controllers\MailController::class,'send'])->name('mail.send');
