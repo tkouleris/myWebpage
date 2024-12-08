@@ -11,6 +11,12 @@
     <meta property="og:image" itemprop="image" content="https://tkouleris.eu/img/main_logo.png"/>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
+    <meta property="og:title" content="my blog post title" />
+    <meta property="og:description" content="my blog post description" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="./img/blog/blog_post_1_full.jpg" />
+    <meta property="og:type" content="article" />
+
 
     <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
