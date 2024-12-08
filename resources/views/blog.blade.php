@@ -134,7 +134,7 @@
                 <article class="post">
 
                     <div class="post-thumbnail">
-                        <img src="./img/blog/blog_post_1_full.jpg" alt="image">
+                        <img src="{{$post['image']}}" alt="image">
                     </div>
 
                     <div class="post-content">
@@ -146,7 +146,7 @@
                             </div>
                             <!-- /Entry meta -->
 
-                            <h2 class="entry-title">Best Practices for Animated Progress Indicators</h2>
+                            <h2 class="entry-title">{{$post['title']}}</h2>
                         </header>
                         <!-- /Entry header -->
 
@@ -155,17 +155,7 @@
                             <div class="row">
                                 <div class=" col-xs-12 col-sm-12 ">
                                     <div class="col-inner">
-                                        <p>Nulla nulla nisl, sodales ac nulla ac, consequat vulputate purus. Curabitur tincidunt ipsum vel nibh rutrum accumsan. Nunc ullamcorper posuere leo, vitae aliquet risus pharetra in. Integer turpis eros, iaculis et mi non, pulvinar egestas leo. Etiam sagittis ex turpis, vitae cursus tortor interdum eu. Quisque ultrices nunc eget erat vestibulum euismod. Ut mauris nisi, facilisis at arcu nec, facilisis porttitor lorem.</p><p>Vivamus vitae neque molestie, porta libero sed, tincidunt leo. In nec posuere odio, id rhoncus lorem. Proin id erat ut dolor condimentum viverra. Praesent viverra sed dolor ac luctus. Praesent placerat id lorem quis lacinia.</p>
-
-                                        <blockquote class="quote">Maecenas id finibus felis. Etiam vitae nibh et felis efficitur pellentesque. Mauris suscipit sapien nunc, a lacinia nibh feugiat ut. In hac habitasse platea dictumst.
-                                            <footer class="quote-author">
-                                                <span>Larry L. Johnson</span>
-                                            </footer>
-                                        </blockquote>
-
-                                        <p>Etiam interdum vulputate risus, vitae elementum neque consectetur sed. Donec at risus dui. Ut in suscipit neque. Vestibulum sit amet lobortis magna, commodo venenatis ante. Cras molestie, ex a auctor lacinia, risus est aliquam risus, sit amet semper purus tortor id ante. Donec lacus ipsum, porttitor et libero a, fringilla auctor quam. Sed in nisl id libero tincidunt aliquet. Aenean dui ipsum, auctor ut leo ut, semper dignissim lacus. Suspendisse faucibus viverra consequat. Maecenas efficitur massa vel eros sagittis dapibus. Nam lobortis mi in turpis hendrerit eleifend. Nulla non massa felis.</p>
-
-                                        <p>Donec sit amet dolor ante. Vivamus vel massa accumsan, faucibus quam quis, convallis velit. Aliquam erat volutpat. Integer imperdiet diam quis arcu venenatis, quis sagittis nibh rhoncus. Donec non nisi scelerisque, sodales metus quis, accumsan mauris. Curabitur volutpat risus rutrum erat condimentum tristique. Nullam at felis diam. Quisque dictum felis non ante pretium mollis. Aliquam turpis neque, varius nec diam a, aliquam pulvinar diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ipsum libero, aliquet sed bibendum faucibus, semper a dui.</p>
+                                        {!! $post['content'] !!}
                                     </div>
                                 </div>
                             </div>
@@ -176,7 +166,7 @@
                             <div class="date-author">
                       <span class="entry-date">
                         <a href="#" rel="bookmark">
-                          <i class="far fa-clock"></i> <span class="entry-date"> March 16, 2020</span>
+                          <i class="far fa-clock"></i> <span class="entry-date"> {{$post['date']}}</span>
                         </a>
                       </span>
                                 <span class="author vcard">
@@ -201,15 +191,15 @@
                             <!-- /Share Buttons -->
                         </div>
 
-                        <div class="post-tags">
-                            <div class="tags">
-                                <a href="#" rel="tag">animate</a>
-                                <a href="#" rel="tag">bar</a>
-                                <a href="#" rel="tag">design</a>
-                                <a href="#" rel="tag">progress</a>
-                                <a href="#" rel="tag">ui</a>
-                            </div>
-                        </div>
+{{--                        <div class="post-tags">--}}
+{{--                            <div class="tags">--}}
+{{--                                <a href="#" rel="tag">animate</a>--}}
+{{--                                <a href="#" rel="tag">bar</a>--}}
+{{--                                <a href="#" rel="tag">design</a>--}}
+{{--                                <a href="#" rel="tag">progress</a>--}}
+{{--                                <a href="#" rel="tag">ui</a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                     </div>
                 </article>
 
