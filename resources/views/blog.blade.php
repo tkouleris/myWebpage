@@ -78,7 +78,7 @@
                         <header class="entry-header">
                             <!-- Entry meta -->
                             <div class="entry-meta entry-meta-top">
-                                <span><a href="#" rel="category tag">UI</a></span>
+                                <span><a href="#" rel="category tag">{{$post['category']}}</a></span>
                             </div>
                             <!-- /Entry meta -->
 
