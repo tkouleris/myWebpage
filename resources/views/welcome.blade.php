@@ -39,15 +39,7 @@
     <div class="page-content">
 
         <header id="site_header" class="header mobile-menu-hide">
-            <div class="header-content">
-                <div class="header-photo">
-                    <img src="img/main_photo.jpg" alt="Thodoris Kouleris">
-                </div>
-                <div class="header-titles">
-                    <h2>Thodoris Kouleris</h2>
-                    <h4>Software Engineer</h4>
-                </div>
-            </div>
+            @include('partials.header-content')
 
             <ul class="main-menu">
                 <li class="active">
