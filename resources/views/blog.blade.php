@@ -115,7 +115,7 @@
                             <!-- Share Buttons -->
                             <div class="entry-share btn-group share-buttons">
 {{--                                <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">--}}
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=tkouleris.org/blog?y=2024&page=bubble-sort" target="_blank">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=tkouleris.org/blog/composite-pattern" target="_blank">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
 
