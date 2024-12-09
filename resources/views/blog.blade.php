@@ -8,7 +8,7 @@
     <meta name="description" content="my blog post title"/>
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"/>
     <meta name="author" content="lmpixels"/>
-    <meta property="og:image" itemprop="image" content="https://tkouleris.eu/img/blog/blog_post_1_full.jpg"/>
+    <meta property="og:image" itemprop="image" content="{{$post['image']}}"/>
     <meta property="og:title" content="{{$post['title']}}" />
     <meta property="og:description" content="my blog post description" />
     <meta property="og:url" content="" />
