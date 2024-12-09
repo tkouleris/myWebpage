@@ -9,9 +9,7 @@
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"/>
     <meta name="author" content="lmpixels"/>
     <meta property="og:image" itemprop="image" content="https://tkouleris.eu/img/main_logo.png"/>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-
+    <link rel="icon" type="image/x-icon" href="{{asset('favicon.ico')}}">
     @include('partials.css')
 </head>
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{$post['title']}} - Thodoris Kouleris</title>
+    <title>Thodoris Kouleris - {{$post['title']}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="description" content="{{$post['description']}}"/>
     <meta name="keywords" content="{{$post['keywords']}}"/>
@@ -11,14 +11,10 @@
     <meta property="og:image" itemprop="image" content="{{$post['image']}}"/>
     <meta property="og:title" content="{{$post['title']}}" />
     <meta property="og:description" content="{{$post['description']}}" />
-    <meta property="og:url" content="" />
+    <meta property="og:url" content="{{$post['url']}}" />
     <meta property="og:image" content="{{$post['image']}}" />
     <meta property="og:type" content="article" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-
-
-
+    <link rel="icon" type="image/x-icon" href="{{asset('favicon.ico')}}">
     @include('partials.css')
 </head>
 
@@ -112,19 +108,17 @@
 
                             <!-- Share Buttons -->
                             <div class="entry-share btn-group share-buttons">
-{{--                                <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">--}}
                                 <a href="https://www.facebook.com/sharer/sharer.php?u=tkouleris.eu/blog/{{$post['page']}}" target="_blank">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
 
-{{--                                <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">--}}
-                                <a href="https://twitter.com/intent/tweet?text={{$post['title']}}&url=https://tkouleris.eu/blog/{{$post['page']}}" >
+                                <a href="https://twitter.com/intent/tweet?text={{$post['title']}}&url=https://tkouleris.eu/blog/{{$post['page']}}" target="_blank">
                                     <i class="fab fa-twitter"></i>
                                 </a>
 
-                                <a href="#" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="btn" title="Share on LinkedIn">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
+{{--                                <a href="#" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="btn" title="Share on LinkedIn">--}}
+{{--                                    <i class="fab fa-linkedin-in"></i>--}}
+{{--                                </a>--}}
                             </div>
                             <!-- /Share Buttons -->
                         </div>
@@ -146,18 +140,18 @@
 
     </div>
 </div>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CF6G03Q5JN"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
+{{--<script async src="https://www.googletagmanager.com/gtag/js?id=G-CF6G03Q5JN"></script>--}}
+{{--<script>--}}
+{{--    window.dataLayer = window.dataLayer || [];--}}
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
+{{--    function gtag() {--}}
+{{--        dataLayer.push(arguments);--}}
+{{--    }--}}
 
-    gtag('js', new Date());
+{{--    gtag('js', new Date());--}}
 
-    gtag('config', 'G-CF6G03Q5JN');
-</script>
+{{--    gtag('config', 'G-CF6G03Q5JN');--}}
+{{--</script>--}}
 @include('partials.javascript')
 </body>
 </html>
