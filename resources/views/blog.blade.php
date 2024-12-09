@@ -117,7 +117,8 @@
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
 
-                                <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">
+{{--                                <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">--}}
+                                <a href="https://twitter.com/intent/tweet" >
                                     <i class="fab fa-twitter"></i>
                                 </a>
 
