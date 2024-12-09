@@ -53,11 +53,9 @@
                 </ul>
             </div>
 
-            <div class="header-buttons">
-                <a href="cv/T.Kouleris.pdf" target="_blank" class="btn btn-primary">Download CV</a>
-            </div>
+            @include('partials.cv')
 
-            <div class="copyrights">© {{ now()->year }} Thodoris Kouleris</div>
+            @include('partials.copyright')
         </header>
 
         <!-- Mobile Navigation -->
