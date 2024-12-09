@@ -16,9 +16,7 @@
 </head>
 
 <body>
-<!-- Animated Background -->
-<div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
-<!-- /Animated Background -->
+@include('partials.animated-background')
 
 <!-- Loading animation -->
 <div class="preloader">

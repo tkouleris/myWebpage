@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Thodoris Kouleris - Software Engineer</title>
+    <title>{{$post['title']}} - Thodoris Kouleris</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <meta name="description" content="my blog post title"/>
-    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"/>
+    <meta name="description" content="{{$post['description']}}"/>
+    <meta name="keywords" content="{{$post['keywords']}}"/>
     <meta name="author" content="lmpixels"/>
     <meta property="og:image" itemprop="image" content="{{$post['image']}}"/>
     <meta property="og:title" content="{{$post['title']}}" />
-    <meta property="og:description" content="my blog post description" />
+    <meta property="og:description" content="{{$post['description']}}" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="{{$post['image']}}" />
     <meta property="og:type" content="article" />
@@ -23,9 +23,7 @@
 </head>
 
 <body>
-<!-- Animated Background -->
-<div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
-<!-- /Animated Background -->
+@include('partials.animated-background')
 
 <!-- Loading animation -->
 <div class="preloader">
