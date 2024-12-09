@@ -113,12 +113,12 @@
                             <!-- Share Buttons -->
                             <div class="entry-share btn-group share-buttons">
 {{--                                <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">--}}
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=tkouleris.eu/blog/composite-pattern" target="_blank">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=tkouleris.eu/blog/{{$post['page']}}" target="_blank">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
 
 {{--                                <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">--}}
-                                <a href="https://twitter.com/intent/tweet" >
+                                <a href="https://twitter.com/intent/tweet?text={{$post['title']}}&url=https://tkouleris.eu/blog/{{$post['page']}}" >
                                     <i class="fab fa-twitter"></i>
                                 </a>
 
