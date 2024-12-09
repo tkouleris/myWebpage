@@ -9,23 +9,23 @@
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"/>
     <meta name="author" content="lmpixels"/>
     <meta property="og:image" itemprop="image" content="https://tkouleris.eu/img/blog/blog_post_1_full.jpg"/>
-    <meta property="og:title" content="my blog post title" />
+    <meta property="og:title" content="{{$post['title']}}" />
     <meta property="og:description" content="my blog post description" />
     <meta property="og:url" content="" />
-    <meta property="og:image" content="./img/blog/blog_post_1_full.jpg" />
+    <meta property="og:image" content="{{$post['image']}}" />
     <meta property="og:type" content="article" />
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
 
 
 
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/reset.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap-grid.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/animations.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/perfect-scrollbar.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/main.css')}}" type="text/css">
 </head>
 
 <body>
@@ -176,7 +176,8 @@
 
                             <!-- Share Buttons -->
                             <div class="entry-share btn-group share-buttons">
-                                <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">
+{{--                                <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">--}}
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=tkouleris.org/blog?y=2024&page=bubble-sort" target="_blank">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
 
