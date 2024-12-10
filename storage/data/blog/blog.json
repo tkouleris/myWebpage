@@ -24,6 +24,18 @@
         "year": 2024
     },
     {
+        "url":"https://tkouleris.eu/blog/donkey-kong-country-behind-the-scenes",
+        "category":"video games",
+        "title":"When Rare was eating bananas",
+        "image":"https://tkouleris.eu/img/blog/donkey-kong-country-behind-the-scenes.jpg",
+        "date":"24 Nov. 2024",
+        "content":"                                        <p style=\"text-align: justify;\">\n                                            Several years ago, back when I was still uploading videos to YouTube, I did\n                                            a review of <b>Donkey Kong Country</b>, one of the best games for the SNES. Of\n                                            course, my effort wasn’t aimed at recording the historical details of DKC’s\n                                            development but rather at presenting my subjective opinion of the game.\n                                        </p>\n                                        <p style=\"text-align: justify;\">\n                                            Naturally, when someone has more resources and, most importantly, the game’s\n                                            actual creators talking about it, the quality of the final product is much\n                                            better. That’s exactly the case with DF Retro’s video about the game. The\n                                            video is a documentary on the creation of Donkey Kong Country and runs just\n                                            under 50 minutes. Enjoy!\n                                        </p>\n                                        <br/>\n                                        <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GQ7qtqqgTlo?si=hoqI_o283XolJenn\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n                                        <br/><br/>\n                                        <p style=\"text-align: justify;\">\n                                            Of course, for historical reasons, I’m also including my own video (what a show-off):\n                                        </p>\n                                        <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/OHlACXYiaE4?si=4nSgwVbME7ILhOr3\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "page":"donkey-kong-country-behind-the-scenes",
+        "description": "Several years ago, back when I was still uploading videos to YouTube, I did a review of Donkey Kong Country, one of the best games for the SNES. Of course, my effort wasn’t aimed at recording the historical details of DKC’s development but rather at presenting my subjective opinion of the game.",
+        "keywords": "donkey kong, rare, donkey kong country, snes, super nintendo, 16 bit",
+        "year": 2024
+    },
+    {
         "url":"https://tkouleris.eu/blog/four-projects-for-beginners",
         "category":"misc",
         "title":"Four simple projects for beginner programmers",
