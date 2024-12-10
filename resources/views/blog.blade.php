@@ -140,18 +140,15 @@
 
     </div>
 </div>
-{{--<script async src="https://www.googletagmanager.com/gtag/js?id=G-CF6G03Q5JN"></script>--}}
-{{--<script>--}}
-{{--    window.dataLayer = window.dataLayer || [];--}}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZK76RSLQKJ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-{{--    function gtag() {--}}
-{{--        dataLayer.push(arguments);--}}
-{{--    }--}}
-
-{{--    gtag('js', new Date());--}}
-
-{{--    gtag('config', 'G-CF6G03Q5JN');--}}
-{{--</script>--}}
+    gtag('config', 'G-ZK76RSLQKJ');
+</script>
 @include('partials.javascript')
 </body>
 </html>
