@@ -12,6 +12,18 @@
         "year": 2024
     },
     {
+        "url":"https://tkouleris.eu/blog/open-source-conspiracy",
+        "category":"misc",
+        "title":"The Open Source conspiracy",
+        "image":"https://tkouleris.eu/img/blog/open-source-conspiracy.png",
+        "date":"01 Dec. 2024",
+        "content":"<p>A conspiracy theory I came up with last night goes as follows: free software and open-source software exist so that large corporations can use software they would otherwise have to spend significant amounts of money to purchase or develop.</p><p>The truth is that software companies like Microsoft have often fought against open-source and free software. But is that enough to claim that the philosophy of free code (from now on, by \"free code,\" I mean both free software and open-source software) doesn't \"suit\" them? Certainly, it doesn't benefit a company directly if a new competitor emerges for its office suite, such as OpenOffice or LibreOffice, especially if the company sells its own suite. However, this isn't the software we’re talking about here.</p><p>Let’s consider software like Linux. For a company like Microsoft to develop such software would require significant time and money. Of course, they could invest some funds to make it \"compatible\" with other software they sell, but even then, the cost wouldn't be the same. Especially if they use Linux on some of their cloud platforms, the cost for the company is almost zero, and they would keep most of the revenue from the service, perhaps only deducting maintenance costs.</p><p>Another example is the Edge browser. Microsoft cleverly used the open-source Chromium code to release its own browser, leaving behind the outdated Internet Explorer. Creating a new browser from scratch with the security and features Google had developed would have been difficult and costly.</p><p>Perhaps this is why, in recent years, companies have stopped fighting against free code and joined the game instead. It has become evident that free code benefits companies—especially large corporations. How else could Microsoft have developed Copilot without access to a vast pool of code to train its new tool?</p><p>Thus, it seems that free code might be a grand \"conspiracy\" to allow large companies access to cheaper software—or even code—so they can generate greater profits at the lowest possible cost. Of course, this is just a conspiracy theory, one of those fleeting thoughts that come to you just before drifting off to sleep, and its value is about as significant as that of Internet Explorer.</p>",
+        "page":"open-source-conspiracy",
+        "description": "A conspiracy theory I came up with last night goes as follows: free software and open-source software exist so that large corporations can use software they would otherwise have to spend significant amounts of money to purchase or develop.",
+        "keywords": "open source, conspiracy, office, microsoft, libre office, open office",
+        "year": 2024
+    },
+    {
         "url":"https://tkouleris.eu/blog/four-projects-for-beginners",
         "category":"misc",
         "title":"Four simple projects for beginner programmers",
