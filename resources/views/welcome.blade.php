@@ -1239,7 +1239,7 @@
 
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-checkmark-circle"></i>
-                                    <h4><a href="https://www.linkedin.com/in/thodoris-kouleris-22087460/"
+                                    <h4><a href="https://www.linkedin.com/in/tkouleris/"
                                            target="_blank">LinkedIn</a></h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
