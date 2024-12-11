@@ -31,7 +31,7 @@
         <header id="site_header" class="header mobile-menu-hide">
             @include('partials.header-content')
 
-            @include('partials.menu')
+            @include('partials.menu', ['is_main'=>true])
 
             @include('partials.social')
 
