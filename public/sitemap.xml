@@ -9,7 +9,7 @@
 
 <url>
   <loc>https://tkouleris.eu/</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -18,63 +18,68 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://tkouleris.eu/blog/immutable-databases</loc>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://tkouleris.eu/blog/composite-pattern</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/open-source-conspiracy</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/donkey-kong-country-behind-the-scenes</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/bubble-sort</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/three-rules-for-readable-code</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/antitrust</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/sql-indexes</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/therac-25</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/isa-slots</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/alan-turing</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/cassete-tape</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/three-things-for-programmers-to-avoid</loc>
-  <lastmod>2024-12-13T13:25:50+00:00</lastmod>
+  <lastmod>2024-12-15T12:34:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
