@@ -216,6 +216,18 @@
         "year": 2024
     },
     {
+        "url":"https://tkouleris.eu/blog/zacharias-den-to-ftiaxno",
+        "category":"tech heroes",
+        "title":"Tech Heroes #6: Zacharias DenToFtiaxno",
+        "image":"https://tkouleris.eu/img/blog/code-monkey.jpg",
+        "date":"11 Aug. 2024",
+        "content":"<p style=\"text-align:justify;\">\n                                            Zacharias \"Den to Ftiaxno\" may not be globally renowned, but within the\n                                            programming circles of our small country, he is quite well-known. Zacharias\n                                            is the creation of a programmer, Sotiris Filippidis, who humorously captures\n                                            the everyday adventures of his character.\n                                        </p>\n                                        <p style=\"text-align:justify;\">\n                                            If you haven’t read the stories of Zacharias yet, you can visit the website\n                                            <i>Tria Kila Kodika</i> (<i>Three Kilos of Code</i>) to get to know both\n                                            Zacharias himself and the \"supporting cast\" of his tales. If you work in the\n                                            tech industry, you're almost guaranteed to find at least one story that\n                                            resonates with your own experiences.\n                                        </p><br/>\n                                        <h3 style=\"text-align:justify;\">The Social Nerds Interview</h3>\n                                        <p style=\"text-align:justify;\">\n                                            Sotiris Filippidis, aka Zacharias, recently gave an engaging interview on\n                                            the <b>Social Nerds</b> channel. To fully enjoy it, make sure you:\n                                        </p>\n                                        <ul style=\"text-align:justify;\">\n                                            <li>Have nothing important planned for the next two hours.</li>\n                                            <li>Grab some popcorn.</li>\n                                            <li>Relax and tune in.</li>\n                                        </ul>\n                                        <iframe width=\"560\" height=\"315\"\n                                                src=\"https://www.youtube.com/embed/mv7C5uXBepk?si=EWdEo2nM0FWefF8P\"\n                                                title=\"YouTube video player\" frameborder=\"0\"\n                                                allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n                                                referrerpolicy=\"strict-origin-when-cross-origin\"\n                                                allowfullscreen></iframe>",
+        "page":"zacharias-den-to-ftiaxno",
+        "description": "",
+        "keywords": "tech heroes, zacharias, sotiris filippidis",
+        "year": 2024
+    },
+    {
         "url":"https://tkouleris.eu/blog/four-projects-for-beginners",
         "category":"misc",
         "title":"Four simple projects for beginner programmers",
