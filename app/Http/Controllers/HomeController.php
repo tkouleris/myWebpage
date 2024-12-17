@@ -30,4 +30,12 @@ class HomeController extends Controller
         return view('blog')->with("current_data", $current_data)
             ->with("post", $blog_content);
     }
+
+    public function tag($tag)
+    {
+        $tag_path = storage_path('data/blog/tags');
+        $posts = json_decode(file_get_contents($tag_path."/data.json"), true);
+
+        return view('tags')->with("current_data", $posts[$tag]);
+    }
 }
