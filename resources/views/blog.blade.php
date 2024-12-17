@@ -74,7 +74,7 @@
                         <header class="entry-header">
                             <!-- Entry meta -->
                             <div class="entry-meta entry-meta-top">
-                                <span><a href="{{route('blog.tag', ['tag'=>$post['category']])}}#blog" rel="category tag">{{$post['category']}}</a></span>
+                                <span><a href="{{route('blog.tag', ['tag'=>$post['category']])}}" rel="category tag">{{$post['category']}}</a></span>
                                     <br/>
                                     <span>(click to check posts of this category)</span>
 
