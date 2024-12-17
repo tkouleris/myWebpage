@@ -1095,7 +1095,7 @@
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-12" style="padding-bottom: 15px;">
-                                <a href="">Archive</a>
+                                <a href="{{route('blog.archive')}}">Archive</a>
                             </div>
 
                             <div class="col-xs-12 col-sm-12">

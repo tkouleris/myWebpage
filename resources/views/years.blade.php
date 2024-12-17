@@ -61,35 +61,35 @@
                 <section data-id="blog" class="animated-section">
                     <div class="section-content">
                         <div class="page-title">
-                            <h2>Blog - {{$tag}}</h2>
+                            <h2>Blog - {{$year}}</h2>
                         </div>
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-12">
                                 <div class="blog-masonry two-columns clearfix">
                                     @foreach($current_data as $index => $post)
-                                    <div class="item post-{{$index}}">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="{{$post['category']}}">{{$post['category']}}</a>
+                                        <div class="item post-{{$index}}">
+                                            <div class="blog-card">
+                                                <div class="media-block">
+                                                    <div class="category">
+                                                        <a href="#" title="{{$post['category']}}">{{$post['category']}}</a>
+                                                    </div>
+                                                    <a target=”_blank” href="{{$post['url']}}">
+                                                        <img src="{{$post['image']}}"
+                                                             class="size-blog-masonry-image-two-c"
+                                                             alt="{{$post['title']}}"
+                                                             title="{{$post['title']}}" style="width:100%;"/>
+                                                        <div class="mask"></div>
+                                                    </a>
                                                 </div>
-                                                <a target=”_blank” href="{{$post['url']}}">
-                                                    <img src="{{$post['image']}}"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="{{$post['title']}}"
-                                                         title="{{$post['title']}}" style="width:100%;"/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">{{$post['date']}}</div>
-                                                <a target=”_blank” href="{{$post['url']}}">
-                                                    <h4 class="blog-item-title">{{$post['title']}}</h4>
-                                                </a>
+                                                <div class="post-info">
+                                                    <div class="post-date">{{$post['date']}}</div>
+                                                    <a target=”_blank” href="{{$post['url']}}">
+                                                        <h4 class="blog-item-title">{{$post['title']}}</h4>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
                                     @endforeach
 
                                 </div>

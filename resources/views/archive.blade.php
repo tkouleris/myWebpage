@@ -93,7 +93,7 @@
                                                         padding-right: 5px;
                                                         padding-left: 5px;"
                                             >
-                                                <a href="{{route('blog.tag', ['tag'=>$year])}}">{{$year}}</a>
+                                                <a href="{{route('blog.year', ['year'=>$year])}}">{{$year}}</a>
                                             </div>
                                         @endforeach
                                     </div>
