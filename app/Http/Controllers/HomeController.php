@@ -38,4 +38,16 @@ class HomeController extends Controller
 
         return view('tags')->with("current_data", $posts[$tag]);
     }
+
+    public function archive()
+    {
+        $tag_path = storage_path('data/blog/tags');
+        $posts = json_decode(file_get_contents($tag_path."/data.json"), true);
+        $tags = array_keys($posts);
+
+        $year_path = storage_path('data/blog/year');
+        $posts = json_decode(file_get_contents($year_path."/data.json"), true);
+        $years = array_keys($posts);
+        return view('archive')->with("tags", $tags)->with('years', $years);
+    }
 }

@@ -1094,7 +1094,12 @@
                         </div>
 
                         <div class="row">
+                            <div class="col-xs-12 col-sm-12" style="padding-bottom: 15px;">
+                                <a href="">Archive</a>
+                            </div>
+
                             <div class="col-xs-12 col-sm-12">
+
                                 <div class="blog-masonry two-columns clearfix">
                                     @foreach($current_data as $index => $post)
                                         <div class="item post-{{$index}}">
