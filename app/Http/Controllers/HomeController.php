@@ -20,7 +20,7 @@ class HomeController extends Controller
         $year_path = storage_path('data/blog/year');
         $posts = json_decode(file_get_contents($year_path."/data.json"), true);
         $current_year = date('Y');
-        $current_data = $posts[$current_year];
+        $current_data = $posts[$current_year]??[];
 
 
         $raw_blog_content =  json_decode(file_get_contents( storage_path()."/data/blog/page/data.json"), true);
