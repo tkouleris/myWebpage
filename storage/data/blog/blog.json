@@ -253,7 +253,7 @@
     },
     {
         "url":"https://tkouleris.eu/blog/floppy-disk",
-        "category":"forgotten technology",
+        "category":"tech heroes",
         "title":"Forgotten Technology #1: Floppy disk",
         "image":"https://tkouleris.eu/img/blog/forgotten_tech_1_floppy_disk.png",
         "date":"21 July 2024",
@@ -261,6 +261,18 @@
         "page":"floppy-disk",
         "description": "Before the Internet, DVD-ROMs, and CD-ROMs, the easiest and fastest way to transfer data between computers was the floppy disk. The floppy disk was a thin, flexible plastic object, either 3.5 inches or 5.25 inches in size, containing a magnetic disk inside its casing. Its maximum storage capacity was 1.44 MB—barely enough to hold even one MP3 song. Back then, however, storage needs were much less demanding than they are today.",
         "keywords": "forgotten technology, floppy disk",
+        "year": 2024
+    },
+    {
+        "url":"https://tkouleris.eu/blog/bram-cohen",
+        "category":"forgotten technology",
+        "title":"Tech Heroes #5: Bram Cohen",
+        "image":"https://tkouleris.eu/img/blog/bram-cohen.jpg",
+        "date":"03 May 2024",
+        "content":"<p style=\"text-align:justify\">One of the most important figures in computer\n                                            science, who fundamentally changed the way files are shared, is Bram Cohen,\n                                            the creator of the immensely popular BitTorrent.</p>\n\n                                        <p style=\"text-align:justify\">Cohen began his journey in computer science at a\n                                            young age, as his father was a computer science teacher. Thus, programming\n                                            entered Bram's life early on through the then-famous programming language\n                                            BASIC, which was widely used for coding at the time.</p>\n\n                                        <p style=\"text-align:justify\">However, his greatest contribution to computer\n                                            science came much later. It was a time when the internet was gradually\n                                            becoming a part of everyone’s life. Back then, internet speeds were slow,\n                                            file sizes were large, and the demand for downloads was even greater. While\n                                            there were platforms like KaZaA for file transfers (both legal and illegal),\n                                            and FTP for mainly legal downloads, a significant problem persisted. If the\n                                            files were large and the demand for downloads high, as mentioned earlier,\n                                            download speeds would drop dramatically.</p>\n\n                                        <p style=\"text-align:justify\">To solve this problem, Cohen came up with an idea\n                                            that could be described as \"communistic.\" Anyone who wanted a file could\n                                            obtain it from multiple sources simultaneously. For example, if Byron and\n                                            Alice had the file and Kostas wanted to download it, he could download parts\n                                            of the file from both Byron and Alice at the same time. Once Kostas\n                                            completed his download and had the file on his disk, he would then become a\n                                            third node from which others could download the file.</p>\n\n                                        <p style=\"text-align:justify\">This approach distributed the load among all those\n                                            who had the file, improving download speeds. To achieve this, Cohen invented\n                                            BitTorrent. Essentially, BitTorrent is a small file that contains\n                                            information about where someone can find the file they want to download.\n                                            Using the earlier example, Kostas would first download this small file,\n                                            which would contain details about Byron and Alice. Once Kostas completed the\n                                            download, his information would also be added to the file for the next\n                                            person seeking the same download.</p>\n\n                                        <p style=\"text-align:justify\">The decentralized technology Cohen created is\n                                            still widely used today. It made transferring movies and music easier and\n                                            led to the rise of websites like The Pirate Bay.</p>",
+        "page":"bram-cohen",
+        "description": "One of the most important figures in computer science, who fundamentally changed the way files are shared, is Bram Cohen, the creator of the immensely popular BitTorrent.",
+        "keywords": "tech heroes, bram cohen, bittorent, kazaa, file sharing",
         "year": 2024
     }
 ]
