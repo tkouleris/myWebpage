@@ -21,7 +21,8 @@ Route::get('/archive', [\App\Http\Controllers\HomeController::class,'archive'])-
 
 // 301 - Redirects
 Route::get('/index.html', [\App\Http\Controllers\RedirectController::class,'index'])->name('redirect.index');
-Route::get('/portfolio.html', [\App\Http\Controllers\RedirectController::class,'portfolio'])->name('redirect.index');
-Route::get('/cv/cv.pdf', [\App\Http\Controllers\RedirectController::class,'cv'])->name('redirect.index');
+Route::get('/portfolio.html', [\App\Http\Controllers\RedirectController::class,'portfolio'])->name('redirect.portfolio');
+Route::get('/cv/cv.pdf', [\App\Http\Controllers\RedirectController::class,'cv'])->name('redirect.cv');
+Route::get('/aboutme.html', [\App\Http\Controllers\RedirectController::class,'aboutme'])->name('redirect.aboutme');
 
 Route::post('/mail', [\App\Http\Controllers\MailController::class,'send'])->name('mail.send');

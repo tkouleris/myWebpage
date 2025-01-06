@@ -21,4 +21,9 @@ class RedirectController extends Controller
     {
         return Redirect::to('/cv/T.Kouleris.pdf', 301);
     }
+
+    public function aboutme()
+    {
+        return Redirect::to('/#about-me', 301);
+    }
 }
