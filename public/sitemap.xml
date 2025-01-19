@@ -9,7 +9,7 @@
 
 <url>
   <loc>https://tkouleris.eu/</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -19,227 +19,237 @@
 </url>
 <url>
   <loc>https://tkouleris.eu/archive</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tkouleris.eu/blog/webcheck</loc>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/the-ball-mouse</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/jwt</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://tkouleris.eu/tag/utilities</loc>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://tkouleris.eu/tag/forgotten%20technology</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/programming</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/design%20patterns</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/sql</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/misc</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/video%20games</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/sorting%20algorithms</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/code</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/computer%20science%20movies</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/dangerous%20software</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/tech%20heroes</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/tag/python%20tutorial</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/year/2025</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/year/2024</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/year/2023</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/isa-slots</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/cassete-tape</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/modem</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/floppy-disk</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/four-projects-for-beginners</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/the-repository-pattern-java-php</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/composite-pattern</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/immutable-databases</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/sql-indexes</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/open-source-conspiracy</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/three-things-for-programmers-to-avoid</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/greek-programmers-on-youtube</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/are-video-games-waste-of-time</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/donkey-kong-country-behind-the-scenes</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/bubble-sort</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/three-rules-for-readable-code</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/antitrust</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/therac-25</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/alan-turing</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/zacharias-den-to-ftiaxno</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/bram-cohen</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/anonymous</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/alan-cox</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/linus-torvalds</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/john-carmack</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/python-tutorial-4</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://tkouleris.eu/blog/python-tutorial-3</loc>
-  <lastmod>2025-01-12T09:05:12+00:00</lastmod>
+  <lastmod>2025-01-19T10:37:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
