@@ -1,5 +1,17 @@
 [
     {
+        "url":"https://tkouleris.eu/blog/webcheck",
+        "category":"utilities",
+        "title":"WebCheck: Discover What Hackers Know About Your Site",
+        "image":"https://tkouleris.eu/img/blog/webcheck/webcheck.jpg",
+        "date":"19 Jan. 2025",
+        "content":"                                        <p style=\"text-align:justify\">There are times when you'd like to know what all\n                                            those hackers know about your site that you might be unaware of. So, you\n                                            fire up 5-6 tools on your computer, open browser tabs with helpful sites,\n                                            and start getting lost in applications and data that you're trying to\n                                            organize somehow.</p>\n\n                                        <p style=\"text-align:justify\">But fear not! Developers from around the world\n                                            have found the solution. <b>WebCheck</b>, the app that will help you discover what\n                                            hackers know about your site — or rather, what you've allowed them to know —\n                                            all gathered in one place.</p>\n\n                                        <p style=\"text-align:justify\">All you need to do is enter your website's URL,\n                                            and within seconds, you'll know about your DNS, who has blocked you,\n                                            information about your SSL certificate, and many other things you might\n                                            never have thought to check—like your website's CO2 emissions!</p>\n\n                                        <p style=\"text-align:justify\">Live version: <a href=\"https://web-check.xyz/\">https://web-check.xyz/</a>\n                                        </p>\n\n                                        <p style=\"text-align:justify\">Source code: <a\n                                            href=\"https://github.com/Lissy93/web-check\">https://github.com/Lissy93/web-check</a>\n                                        </p>",
+        "page":"webcheck",
+        "description": "There are times when you'd like to know what all those hackers know about your site that you might be unaware of. So, you fire up 5-6 tools on your computer, open browser tabs with helpful sites, and start getting lost in applications and data that you're trying to organize somehow.",
+        "keywords": "webcheck, security, tool, tools",
+        "year": 2025
+    },
+    {
         "url":"https://tkouleris.eu/blog/the-ball-mouse",
         "category":"forgotten technology",
         "title":"Forgotten Technologies #5: The Ball Mouse",
