@@ -1147,35 +1147,30 @@
                             <!-- Contact Info -->
                             <div class="col-xs-12 col-sm-4">
                                 <div class="lm-info-block gray-default">
-                                    <i class="lnr lnr-map-marker"></i>
-                                    <h4>Kallithea</h4>
-                                    <span class="lm-info-block-value"></span>
-                                    <span class="lm-info-block-text"></span>
-                                </div>
-
-                                <!--                                <div class="lm-info-block gray-default">-->
-                                <!--                                    <i class="lnr lnr-phone-handset"></i>-->
-                                <!--                                    <h4>415-832-2000</h4>-->
-                                <!--                                    <span class="lm-info-block-value"></span>-->
-                                <!--                                    <span class="lm-info-block-text"></span>-->
-                                <!--                                </div>-->
-                                <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-envelope"></i>
                                     <h4>tkouleris@gmail.com</h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
                                 <div class="lm-info-block gray-default">
-                                    <i class="fab fa-twitter"></i>
-                                    <h4><a href="https://twitter.com/tkouleris" target="_blank">@tkouleris</a></h4>
+                                    <i class="fab fa-bluesky"></i>
+                                    <h4><a href="https://bsky.app/profile/tkouleris.eu" target="_blank">tkouleris.eu</a></h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
 
                                 <div class="lm-info-block gray-default">
-                                    <i class="lnr lnr-checkmark-circle"></i>
+                                    <i class="fab fa-linkedin"></i>
                                     <h4><a href="https://www.linkedin.com/in/tkouleris/"
                                            target="_blank">LinkedIn</a></h4>
+                                    <span class="lm-info-block-value"></span>
+                                    <span class="lm-info-block-text"></span>
+                                </div>
+
+                                <div class="lm-info-block gray-default">
+                                    <i class="fab fa-facebook"></i>
+                                    <h4><a href="https://www.facebook.com/kouleris"
+                                           target="_blank">Facebook</a></h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
@@ -1186,9 +1181,7 @@
 
                             <!-- Contact Form -->
                             <div class="col-xs-12 col-sm-8">
-                                <div class="lmpixels-map">
-                                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                                </div>
+
                                 <div class="block-title">
                                     <h3>How Can I <span>Help You?!</span></h3>
                                 </div>
@@ -1259,17 +1252,7 @@
 
     </div>
 </div>
-<!-- Google Analytics -->
-<!--<script>-->
-<!--    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
-<!--        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
-<!--        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
-<!--    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');-->
 
-<!--    ga('create', 'UA-1051647-1', 'auto');-->
-<!--    ga('send', 'pageview');-->
-<!--</script>-->
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CF6G03Q5JN"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
