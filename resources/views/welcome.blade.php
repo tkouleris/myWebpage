@@ -204,7 +204,8 @@
                                                     - <a href="http://www.facebook.com/kouleris">Facebook</a><br/>
                                                     - <a
                                                         href="https://www.youtube.com/@tkouleris">YouTube</a><br/>
-                                                    - <a href="https://dev.to/tkouleris">DEV</a>
+                                                    - <a href="https://dev.to/tkouleris">DEV</a><br/>
+                                                    - <a href="https://bsky.app/profile/tkouleris.eu">Bluesky</a>
                                                 </p>
 
                                             </div>
