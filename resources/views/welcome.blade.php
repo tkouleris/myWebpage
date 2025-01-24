@@ -88,7 +88,7 @@
                         <!-- Personal Information -->
                         <div class="row">
                             <div class="col-xs-12 col-sm-7">
-                                <p>
+                                <p style="text-align: justify">
                                     Hello there!! Welcome to my web site. Yes, this is another boring web site. I made
                                     it because I am a vain human who has little life out of computers. This page is
                                     about things that I like to do. Because this is a personal web site you may read a
@@ -143,7 +143,7 @@
                                             </div>
                                             <div class="ci-text">
                                                 <h4>Free Time</h4>
-                                                <p>
+                                                <p style="text-align: justify">
                                                     At my free time, besides programming I love watching movies and TV
                                                     shows, reading books, playing video games and listen to music.
                                                 </p>
@@ -155,12 +155,13 @@
                                             </div>
                                             <div class="ci-text">
                                                 <h4>Computers</h4>
-                                                <p>
+                                                <p style="text-align: justify">
                                                     <b>Athena: </b>
                                                     This is my main computer. I spent a lot of time with it. It has 32GB
                                                     of RAM, an Intel Core i5-10600K at 4.1Gh and an RTX 3060 8GB. I used
                                                     to have Linux installed but for the last 3 years I switched to
-                                                    Win10.<br/>
+                                                    Win10.</p>
+                                                <p style="text-align: justify">
                                                     <b>Mars: </b>
                                                     This is my portable computer. It's a Huawei MateBook D16 16.1" IPS
                                                     FHD with 16GB of RAM and a Ryzen 5 4600H CPU. It's a good
@@ -185,7 +186,7 @@
                                             </div>
                                             <div class="ci-text">
                                                 <h4>Programming</h4>
-                                                <p>
+                                                <p style="text-align: justify">
                                                     I like building web apps that may be helpful to others. I use PHP,
                                                     Python or Java for the backend,
                                                     Vue for the front-end and React Native for the mobile versions of my
@@ -200,12 +201,12 @@
                                             <div class="ci-text">
                                                 <h4>Where to find me</h4>
                                                 <p>
-                                                    - <a href="https://tkouleris.eu/#blog">My Blog</a><br/>
-                                                    - <a href="http://www.facebook.com/kouleris">Facebook</a><br/>
-                                                    - <a
-                                                        href="https://www.youtube.com/@tkouleris">YouTube</a><br/>
+                                                    - <a href="https://github.com/tkouleris">GitHub</a><br/>
+                                                    - <a href="https://app.daily.dev/">Daily Dev</a><br/>
                                                     - <a href="https://dev.to/tkouleris">DEV</a><br/>
-                                                    - <a href="https://bsky.app/profile/tkouleris.eu">Bluesky</a>
+                                                    - <a href="https://bsky.app/profile/tkouleris.eu">Bluesky</a><br/>
+                                                    - <a href="http://www.facebook.com/kouleris">Facebook</a><br/>
+                                                    - <a href="https://www.youtube.com/@tkouleris">YouTube</a><br/>
                                                 </p>
 
                                             </div>
