@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/richard-stallman</loc>
+        <lastmod>2025-02-02T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/computer-addiction-80s</loc>
         <lastmod>2025-01-25T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -234,7 +239,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/tech%20heroes</loc>
-        <lastmod>2025-01-19T10:37:15+00:00</lastmod>
+        <lastmod>2025-02-02T10:37:15+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
