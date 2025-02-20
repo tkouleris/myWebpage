@@ -24,8 +24,11 @@ class HomeController extends Controller
 
 
         $raw_blog_content =  json_decode(file_get_contents( storage_path()."/data/blog/page/data.json"), true);
-        $blog_content = $raw_blog_content[$page];
+        $blog_content = $raw_blog_content[$page]??null;
 
+        if(is_null($blog_content)){
+            abort(404);
+        }
 
         return view('blog')->with("current_data", $current_data)
             ->with("post", $blog_content);
