@@ -82,12 +82,10 @@
                         var messageAlert = 'alert-' + data.type;
                         var messageText = data.message;
                         alert(messageText);
-                        //
-                        // var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                        console.log(data.type);
+
                         if (data.type === 'success') {
                             // $('#contact_form').find('.messages').html(alertBox);
-                            $('#contact_form')[0].reset();
+                            window.location.reload();
                         }
                     }
                 });

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Mailgun\Mailgun;
 
 
 class MailController extends Controller
@@ -23,14 +24,32 @@ class MailController extends Controller
 
             $responseData = json_decode($verifyResponse);
             if($responseData->success){
+
                 $subject = $request->input('subject');
                 $email = $request->input('email');
                 $name = $request->input('name');
                 $message_txt = "Mail-From: $email ( $name ) \r\n" . $request->input('message');
                 $to_mail = config('mail.to');
 
-                Mail::raw($message_txt, function ($message) use ($subject, $to_mail) {
-                    $message->to($to_mail)->subject($subject);});
+                $api_key = config('mailgun.api_key');
+                $server = config('mailgun.server');
+                $domain = config('mailgun.domain');
+
+                $mg = Mailgun::create($api_key, $server);
+                $mg->messages()->send($domain, [
+                    'from'		=> $email,
+                    'to'			=> $to_mail,
+                    'subject' => $subject,
+                    'text'		=> $message_txt
+                ]);
+//                $subject = $request->input('subject');
+//                $email = $request->input('email');
+//                $name = $request->input('name');
+//                $message_txt = "Mail-From: $email ( $name ) \r\n" . $request->input('message');
+//                $to_mail = config('mail.to');
+//
+//                Mail::raw($message_txt, function ($message) use ($subject, $to_mail) {
+//                    $message->to($to_mail)->subject($subject);});
             }
             return response()->json(['type' => 'success', 'message' => 'Message sent!'], 200);
         }
