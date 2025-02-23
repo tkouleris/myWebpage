@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/how-ssh-works</loc>
+        <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/operation-takedown</loc>
         <lastmod>2025-02-16T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -219,7 +224,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/misc</loc>
-        <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+        <lastmod>2025-02-23T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
