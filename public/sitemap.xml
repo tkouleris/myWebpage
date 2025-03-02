@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/three-sites-that-will-make-you-a-better-developer</loc>
+        <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/how-ssh-works</loc>
         <lastmod>2025-02-23T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -224,7 +229,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/misc</loc>
-        <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+        <lastmod>2025-03-02T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
