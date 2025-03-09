@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/insertion-sort</loc>
+        <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/three-sites-that-will-make-you-a-better-developer</loc>
         <lastmod>2025-03-02T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -239,7 +244,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/sorting%20algorithms</loc>
-        <lastmod>2025-01-19T10:37:15+00:00</lastmod>
+        <lastmod>2025-03-09T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
