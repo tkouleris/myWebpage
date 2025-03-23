@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/terry-davis-a-tortured-genius</loc>
+        <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/code-kata</loc>
         <lastmod>2025-03-17T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -264,7 +269,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/tech%20heroes</loc>
-        <lastmod>2025-02-02T10:37:15+00:00</lastmod>
+        <lastmod>2025-03-23T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
