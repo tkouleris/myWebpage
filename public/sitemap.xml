@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/hackers</loc>
+        <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/singleton-pattern</loc>
         <lastmod>2025-03-31T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -269,7 +274,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/computer%20science%20movies</loc>
-        <lastmod>2025-02-16T00:00:00+00:00</lastmod>
+        <lastmod>2025-04-14T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
