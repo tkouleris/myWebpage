@@ -23,6 +23,16 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/archive</loc>
+        <lastmod>2025-04-29T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://tkouleris.eu/blog/linked-lists</loc>
+        <lastmod>2025-04-29T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/hackers</loc>
         <lastmod>2025-04-14T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -285,6 +295,11 @@
     <url>
         <loc>https://tkouleris.eu/tag/tech%20heroes</loc>
         <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://tkouleris.eu/tag/data%20structures</loc>
+        <lastmod>2025-04-29T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
