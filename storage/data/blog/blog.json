@@ -1,5 +1,17 @@
 [
     {
+        "url":"https://tkouleris.eu/blog/law-of-demeter",
+        "category":"programming",
+        "title":"The Law of Demeter",
+        "image":"https://tkouleris.eu/img/blog/law-of-demeter/law-of-demeter.jpg",
+        "date":"15 Jun. 2025",
+        "content":"",
+        "page":"law-of-demeter",
+        "description": "The Law of Demeter advises objects to only talk to their immediate friends—avoiding chained calls—to reduce coupling and improve code modularity, maintainability, and flexibility.",
+        "keywords": "law of demeter, object oriented design, software design principles, low coupling, encapsulation, demeter principle, clean code, design patterns, oop best practices, software architecture",
+        "year": 2025
+    },
+    {
         "url":"https://tkouleris.eu/blog/binary-search-tree",
         "category":"data structures",
         "title":"Data Structures #4: Binary Search Tree",
