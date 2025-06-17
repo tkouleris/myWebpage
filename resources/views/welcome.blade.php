@@ -502,7 +502,7 @@
                                         <div class="divider"></div>
                                         <div class="right-part">
                                             <h4 class="item-title">Software Engineer</h4>
-                                            <p>PHP for back end developer, Vue for front-end for IoT Systems</p>
+                                            <p>PHP and Python back end developer, Vue front-end for IoT Systems</p>
                                         </div>
                                     </div>
 
