@@ -1,5 +1,17 @@
 [
     {
+        "url":"https://tkouleris.eu/blog/slot-cpu",
+        "category":"forgotten technology",
+        "title":"Forgotten Technologies #6: Slot CPU",
+        "image":"https://tkouleris.eu/img/blog/slot-cpu/slot-cpu.jpg",
+        "date":"06 July 2025",
+        "content":"html.txt\n                                        <p style=\"text-align: justify;\">\n                                            These days, most CPUs pretty much look the same. They're just flat chips\n                                            that drop into a socket\n                                            on the motherboard, you latch them in, slap a heatsink on top, and you're\n                                            good to go. But it wasn’t\n                                            always like this. A while back, things looked a bit more... wild.\n                                        </p>\n\n                                        <p style=\"text-align: justify;\">\n                                            Back then, some CPUs basically looked like little adapter cards. You had the\n                                            processor itself\n                                            soldered onto a small PCB, along with separate cache chips, all wrapped in a\n                                            plastic shell.\n                                            Instead of dropping into a socket, these things slid into slots—kind of like\n                                            PCIe slots.\n                                        </p>\n\n                                        <p style=\"text-align: justify;\">\n                                            Intel kicked things off with the Pentium II in '97, their first slot-based\n                                            desktop CPU.\n                                            They needed more room for the external cache, which today is just built\n                                            right into the chip.\n                                            AMD jumped on the slot train too with their original Athlon line.\n                                        </p>\n                                        <p style=\"text-align: justify;\">\n                                            Slot CPUs eventually went extinct—for good reason. They were big, clunky,\n                                            and didn’t age well.\n                                            If you’ve never seen one in real life, you’re not missing much—but they were\n                                            definitely a thing.\n                                        </p>",
+        "page":"slot-cpu",
+        "description": "Back in the day, some CPUs looked like adapter cards and slotted into the motherboard. Intel's Pentium II and AMD's Athlon used this design before sockets took over and cache moved on-die.",
+        "keywords": "pentium ii, slot cpu, amd athlon, adapter card, cpu cache, motherboard slot, retro hardware, cpu design, intel, external cache, old cpus, desktop processors, slot-based cpu, pc history",
+        "year": 2025
+    },
+    {
         "url":"https://tkouleris.eu/blog/law-of-demeter",
         "category":"programming",
         "title":"The Law of Demeter",
