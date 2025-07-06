@@ -1114,6 +1114,7 @@
                                                         <img src="{{$post['image']}}"
                                                              class="size-blog-masonry-image-two-c"
                                                              alt="{{$post['title']}}"
+                                                             loading="lazy"
                                                              title="{{$post['title']}}" style="width:100%;"/>
                                                         <div class="mask"></div>
                                                     </a>
