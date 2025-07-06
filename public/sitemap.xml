@@ -19,7 +19,12 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/archive</loc>
-        <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+        <lastmod>2025-07-06T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://tkouleris.eu/blog/slot-cpu</loc>
+        <lastmod>2025-07-06T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
@@ -269,7 +274,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/forgotten%20technology</loc>
-        <lastmod>2025-01-19T10:37:15+00:00</lastmod>
+        <lastmod>2025-07-06T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
