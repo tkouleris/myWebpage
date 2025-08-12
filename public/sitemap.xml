@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/strategy-design-pattern</loc>
+        <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/programmers-get-moving</loc>
         <lastmod>2025-08-03T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -289,7 +294,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/design%20patterns</loc>
-        <lastmod>2025-03-19T00:00:00+00:00</lastmod>
+        <lastmod>2025-08-12T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
