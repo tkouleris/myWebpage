@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/adobe-flash</loc>
+        <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/async-await</loc>
         <lastmod>2025-08-27T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -299,7 +304,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/forgotten%20technology</loc>
-        <lastmod>2025-07-06T00:00:00+00:00</lastmod>
+        <lastmod>2025-08-28T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
