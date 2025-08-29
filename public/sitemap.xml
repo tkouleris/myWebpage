@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/eric-s-raymond</loc>
+        <lastmod>2025-08-29T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/adobe-flash</loc>
         <lastmod>2025-08-28T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -349,7 +354,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/tech%20heroes</loc>
-        <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+        <lastmod>2025-08-29T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
