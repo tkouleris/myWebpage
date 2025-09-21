@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/raf-chinook-helicopter</loc>
+        <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/three-tips-for-efficient-sql-queries</loc>
         <lastmod>2025-09-07T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -359,7 +364,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/dangerous%20software</loc>
-        <lastmod>2025-01-19T10:37:15+00:00</lastmod>
+        <lastmod>2025-09-21T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
