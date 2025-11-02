@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/music-for-programmers</loc>
+        <lastmod>2025-11-02T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/merge-sort</loc>
         <lastmod>2025-10-19T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -349,7 +354,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/misc</loc>
-        <lastmod>2025-08-31T00:00:00+00:00</lastmod>
+        <lastmod>2025-11-02T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
