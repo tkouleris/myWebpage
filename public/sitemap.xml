@@ -19,7 +19,12 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/archive</loc>
-        <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+        <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://tkouleris.eu/blog/invokable-controller</loc>
+        <lastmod>2026-01-04T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
@@ -410,6 +415,11 @@
     <url>
         <loc>https://tkouleris.eu/tag/dangerous%20software</loc>
         <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://tkouleris.eu/tag/laravel</loc>
+        <lastmod>2026-01-04T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
