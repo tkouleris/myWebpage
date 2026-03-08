@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/devs</loc>
+        <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/from-imposter-syndrom-to-dunning-krugger-effect</loc>
         <lastmod>2026-02-22T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
