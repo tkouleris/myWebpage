@@ -1018,6 +1018,20 @@
                                             <h4 class="name">Star Fighter (Game)</h4>
                                             <span class="category">Star Fighter (Game)</span>
                                         </figure>
+
+                                        <figure class="item"
+                                                data-groups='["category_all", "category_soundcloud"]'>
+                                            <div class="portfolio-item-img">
+                                                <img src="img/portfolio/wage.png" alt="Devs Wage Prediction (Greek)"
+                                                     title=""/>
+                                                <a target="_blank" href="https://wage.tkouleris.eu/"
+                                                   title="Devs Wage Prediction (Greek)"></a>
+                                            </div>
+
+
+                                            <h4 class="name">Devs Wage Prediction (Greek)</h4>
+                                            <span class="category">Devs Wage Prediction (Greek)</span>
+                                        </figure>
                                         <!--                                        <figure class="item standard"-->
                                         <!--                                                data-groups='["category_all", "category_detailed"]'>-->
                                         <!--                                            <div class="portfolio-item-img">-->
