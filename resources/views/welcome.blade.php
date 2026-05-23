@@ -953,7 +953,7 @@
                                         <figure class="item lbaudio"
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/weather_app.png" alt="SoundCloud Audio"
+                                                <img src="img/portfolio/weather_app.webp" alt="SoundCloud Audio"
                                                      title=""/>
                                                 <a target="_blank" href="https://weather.tkouleris.eu/?city_id=209098"
                                                    class="lightbox mfp-iframe" title="Weather App"></a>
@@ -967,7 +967,7 @@
                                         <figure class="item"
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/pharmacy_api.jpg" alt="Pharmacy API" title=""/>
+                                                <img src="img/portfolio/pharmacy_api.webp" alt="Pharmacy API" title=""/>
                                                 <a target="_blank" href="https://pharmacy.tkouleris.eu/"
                                                    title="Pharmacy API"></a>
                                             </div>
@@ -980,7 +980,7 @@
                                         <figure class="item"
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/pharmacy_android_app.jpg"
+                                                <img src="img/portfolio/pharmacy_android_app.webp"
                                                      alt="Pharmacy Android App" title=""/>
                                                 <a target="_blank" href="{{asset('apps/pharmacy_v1.apk')}}"
                                                    title="Pharmacy Android App"></a>
@@ -994,7 +994,7 @@
                                         <figure class="item"
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/trivia_web_app.jpg" alt="Trivia Web App"
+                                                <img src="img/portfolio/trivia_web_app.webp" alt="Trivia Web App"
                                                      title=""/>
                                                 <a target="_blank" href="https://trivia.tkouleris.eu"
                                                    title="Trivia Web App"></a>
@@ -1008,7 +1008,7 @@
                                         <figure class="item"
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/starfighter.png" alt="Star Fighter (Game)"
+                                                <img src="img/portfolio/starfighter.webp" alt="Star Fighter (Game)"
                                                      title=""/>
                                                 <a target="_blank" href="{{asset('apps/starfighter.zip')}}"
                                                    title="Trivia Web App"></a>
@@ -1022,7 +1022,7 @@
                                         <figure class="item"
                                                 data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/wage.png" alt="Devs Wage Prediction (Greek)"
+                                                <img src="img/portfolio/wage.webp" alt="Devs Wage Prediction (Greek)"
                                                      title=""/>
                                                 <a target="_blank" href="https://wage.tkouleris.eu/"
                                                    title="Devs Wage Prediction (Greek)"></a>
