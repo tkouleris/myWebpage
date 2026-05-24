@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/localwp</loc>
+        <lastmod>2026-05-24T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/compresso</loc>
         <lastmod>2026-05-23T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -419,7 +424,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/utilities</loc>
-        <lastmod>2026-05-23T00:00:00+00:00</lastmod>
+        <lastmod>2026-05-24T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
