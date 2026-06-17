@@ -204,6 +204,7 @@
                                                     - <a href="https://github.com/tkouleris">GitHub</a><br/>
                                                     - <a href="https://app.daily.dev/">Daily Dev</a><br/>
                                                     - <a href="https://dev.to/tkouleris">DEV</a><br/>
+                                                    - <a href="https://x.com/tkouleris">X</a><br/>
                                                     - <a href="https://bsky.app/profile/tkouleris.eu">Bluesky</a><br/>
                                                     - <a href="http://www.facebook.com/kouleris">Facebook</a><br/>
                                                     - <a href="https://www.youtube.com/@tkouleris">YouTube</a><br/>
