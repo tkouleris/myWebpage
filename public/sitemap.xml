@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/nikola-tesla</loc>
+        <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/localsend</loc>
         <lastmod>2026-05-31T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -489,7 +494,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/tech%20heroes</loc>
-        <lastmod>2025-08-29T00:00:00+00:00</lastmod>
+        <lastmod>2026-07-10T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
