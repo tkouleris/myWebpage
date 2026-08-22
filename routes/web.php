@@ -26,3 +26,8 @@ Route::get('/cv/cv.pdf', [\App\Http\Controllers\RedirectController::class,'cv'])
 Route::get('/aboutme.html', [\App\Http\Controllers\RedirectController::class,'aboutme'])->name('redirect.aboutme');
 
 Route::post('/mail', [\App\Http\Controllers\MailController::class,'send'])->name('mail.send');
+
+
+Route::group(['prefix' => 'demo'], function () {
+    Route::get('/', [\App\Http\Controllers\DemoController::class,'index'])->name('main.index');
+});

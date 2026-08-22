@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Title | Blog | Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+            <li><a href="projects.html"><i class="fas fa-briefcase"></i> Projects</a></li>
+            <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="post-content">
+        <div class="post-banner" style="background-image: url('https://tkouleris.eu/img/blog/system-design/oltp-vs-olap.webp');"></div>
+        <div class="post-header">
+            <h1>OLTP vs OLAP</h1>
+            <p>Published on: July 31, 2026</p>
+        </div>
+        <div class="post-body">
+            <p>Modern organizations use different types of data systems depending on whether they need to process daily operations or analyze business information. The two main categories are <strong>OLTP (Online Transaction Processing)</strong> and <strong>OLAP (Online Analytical Processing)</strong>, each optimized for a different type of workload.</p>
+
+            <h3>Managing Real-Time Transactions (OLTP)</h3>
+            <p>OLTP systems are designed for high-volume, real-time operations where speed, consistency, and reliability are essential. They handle thousands of short transactions such as creating orders, processing payments, updating customer details, or managing inventory.</p>
+
+            <p>These systems rely on <a href="https://en.wikipedia.org/wiki/ACID" target="_blank">ACID</a> properties (Atomicity, Consistency, Isolation, Durability) to ensure that transactions are completed safely and accurately. OLTP databases typically use normalized schemas to reduce data duplication and maintain data integrity. This design makes them efficient for frequent writes but less suitable for complex analytical queries.</p>
+
+            <p>Popular OLTP products include PostgreSQL, MySQL, Oracle Database, and Microsoft SQL Server. They are commonly used in banking applications, e-commerce platforms, reservation systems, and enterprise software.</p>
+
+            <h3>Analyzing Data at Scale (OLAP)</h3>
+            <p>OLAP systems are built for analyzing large volumes of historical data. Instead of handling many small transactions, they focus on complex queries, aggregations, and reporting tasks that help organizations discover trends and support decision-making.</p>
+
+            <p>OLAP platforms often use denormalized schemas such as star and snowflake models, along with columnar storage and optimized query engines. These features allow them to scan and process billions of records efficiently.</p>
+
+            <p>Examples of OLAP products include Snowflake, Google BigQuery, Amazon Redshift, Databricks SQL, and ClickHouse. They are widely used for business intelligence, financial analysis, customer insights, forecasting, and machine learning workloads.</p>
+
+            <h3>How They Work Together</h3>
+            <p>In modern data architectures, OLTP and OLAP systems typically operate together to support both real-time operations and advanced analytics. OLTP databases capture and manage transactional business events as they occur, and this data is then transferred to OLAP platforms for analysis, enabling valuable insights without impacting the performance and reliability of transactional workloads.</p>
+
+            <p>For example, an online retailer may use PostgreSQL to manage customer orders and payments, while using Snowflake or BigQuery to analyze sales trends and customer behavior.</p>
+
+            <p>It is important to understand the difference between OLTP and OLAP. Using the right database will help organizations build systems that are both reliable for daily operations and powerful for data-driven decision-making.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Software Engineer Portfolio</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
