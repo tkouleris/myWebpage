@@ -1,3 +1,3 @@
 <footer>
-    <p>&copy; 2026 Thodoris Kouleris</p>
+    <p>&copy; {{ now()->year }} Thodoris Kouleris</p>
 </footer>
