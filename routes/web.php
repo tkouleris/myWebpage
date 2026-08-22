@@ -29,5 +29,9 @@ Route::post('/mail', [\App\Http\Controllers\MailController::class,'send'])->name
 
 
 Route::group(['prefix' => 'demo'], function () {
-    Route::get('/', [\App\Http\Controllers\DemoController::class,'index'])->name('main.index');
+    Route::get('/', [\App\Http\Controllers\V3Controller::class,'index'])->name('demo.main.index');
+    Route::get('/about', [\App\Http\Controllers\V3Controller::class,'about'])->name('demo.main.about');
+    Route::get('/resume', [\App\Http\Controllers\V3Controller::class,'resume'])->name('demo.main.resume');
+    Route::get('/projects', [\App\Http\Controllers\V3Controller::class,'projects'])->name('demo.main.projects');
+    Route::get('/blog', [\App\Http\Controllers\V3Controller::class,'blog'])->name('demo.main.blog');
 });
