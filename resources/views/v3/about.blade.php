@@ -19,7 +19,7 @@
             <div class="about-info">
                 <p><i class="fas fa-calendar-alt"></i> DOB: 1982/09/22</p>
                 <p><i class="fas fa-map-marker-alt"></i> Residence: Greece</p>
-                <p><i class="fas fa-envelope"></i> Email: thodoris@kouleris.eu</p>
+                <p><i class="fas fa-envelope"></i> Email: tkouleris@gmail.com</p>
             </div>
         </div>
     </div>
