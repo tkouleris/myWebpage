@@ -34,4 +34,5 @@ Route::group(['prefix' => 'demo'], function () {
     Route::get('/resume', [\App\Http\Controllers\V3Controller::class,'resume'])->name('demo.main.resume');
     Route::get('/projects', [\App\Http\Controllers\V3Controller::class,'projects'])->name('demo.main.projects');
     Route::get('/blog', [\App\Http\Controllers\V3Controller::class,'blog'])->name('demo.main.blog');
+    Route::get('/blog/{page}', [\App\Http\Controllers\V3Controller::class,'post'])->name('demo.main.blog.page');
 });

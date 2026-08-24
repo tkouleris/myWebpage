@@ -36,4 +36,24 @@ class V3Controller extends Controller
 //        dd($current_data);
         return view('v3.blog')->with("current_data", $current_data);
     }
+
+    public function post(Request $request, $page)
+    {
+        $year_path = storage_path('data/blog/year');
+        $posts = json_decode(file_get_contents($year_path."/data.json"), true);
+        $current_year = date('Y');
+        $current_data = $posts[$current_year]??[];
+
+
+        $raw_blog_content =  json_decode(file_get_contents( storage_path()."/data/blog/page/data.json"), true);
+        $blog_content = $raw_blog_content[$page]??null;
+
+        if(is_null($blog_content)){
+            abort(404);
+        }
+        $blog_content['content'] = str_replace("<br/>", "", $blog_content['content']);
+
+        return view('v3.post')->with("current_data", $current_data)
+            ->with("post", $blog_content);
+    }
 }
