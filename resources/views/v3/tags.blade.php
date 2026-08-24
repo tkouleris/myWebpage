@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog |  Thodoris Kouleris - Software Engineer</title>
+    <title>Blog | Thodoris Kouleris - Software Engineer</title>
     <link rel="stylesheet" href="{{asset('v3/css/style.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -11,8 +11,7 @@
 @include('v3.partials.menu')
 
 <main>
-    <h1>Blog</h1>
-    <small><a style="color: #e63946 !important;" href="#">Archive</a></small>
+    <h1>{{$tag}}</h1>
     <div class="blog-grid">
         @foreach ($current_data as $post)
             <div class="blog-card">

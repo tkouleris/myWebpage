@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{$post['title']}} | Blog | Software Engineer Portfolio</title>
+    <title>{{$post['title']}} | Thodoris Kouleris - Software Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="description" content="{{$post['description']}}"/>
     <meta name="keywords" content="{{$post['keywords']}}"/>
@@ -29,8 +29,9 @@
     <div class="post-banner" style="background-image: url('{{$post['image']}}');"></div>
     <div class="post-header">
         <h1>{{$post['title']}}</h1>
-        <p><b>Published on:</b> {{$post['date']}}</p>
-        <p><b>Category:</b> {{$post['category']}}</p>
+
+        <p><b>Published on:</b> <a href="{{route('demo.blog.year',[$post['year']])}}">{{$post['date']}}</a></p>
+        <p><b>Category:</b> <a href="{{route('demo.blog.tag',[$post['category']])}}">{{$post['category']}}</a></p>
         <hr/>
     </div>
     <div class="post-body">
