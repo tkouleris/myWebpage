@@ -38,4 +38,4 @@ Route::get('/blog', [\App\Http\Controllers\V3Controller::class,'blog'])->name('d
 Route::get('/blog/{page}', [\App\Http\Controllers\V3Controller::class,'post'])->name('demo.blog.page');
 Route::get('/tag/{tag}', [\App\Http\Controllers\V3Controller::class,'tag'])->name('demo.blog.tag');
 Route::get('/year/{year}', [\App\Http\Controllers\V3Controller::class,'year'])->name('demo.blog.year');
-Route::get('/archive', [\App\Http\Controllers\V3Controller::class,'archive'])->name('blog.archive');
+Route::get('/archive', [\App\Http\Controllers\V3Controller::class,'archive'])->name('demo.blog.archive');
