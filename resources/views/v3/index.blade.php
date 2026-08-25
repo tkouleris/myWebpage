@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thodoris Kouleris - Software Engineer</title>
+    <meta name="description" content="Thodoris Kouleris - Software Engineer"/>
+    <meta name="keywords" content="kouleris, thodoris kouleris, software engineer, software developer, cv, projects"/>
+    <meta name="author" content="lmpixels"/>
+    <meta property="og:image" itemprop="image" content="https://tkouleris.eu/img/main_logo.png"/>
+    <link rel="icon" type="image/x-icon" href="https://tkouleris.eu/favicon.ico">
     <link rel="stylesheet" href="{{asset('v3/css/style.css')}}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
 </head>
 <body>
 @include('v3.partials.menu')
