@@ -12,7 +12,7 @@
 
 <main>
     <h1>Blog</h1>
-    <small><a style="color: #e63946 !important;" href="#">Archive</a></small>
+    <small><a style="color: #e63946 !important;" href="{{route('demo.blog.archive')}}">Archive</a></small>
     <div class="blog-grid">
         @foreach ($current_data as $post)
             <div class="blog-card">
