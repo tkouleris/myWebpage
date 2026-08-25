@@ -18,9 +18,11 @@
             <div class="blog-card">
                 <img src="{{$post['image']}}" alt="Blog Post 1">
                 <h3>{{$post['title']}}</h3>
-                <small>{{$post['category']}}</small>
-                <p>{{$post['date']}}</p>
-                <a href="{{$post['url']}}">Read More</a>
+                <p><small><a href="{{route('demo.blog.tag',[$post['category']])}}" target="_blank">{{$post['category']}}</a></small></p>
+                <p><small><a href="{{route('demo.blog.year',[$post['year']])}}">{{$post['date']}}</a></small></p>
+                <p>{{$post['description']}}</p>
+
+                <a href="{{route('demo.blog.page',[$post['page']])}}">read more...</a>
             </div>
         @endforeach
     </div>
