@@ -97,6 +97,20 @@
             </div>
         </div>
 
+        <div class="portfolio-card" id="lottery-genie">
+            <div class="portfolio-card-body">
+                <div class="portfolio-icon"><img src="{{asset('img/portfolio/lottery-genie.webp')}}" alt="Lottery Genie"></div>
+                <div class="portfolio-text">
+                    <h3>Lottery Genie</h3>
+                    <p>This application provides smart predictions for your favorite games Eurojackpot, Joker and Lotto, using statistics to help you choose your next lucky numbers.</p>
+                </div>
+            </div>
+            <div class="portfolio-card-footer">
+                <a href="https://github.com/tkouleris/lottery-genie" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://lottery-genie.tkouleris.eu/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+        </div>
+
 
 
     </div>
