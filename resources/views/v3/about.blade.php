@@ -72,8 +72,17 @@
                     installed Windows 11.</p>
             </div>
         </div>
-
-
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="info-block">
+                <h4><i class="fa-solid fa-book"></i> My Bookshelf</h4>
+                <p>I like to read and if you want to checkout what I am currently reading or what I have read recently
+                    click
+                    <a href="https://books.tkouleris.eu/display/tkouleris" style="color: #e63946 !important;" target="_blank">here</a>.
+                </p>
+            </div>
+        </div>
     </div>
 </main>
 
