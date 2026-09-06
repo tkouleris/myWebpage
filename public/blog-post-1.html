@@ -1,220 +1,96 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BreezyCV - Resume / CV / vCard Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <meta name="description" content="BreezyCV - Resume / CV / vCard Template"/>
-    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio"/>
-    <meta name="author" content="lmpixels"/>
-    <link rel="shortcut icon" href="favicon.ico">
-
-
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-
-
-    <script>hljs.highlightAll();</script>
-    <script src="js/modernizr.custom.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Title | Blog | Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="v3/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
-<!-- Animated Background -->
-<div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
-<!-- /Animated Background -->
+<header>
+    <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+            <li><a href="projects.html"><i class="fas fa-briefcase"></i> Projects</a></li>
+            <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+        </ul>
+    </nav>
+</header>
 
-<!-- Loading animation -->
-<div class="preloader">
-    <div class="preloader-animation">
-        <div class="preloader-spinner">
-        </div>
+<main class="post-content">
+    <div class="post-banner"
+         style="background-image: url('https://tkouleris.eu/img/blog/system-design/oltp-vs-olap.webp');"></div>
+    <div class="post-header">
+        <h1>Post Title</h1>
+        <p>Published on: Sept 22, 1982</p>
     </div>
-</div>
-<!-- /Loading animation -->
-
-<div class="page">
-    <div class="page-content">
-
-        <header id="site_header" class="header mobile-menu-hide">
-            <div class="header-content">
-                <div class="header-photo">
-                    <img src="img/main_photo.jpg" alt="Alex Smith">
-                </div>
-                <div class="header-titles">
-                    <h2>Alex Smith</h2>
-                    <h4>Web Designer</h4>
-                </div>
-            </div>
-
-            <ul class="main-menu">
-                <li class="active">
-                    <a href="index.html#about-me" class="nav-anim">
-                        <span class="menu-icon lnr lnr-home"></span>
-                        <span class="link-text">About Me</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#resume" class="nav-anim">
-                        <span class="menu-icon lnr lnr-graduation-hat"></span>
-                        <span class="link-text">Resume</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#portfolio" class="nav-anim">
-                        <span class="menu-icon lnr lnr-briefcase"></span>
-                        <span class="link-text">Portfolio</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#blog" class="nav-anim">
-                        <span class="menu-icon lnr lnr-book"></span>
-                        <span class="link-text">Blog</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#contact" class="nav-anim">
-                        <span class="menu-icon lnr lnr-envelope"></span>
-                        <span class="link-text">Contact</span>
-                    </a>
-                </li>
-            </ul>
-
-            <div class="social-links">
-                <ul>
-                    <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                </ul>
-            </div>
-
-            <div class="header-buttons">
-                <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
-            </div>
-
-        </header>
-
-        <!-- Mobile Navigation -->
-        <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <!-- End Mobile Navigation -->
-
-        <div class="content-area single-page-area">
-            <div class="single-page-content">
-
-                <article class="post">
-
-                    <div class="post-thumbnail">
-                        <img src="img/blog/blog_post_1_full.jpg" alt="image">
-                    </div>
-
-                    <div class="post-content">
-                        <!-- /Entry header -->
-                        <header class="entry-header">
-                            <!-- Entry meta -->
-                            <div class="entry-meta entry-meta-top">
-                                <span><a href="#" rel="category tag">UI</a></span>
-                            </div>
-                            <!-- /Entry meta -->
-
-                            <h2 class="entry-title">Dummy Blog</h2>
-                        </header>
-                        <!-- /Entry header -->
-
-                        <!-- Entry content -->
-                        <div class="entry-content">
-                            <div class="row">
-                                <div class=" col-xs-12 col-sm-12 ">
-                                    <div class="col-inner">
-                                        <!-- Start -->
-
-                                        <!-- END -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Entry content -->
-
-                        <div class="entry-meta entry-meta-bottom">
-                            <div class="date-author">
-                      <span class="entry-date">
-                        <a href="#" rel="bookmark">
-                          <i class="far fa-clock"></i> <span class="entry-date"> March 16, 2020</span>
-                        </a>
-                      </span>
-                                <span class="author vcard">
-                        <a class="url fn n" href="#" rel="author"> <i class="fas fa-user"></i> LMPixels</a>
-                      </span>
-                            </div>
-
-                            <!-- Share Buttons -->
-                            <div class="entry-share btn-group share-buttons">
-                                <a href="#"
-                                   onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
-                                   class="btn" target="_blank" title="Share on Facebook">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-
-                                <a href="#"
-                                   onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
-                                   class="btn" target="_blank" title="Share on Twitter">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-
-                                <a href="#"
-                                   onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
-                                   class="btn" title="Share on LinkedIn">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </div>
-                            <!-- /Share Buttons -->
-                        </div>
-
-                        <div class="post-tags">
-                            <div class="tags">
-                                <a href="#" rel="tag">animate</a>
-                                <a href="#" rel="tag">bar</a>
-                                <a href="#" rel="tag">design</a>
-                                <a href="#" rel="tag">progress</a>
-                                <a href="#" rel="tag">ui</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-            </div>
-        </div>
-
+    <div class="post-body">
+        <p style="text-align: justify;">
+            During the summer, I had a few days off as summer vacations and, besides getting some much-needed rest, I decided experiment and to see if I
+            could build an application using nothing but artificial intelligence. So, I picked up a project I had wanted
+            to build for quite some time and got started.
+        </p>
+        <p style="text-align: justify;">
+            The project was a web application for predicting EuroJackpot numbers based on historical data, along with
+            the presentation of various statistics. After setting up a Laravel application, I started prompting. The
+            project was finished in about an hour. Since I had finished much faster, almost at the speed of light, than
+            I had expected, I decided to try using AI to make some modifications to another React project as well. I
+            completed those changes in a few minutes too. So, something that would have taken me several hours was
+            finished in about an hour. And that’s where the positives ended.
+        </p>
+        <p style="text-align: justify;">
+            The fundamental problem with all of this was that this one hour gave me the illusion that I had actually
+            accomplished something without really using my brain, without using my creativity, and without putting in
+            any real effort. I simply described what I wanted to do and the magic genie did it for me. It gave me the
+            same feeling someone might have when they hit a jackpot on a slot machine. My brain remained inactive, while
+            the addiction to “increased productivity” kept growing.
+        </p>
+        <p style="text-align: justify;">
+            I had built the React project a year and a half ago, and I no longer remembered exactly what I had done. I
+            didn’t remember the components, I didn’t remember the routes, and if I hadn’t used AI, I would have needed
+            some time to read through what I had done, bring it back into my memory, and then move on to making the
+            changes. The fact that I didn’t have to do that is, in my eyes, extremely negative. And that’s because if I
+            need to make a larger change right now, I don’t remember anything. With the new additions, which were made
+            by AI, the complexity of the project increased without me being actively involved. So even if I sit down and
+            read through what I had built a year and a half ago, I will now also have to analyze changes that I never
+            actually saw or experienced myself.
+        </p>
+        <p style="text-align: justify;">
+            If I had to summarize the whole experience in a single word, it would be: illusion.
+        </p>
+        <p style="text-align: justify;">
+            If I didn’t have the self-awareness to recognize what was happening, the LLM would have left me with the
+            satisfying feeling that I had used my creativity, that I had learned things, that I had accomplished
+            something important, when in reality I had simply written a few descriptions.
+        </p>
+        <p style="text-align: justify;">
+            I understand that speed is important. But are we ultimately going to sacrifice our knowledge and creativity
+            for more output? And are we really going to rely on a machine that, on the one hand, does not produce
+            deterministic results like, for example, an assembly line in a factory, and on the other hand, ties us even
+            more closely to huge companies that sell us tokens? For years, I had learned that I shouldn’t tightly couple
+            my code to a particular technology. Yet now, the exact opposite seems to be happening.
+        </p>
+        <p style="text-align: justify;">
+            Even after this more complete experience I had with AI, I still consider it a tool. I don’t want it to
+            replace my creativity or the process we have followed for so many years to gain better experience in
+            software engineering.
+        </p>
+        <p style="text-align: justify;">
+            Because the truth is that, right now, the only reason AI actually works professionally in software
+            development is quite clearly because there are still experienced programmers who have fallen flat on their
+            faces countless times in the past while writing code by hand.
+        </p>
     </div>
-</div>
+</main>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/animating.js"></script>
+<footer>
+    <p>&copy; 2026 Software Engineer Portfolio</p>
+</footer>
 
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
-
-<script src='js/perfect-scrollbar.min.js'></script>
-<script src='js/jquery.shuffle.min.js'></script>
-<script src='js/masonry.pkgd.min.js'></script>
-<script src='js/owl.carousel.min.js'></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
-<script src="js/jquery.googlemap.js"></script>
-<script src="js/validator.js"></script>
-<script src="js/main.js"></script>
+<script src="v3/js/script.js"></script>
 </body>
 </html>
