@@ -13,6 +13,35 @@
 <main>
 
     <div class="portfolio-grid">
+        <div class="portfolio-card" id="books">
+            <div class="portfolio-card-body">
+                <div class="portfolio-icon"><img src="{{asset('img/portfolio/library.jpg')}}" alt="Books"></div>
+                <div class="portfolio-text">
+                    <h3>Books</h3>
+                    <p>With Books, you can organize your books, track your reading progress, and share your reading habits with your friends.</p>
+                </div>
+            </div>
+            <div class="portfolio-card-footer">
+                <a href="https://github.com/tkouleris/books-frontend" target="_blank"><i class="fab fa-github"></i> GitHub (front-end)</a>
+                <a href="https://github.com/tkouleris/books-backend" target="_blank"><i class="fab fa-github"></i> GitHub (back-end)</a>
+                <a href="https://books.tkouleris.eu/login" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+        </div>
+
+        <div class="portfolio-card" id="lottery-genie">
+            <div class="portfolio-card-body">
+                <div class="portfolio-icon"><img src="{{asset('img/portfolio/lottery-genie.webp')}}" alt="Lottery Genie"></div>
+                <div class="portfolio-text">
+                    <h3>Lottery Genie</h3>
+                    <p>This application provides smart predictions for your favorite games Eurojackpot, Joker and Lotto, using statistics to help you choose your next lucky numbers.</p>
+                </div>
+            </div>
+            <div class="portfolio-card-footer">
+                <a href="https://github.com/tkouleris/lottery-genie" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://lottery-genie.tkouleris.eu/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+        </div>
+
         <div class="portfolio-card" id="weather-app">
             <div class="portfolio-card-body">
                 <div class="portfolio-icon"><img src="{{asset('img/portfolio/weather_app.webp')}}" alt="Project 1"></div>
@@ -96,22 +125,6 @@
                 <a href="https://wage.tkouleris.eu/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
             </div>
         </div>
-
-        <div class="portfolio-card" id="lottery-genie">
-            <div class="portfolio-card-body">
-                <div class="portfolio-icon"><img src="{{asset('img/portfolio/lottery-genie.webp')}}" alt="Lottery Genie"></div>
-                <div class="portfolio-text">
-                    <h3>Lottery Genie</h3>
-                    <p>This application provides smart predictions for your favorite games Eurojackpot, Joker and Lotto, using statistics to help you choose your next lucky numbers.</p>
-                </div>
-            </div>
-            <div class="portfolio-card-footer">
-                <a href="https://github.com/tkouleris/lottery-genie" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://lottery-genie.tkouleris.eu/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
-            </div>
-        </div>
-
-
 
     </div>
 </main>
