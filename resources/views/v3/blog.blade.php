@@ -28,7 +28,7 @@
     </div>
 </main>
 
-@include('v3.partials.footer')
+@include('v3.partials.blog_footer')
 
 <script src="{{asset('v3/js/script.js')}}"></script>
 </body>
