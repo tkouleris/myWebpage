@@ -23,6 +23,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://tkouleris.eu/blog/the-billion-dollar-code</loc>
+        <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://tkouleris.eu/blog/illusions-of-ai-coding</loc>
         <lastmod>2026-09-06T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
@@ -514,7 +519,7 @@
     </url>
     <url>
         <loc>https://tkouleris.eu/tag/computer%20science%20series</loc>
-        <lastmod>2026-01-11T00:00:00+00:00</lastmod>
+        <lastmod>2026-09-13T00:00:00+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
