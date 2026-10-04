@@ -13,6 +13,19 @@
 <main>
 
     <div class="portfolio-grid">
+                <div class="portfolio-card" id="Notifier">
+            <div class="portfolio-card-body">
+                <div class="portfolio-icon"><img src="{{asset('img/portfolio/notifier.jpg')}}" alt="Notifier"></div>
+                <div class="portfolio-text">
+                    <h3>Notifier</h3>
+                    <p>Notifier emails you before an important date: a deadline, a renewal, a birthday, an appointment.</p>
+                </div>
+            </div>
+            <div class="portfolio-card-footer">
+                <a href="https://github.com/tkouleris/notifier" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://notifier.tkouleris.eu/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+        </div>
         <div class="portfolio-card" id="books">
             <div class="portfolio-card-body">
                 <div class="portfolio-icon"><img src="{{asset('img/portfolio/library.jpg')}}" alt="Books"></div>
