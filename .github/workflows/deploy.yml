@@ -1,4 +1,3 @@
-
 name: Deploy to Linux server
 
 on:
@@ -27,19 +26,6 @@ jobs:
 
           chmod 600 ~/.ssh/deploy_key
           chmod 600 ~/.ssh/known_hosts
-
-      - name: Debug SSH host key configuration
-        env:
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-        run: |
-          echo "Configured host:"
-          printf '%s\n' "$DEPLOY_HOST"
-
-          echo "Known hosts entries:"
-          cut -d ' ' -f 1-2 ~/.ssh/known_hosts
-
-          echo "Host key lookup:"
-          ssh-keygen -F "$DEPLOY_HOST" -f ~/.ssh/known_hosts
 
       - name: Pull latest code
         env:
