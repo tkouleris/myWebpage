@@ -1,3 +1,4 @@
+
 name: Deploy to Linux server
 
 on:
@@ -20,9 +21,25 @@ jobs:
         run: |
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
+
           printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
           printf '%s\n' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          chmod 600 ~/.ssh/deploy_key ~/.ssh/known_hosts
+
+          chmod 600 ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Debug SSH host key configuration
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+        run: |
+          echo "Configured host:"
+          printf '%s\n' "$DEPLOY_HOST"
+
+          echo "Known hosts entries:"
+          cut -d ' ' -f 1-2 ~/.ssh/known_hosts
+
+          echo "Host key lookup:"
+          ssh-keygen -F "$DEPLOY_HOST" -f ~/.ssh/known_hosts
 
       - name: Pull latest code
         env:
@@ -31,6 +48,7 @@ jobs:
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
         run: |
           ssh -i ~/.ssh/deploy_key \
+            -o IdentitiesOnly=yes \
             -o UserKnownHostsFile=~/.ssh/known_hosts \
             -o StrictHostKeyChecking=yes \
             "$DEPLOY_USER@$DEPLOY_HOST" \
