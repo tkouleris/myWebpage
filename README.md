@@ -1,66 +1,99 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# tkouleris.eu
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Source code of [tkouleris.eu](https://tkouleris.eu), the personal website of **Thodoris Kouleris**, Software Engineer.
 
-## About Laravel
+The site is a small Laravel application that serves a personal homepage, an about page, a resume, a showcase of side projects and a blog.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Home**: profile photo, title and links to social profiles (GitHub, LinkedIn, X, Bluesky).
+- **About**: a short bio.
+- **Resume**: work experience and skills, with a downloadable CV (`public/cv/T.Kouleris.pdf`).
+- **Projects**: personal projects with links to their live demos and GitHub repositories.
+- **Blog**: articles, browsable by year, by tag (category) and through an archive page.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The blog needs no database. Posts are stored as JSON files under `storage/data/blog` and read directly by the controller.
 
-## Learning Laravel
+## Tech stack
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- PHP 8.2+ / [Laravel 12](https://laravel.com)
+- Blade templates with plain CSS and JavaScript (`public/v3`)
+- Font Awesome for icons
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Routes
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| URL              | Description                              |
+|------------------|------------------------------------------|
+| `/`              | Home page                                |
+| `/about`         | About me                                 |
+| `/resume`        | Resume                                   |
+| `/projects`      | Projects showcase                        |
+| `/blog`          | Blog posts of the current year           |
+| `/blog/{page}`   | A single blog post                       |
+| `/tag/{tag}`     | Blog posts in a category                 |
+| `/year/{year}`   | Blog posts published in a given year     |
+| `/archive`       | List of all tags and years               |
 
-## Laravel Sponsors
+All routes are handled by `App\Http\Controllers\V3Controller`.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Project structure
 
-### Premium Partners
+```
+app/Http/Controllers/V3Controller.php      Page and blog controller
+app/Console/Commands/CreateBlogFiles.php   Builds the blog index files
+resources/views/v3/                        Blade views and partials (menu, footer)
+public/v3/                                 Site CSS and JavaScript
+public/img, public/cv, public/apps         Images, CV and downloadable apps
+storage/data/blog/                         Blog content (JSON)
+template/                                  Static HTML prototype of the design
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Blog content
 
-## Contributing
+All posts live in a single source file, `storage/data/blog/blog.json`. Each post looks like this:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```json
+{
+    "url": "https://tkouleris.eu/blog/margaret-hamilton",
+    "page": "margaret-hamilton",
+    "category": "tech heroes",
+    "year": 2026,
+    "title": "Margaret Hamilton: Woman on the moon",
+    "image": "https://tkouleris.eu/img/blog/tech-heroes/margaret-hamilton.webp",
+    "date": "11 Oct 2026",
+    "content": "<p>...</p>"
+}
+```
 
-## Code of Conduct
+After you edit `blog.json`, regenerate the index files that the site reads:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+php artisan blog:create
+```
 
-## Security Vulnerabilities
+The command writes three files:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- `storage/data/blog/page/data.json`: posts keyed by their `page` slug
+- `storage/data/blog/tags/data.json`: posts grouped by `category`
+- `storage/data/blog/year/data.json`: posts grouped by `year`
+
+> **Note:** the command currently builds its paths with Windows-style backslashes, so run it on Windows (or adjust the paths) and commit the generated files.
+
+## Local development
+
+Requirements: PHP 8.2+, Composer and Node.js (optional, only for Vite).
+
+```bash
+git clone https://github.com/tkouleris/myWebpage.git
+cd myWebpage
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan serve
+```
+
+The site is then available at `http://localhost:8000`. No database setup is needed to browse the pages.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project's code is released under the MIT license. The site content (texts, blog posts, images and CV) belongs to Thodoris Kouleris.
