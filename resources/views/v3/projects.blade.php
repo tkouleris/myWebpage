@@ -125,12 +125,12 @@
             </div>
         </div>
 
-        <div class="portfolio-card" id="devs-wage-prediction">
+        <div class="portfolio-card" id="devs-wage-estimation">
             <div class="portfolio-card-body">
-                <div class="portfolio-icon"><img src="{{asset('img/portfolio/wage.webp')}}" alt="Devs Wage Prediction (Greek)"></div>
+                <div class="portfolio-icon"><img src="{{asset('img/portfolio/wage.webp')}}" alt="Devs Wage Estimation (Greek)"></div>
                 <div class="portfolio-text">
-                    <h3>Devs Wage Prediction (Greek)</h3>
-                    <p>A simple shmup that every level increases the number of enemies on the screen</p>
+                    <h3>Devs Wage Estimation (Greek)</h3>
+                    <p>Estimates the wage of a software Engineer</p>
                 </div>
             </div>
             <div class="portfolio-card-footer">
