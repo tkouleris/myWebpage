@@ -25,24 +25,24 @@ class CreateBlogFiles extends Command
      */
     public function handle()
     {
-        $blog_path = storage_path('data\\blog');
-        $page_path = storage_path('data\\blog\\page');
-        $tags_path = storage_path('data\\blog\\tags');
-        $year_path = storage_path('data\\blog\\year');
-        $posts = json_decode(file_get_contents($blog_path."\\blog.json"), true);
+        $blog_path = storage_path('data/blog');
+        $page_path = storage_path('data/blog/page');
+        $tags_path = storage_path('data/blog/tags');
+        $year_path = storage_path('data/blog/year');
+        $posts = json_decode(file_get_contents($blog_path . "/blog.json"), true);
 
         $page_data = [];
         $tag_data = [];
         $year_data = [];
-        foreach ($posts as $post){
+        foreach ($posts as $post) {
             $page_data[$post['page']] = $post;
             $tag_data[$post['category']][] = $post;
             $year_data[$post['year']][] = $post;
         }
 
-        file_put_contents($page_path."\\data.json", json_encode($page_data));
-        file_put_contents($tags_path."\\data.json", json_encode($tag_data));
-        file_put_contents($year_path."\\data.json", json_encode($year_data));
+        file_put_contents($page_path . "\\data.json", json_encode($page_data));
+        file_put_contents($tags_path . "\\data.json", json_encode($tag_data));
+        file_put_contents($year_path . "\\data.json", json_encode($year_data));
 
     }
 }
