@@ -40,9 +40,9 @@ class CreateBlogFiles extends Command
             $year_data[$post['year']][] = $post;
         }
 
-        file_put_contents($page_path . "\\data.json", json_encode($page_data));
-        file_put_contents($tags_path . "\\data.json", json_encode($tag_data));
-        file_put_contents($year_path . "\\data.json", json_encode($year_data));
+        file_put_contents($page_path . DIRECTORY_SEPARATOR . "data.json", json_encode($page_data));
+        file_put_contents($tags_path . DIRECTORY_SEPARATOR . "data.json", json_encode($tag_data));
+        file_put_contents($year_path . DIRECTORY_SEPARATOR . "data.json", json_encode($year_data));
 
     }
 }
