@@ -1,5 +1,17 @@
 [
     {
+        "url": "https://tkouleris.eu/blog/a-tribute-to-edsger-w-dijkstra",
+        "category": "tech heroes",
+        "title": "A Tribute to Edsger W. Dijkstra",
+        "image": "https://tkouleris.eu/img/blog/tech-heroes/a-tribute-to-edsger-w-dijkstra.webp",
+        "date": "21 Nov. 2026",
+        "content": "<p style=\"text-align: justify;\">If you have ever relied on a GPS to navigate rush-hour traffic, routed data across the internet, or written a loop without tearing your hair out over spaghetti code, you owe a quiet debt of gratitude to Edsger W. Dijkstra.</p><p style=\"text-align: justify;\">Born in Rotterdam in 1930, Dijkstra didn’t just pioneer computer science; he fought to elevate it from a messy, ad-hoc engineering craft into a rigorous mathematical discipline. At a time when early programmers treated hardware constraints like puzzles to be hacked around, Dijkstra insisted that clarity, simplicity, and mathematical proof were the true foundations of great software.</p><p style=\"text-align: justify;\">His fingerprints are everywhere in modern computing. In 1956, over a 20-minute cup of coffee in Amsterdam, he conceived Dijkstra’s algorithm to find the shortest route between two cities, a piece of logic that still powers everything from Google Maps to internet routing protocols today. A decade later, his famous 1968 letter, \"Go To Statement Considered Harmful,\" sparked a massive shift toward structured programming, arguing that jumping wildly through code made programs impossible for the human mind to reason about. And as computers began doing multiple things at once, he introduced semaphores and formulated the Dining Philosophers problem, giving engineers the essential mental models needed to tame concurrency and prevent deadlocks.</p><p style=\"text-align: justify;\">Beyond his technical breakthroughs, Dijkstra was legendary for his uncompromising and often fiercely witty opinions. Armed with a fountain pen and an aversion to hype (he famously avoided owning a computer for much of his career, preferring to prove algorithms on paper first), he wrote over a thousand meticulously numbered technical notes, known simply as EWDs. His quotes remain staples of engineering culture, reminding us that \"Simplicity is prerequisite for reliability,\" and that testing can only prove the presence of bugs, never their absence.</p><p style=\"text-align: justify;\">Edsger Dijkstra passed away in 2002, leaving behind a field forever shaped by his demand for intellectual honesty. In an era of bloated frameworks and increasingly opaque systems, his work stands as a timeless reminder: the most powerful code isn't the cleverest, it's the clearest.</p>",
+        "page": "a-tribute-to-edsger-w-dijkstra",
+        "description": "I pay tribute to Edsger W. Dijkstra, the pioneer behind the shortest path algorithm, structured programming and semaphores, whose demand for clarity and simplicity still shapes how we write code.",
+        "keywords": "edsger dijkstra, dijkstra algorithm, shortest path, structured programming, go to statement considered harmful, semaphores, dining philosophers, concurrency, ewd, computer science history, tech heroes",
+        "year": 2026
+    },
+    {
         "url": "https://tkouleris.eu/blog/back-to-linux",
         "category": "misc",
         "title": "Here and back again - A Linux Story",
